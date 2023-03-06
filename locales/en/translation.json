@@ -1,0 +1,55 @@
+{
+    "comment": "ENGLISH",  
+
+    "language": "Language",
+    "en": "English",
+    "it": "Italian",
+    "fr": "French",
+    "es": "Spanish",
+    "ru": "Russian",
+
+    "navbar_home": "Home",
+    "navbar_project": "Project",
+    "navbar_project_univocitta": "UniVOCIttà",
+    "navbar_project_aim": "Aim",
+    "navbar_about": "About",
+    "navbar_about_team": "Team",
+    "navbar_about_institution": "Institutions and partners",
+    "navbar_about_contact": "Contacts",
+    "navbar_corpus": "Corpus",
+    "navbar_corpus_overview": "Overview",
+    "navbar_corpus_lang": "Languages",
+    "navbar_corpus_query": "Query",
+    "navbar_map": "Maps",
+    "navbar_map_overview": "Overview",
+    "navbar_map_places": "Places",
+    "navbar_map_routes": "Routes",
+    "navbar_map_travellers": "Travellers",
+
+    "univocittà": "Univocittà",
+    "univocitta_text": "UniVOCIttà is a project centered around the concept of unique 'voices' of liteary figures and travellers of the past which demonstrate and promote a different interpretation and a different research attitude towards the re-discovery and the long-term preservation of the Bolognese cultural heritage",
+    "corpus": "Corpus",
+    "corpus_text": "Navigate our multilingual corpus, male queries and find out Bologna's travellers of the past and discover what they have written about the city",
+    "places": "Places",
+    "routes": "Routes",
+    "travellers": "Travellers",
+
+    "project_aim": "Aim",
+
+    "about": "About",
+    "about_team": "Team",
+    "about_institution": "Institutions and partners",
+    "about_contact": "Contacts",
+
+    "user_greeting": "Hi,",
+    "user_detail": "PROFILE DETAILS",
+    "favourites": "Favourites",
+    "visited_places": "Visited Places",
+    "booksmarks": "Booksmarks",
+    "plan": "Plan your trip",
+    "settings": "SETTINGS",
+    "logout": "LOGOUT",
+
+    "footer_about": "About",
+    "footer_more": "More"
+}

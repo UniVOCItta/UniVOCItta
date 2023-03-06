@@ -1,0 +1,55 @@
+{
+    "comment": "FRENCH",   
+
+    "language": "Langue",
+    "en": "Anglais",
+    "it": "Italien",
+    "fr": "Français",
+    "es": "Espagnol",
+    "ru": "Russe",
+
+    "navbar_home": "Home",
+    "navbar_project": "Projet",
+    "navbar_project_univocitta": "UniVOCIttà",
+    "navbar_project_aim": "Objectif",
+    "navbar_about": "À propos",
+    "navbar_about_team": "Team",
+    "navbar_about_institution": "Institutions et partners",
+    "navbar_about_contact": "Contacts",
+    "navbar_corpus": "Corpus",
+    "navbar_corpus_overview": "Vue d'ensemble",
+    "navbar_corpus_lang": "Langues",
+    "navbar_corpus_query": "Requête",
+    "navbar_map": "Cartes",
+    "navbar_map_overview": "Vue d'ensemble",
+    "navbar_map_places": "Sites",
+    "navbar_map_routes": "Itinéraires",
+    "navbar_map_travellers": "Voyageurs",
+
+    "univocittà": "Univocittà",
+    "univocitta_text": "UniVOCIttà est un projet centré autour du concept des 'voix' uniques des figures littéraires et des voyageurs du passé, qui démontre et promeut une interprétation et une attitude de recherche différentes envers le redécouverte et la conservation à long terme du patrimonie culturel bolonais",
+    "corpus": "Corpus",
+    "corpus_text": "Naviguez dans notre corpus multilingue, interrogez-le et découvrez les voyageurs du passé qui ont visité la ville de Bologne.",
+    "places": "Sites",
+    "routes": "Itinéraires",
+    "travellers": "Voyageurs",
+
+    "project_aim": "Objectif",
+    
+    "about": "À propos",
+    "about_team": "Team",
+    "about_institution": "Institutions et partners",
+    "about_contact": "Contacts",
+
+    "user_greeting": "Bonjour,",
+    "user_detail": "Informations de profil",
+    "favourites": "Favoris",
+    "visited_places": "Lieux visités",
+    "booksmarks": "Signets",
+    "plan": "Planifier votre voyage",
+    "settings": "PARAMETRES",
+    "logout": "LOGOUT",
+
+    "footer_about": "À propos",
+    "footer_more": "En savoir plus"
+}
