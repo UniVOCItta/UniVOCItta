@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/UniVOCItta/static/css/main.57f06957.css",
-    "main.js": "/UniVOCItta/static/js/main.05b476e9.js",
+    "main.css": "/UniVOCItta/static/css/main.b6e85cf1.css",
+    "main.js": "/UniVOCItta/static/js/main.ea671110.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.58c97dbff82e6eb1d0c6.jpg",
+    "static/media/bologna_torri.jpg": "/UniVOCItta/static/media/bologna_torri.1396c5590cb5764958f4.jpg",
+    "static/media/bo_uni.jpg": "/UniVOCItta/static/media/bo_uni.c0eb6f1578cd2a33d121.jpg",
     "static/media/bologna_2.png": "/UniVOCItta/static/media/bologna_2.45cf00654a4e3dd3d826.png",
-    "static/media/bologna_torri.jpg": "/UniVOCItta/static/media/bologna_torri.56eaa227a40a0ad0a750.jpg",
-    "static/media/unibo_1.jpg": "/UniVOCItta/static/media/unibo_1.58e2804853fd5237b22f.jpg",
+    "static/media/santo_stefano.jpg": "/UniVOCItta/static/media/santo_stefano.1d5f78fdb63b0f0d830c.jpg",
+    "static/media/sanluca3.jpg": "/UniVOCItta/static/media/sanluca3.3b285fa1085bb3a5dec9.jpg",
+    "static/media/unibo_1.jpg": "/UniVOCItta/static/media/unibo_1.b4f0339b29e5733be4a1.jpg",
     "static/media/lady_miller.PNG": "/UniVOCItta/static/media/lady_miller.3cd4482175b39d815d23.PNG",
     "static/media/Alvaro_Figueroa.png": "/UniVOCItta/static/media/Alvaro_Figueroa.3aafa6e94c35c304663c.png",
+    "static/media/portici3.jpg": "/UniVOCItta/static/media/portici3.4e619cab09de0008e39f.jpg",
     "static/media/corpus.png": "/UniVOCItta/static/media/corpus.54185ac58af30675147d.png",
-    "static/media/museum.jpg": "/UniVOCItta/static/media/museum.65348de0d12f8feff8fd.jpg",
+    "static/media/museum.jpg": "/UniVOCItta/static/media/museum.85adbacea77896e1bceb.jpg",
     "static/media/stylized_background.jpg": "/UniVOCItta/static/media/stylized_background.49d9b7bede3bcf5bba97.jpg",
+    "static/media/tortellini.jpg": "/UniVOCItta/static/media/tortellini.e02e7f344f2dfd37e6c8.jpg",
     "static/media/uni2.jpeg": "/UniVOCItta/static/media/uni2.b6711e4dfae72e515e62.jpeg",
+    "static/media/petronio.jpg": "/UniVOCItta/static/media/petronio.542d409428ae8d44bf2c.jpg",
     "static/media/Dickens.jpg": "/UniVOCItta/static/media/Dickens.8aaaaf81997239bead0a.jpg",
+    "static/media/voltaire.jpg": "/UniVOCItta/static/media/voltaire.9950e48f675507b95960.jpg",
     "static/media/Laura_Bassi.jpg": "/UniVOCItta/static/media/Laura_Bassi.513ea1e2e9350ea8f38e.jpg",
+    "static/media/miguel_cervantes.jpg": "/UniVOCItta/static/media/miguel_cervantes.bd1be221927aa234eccf.jpg",
     "static/media/Leandro_Fernàndez_Moratìn.jpg": "/UniVOCItta/static/media/Leandro_Fernàndez_Moratìn.e59d1004851199d22498.jpg",
-    "static/media/bassi_docufilm.jpg": "/UniVOCItta/static/media/bassi_docufilm.819912870bcdc0da4fcd.jpg",
+    "static/media/bassi_docufilm.jpg": "/UniVOCItta/static/media/bassi_docufilm.6f990823fc66fb681582.jpg",
     "static/media/team.jpg": "/UniVOCItta/static/media/team.e6d58d1b3bae349b0c9d.jpg",
     "static/media/revicons.eot": "/UniVOCItta/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/UniVOCItta/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -28,11 +36,11 @@
     "static/media/slick.woff": "/UniVOCItta/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.57f06957.css.map": "/UniVOCItta/static/css/main.57f06957.css.map",
-    "main.05b476e9.js.map": "/UniVOCItta/static/js/main.05b476e9.js.map"
+    "main.b6e85cf1.css.map": "/UniVOCItta/static/css/main.b6e85cf1.css.map",
+    "main.ea671110.js.map": "/UniVOCItta/static/js/main.ea671110.js.map"
   },
   "entrypoints": [
-    "static/css/main.57f06957.css",
-    "static/js/main.05b476e9.js"
+    "static/css/main.b6e85cf1.css",
+    "static/js/main.ea671110.js"
   ]
 }
