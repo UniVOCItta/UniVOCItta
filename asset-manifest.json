@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UniVOCItta/static/css/main.b6e85cf1.css",
-    "main.js": "/UniVOCItta/static/js/main.ea671110.js",
+    "main.css": "/UniVOCItta/static/css/main.27965d8c.css",
+    "main.js": "/UniVOCItta/static/js/main.953caaca.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.58c97dbff82e6eb1d0c6.jpg",
     "static/media/bologna_torri.jpg": "/UniVOCItta/static/media/bologna_torri.1396c5590cb5764958f4.jpg",
@@ -36,11 +36,11 @@
     "static/media/slick.woff": "/UniVOCItta/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.b6e85cf1.css.map": "/UniVOCItta/static/css/main.b6e85cf1.css.map",
-    "main.ea671110.js.map": "/UniVOCItta/static/js/main.ea671110.js.map"
+    "main.27965d8c.css.map": "/UniVOCItta/static/css/main.27965d8c.css.map",
+    "main.953caaca.js.map": "/UniVOCItta/static/js/main.953caaca.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6e85cf1.css",
-    "static/js/main.ea671110.js"
+    "static/css/main.27965d8c.css",
+    "static/js/main.953caaca.js"
   ]
 }
