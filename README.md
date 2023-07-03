@@ -1,5 +1,5 @@
 # UniVOCItta
-[Homepage](https://univocitta.github.io/) del progetto.
+[Homepage](https://univocitta.github.io/UniVOCItta/) del progetto.
 
 ## About
 UniVOCIttà è un progetto del Dipartimento di Lingue, Letterature e Culture Moderne ([LILEC](https://lingue.unibo.it/it)) dell'Università di Bologna.
