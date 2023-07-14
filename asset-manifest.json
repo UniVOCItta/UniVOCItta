@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UniVOCItta/static/css/main.ddcb4f72.css",
-    "main.js": "/UniVOCItta/static/js/main.b01742ee.js",
+    "main.js": "/UniVOCItta/static/js/main.173353c5.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/museo_mineralogia_Antonio_Todero.jpg": "/UniVOCItta/static/media/museo_mineralogia_Antonio_Todero.4cbc987cbaf3cded067b.jpg",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.0556b58a3805a8bf77f0.jpg",
@@ -29,6 +29,7 @@
     "static/media/piazza_maggiore_Pasquali_Federico.jpg": "/UniVOCItta/static/media/piazza_maggiore_Pasquali_Federico.36c5b59ffb53bb417e27.jpg",
     "static/media/lady_miller.PNG": "/UniVOCItta/static/media/lady_miller.3cd4482175b39d815d23.PNG",
     "static/media/via_zamboni_UNIBO.jpg": "/UniVOCItta/static/media/via_zamboni_UNIBO.b58c81086e8976fb8bc2.jpg",
+    "static/media/osservatorio_loiano_INAF.jpg": "/UniVOCItta/static/media/osservatorio_loiano_INAF.0755f183c52aaaf5c6c8.jpg",
     "static/media/palazzo_hercolani_cortile_Antonio_Cesari.jpg": "/UniVOCItta/static/media/palazzo_hercolani_cortile_Antonio_Cesari.0abe9f2253f704275f20.jpg",
     "static/media/orto_botanico_Umberto_Mossetti.jpg": "/UniVOCItta/static/media/orto_botanico_Umberto_Mossetti.0aa8cf29138ce088162b.jpg",
     "static/media/palazzo_accursio_Andrea_Samaritani.jpg": "/UniVOCItta/static/media/palazzo_accursio_Andrea_Samaritani.d090025b9aa1c161d4d9.jpg",
@@ -74,14 +75,15 @@
     "static/media/Leandro_Fernàndez_Moratìn.jpg": "/UniVOCItta/static/media/Leandro_Fernàndez_Moratìn.e59d1004851199d22498.jpg",
     "static/media/bassi_docufilm.jpg": "/UniVOCItta/static/media/bassi_docufilm.6f990823fc66fb681582.jpg",
     "static/media/unibo_1.jpg": "/UniVOCItta/static/media/unibo_1.b4f0339b29e5733be4a1.jpg",
+    "static/media/3-red.png": "/UniVOCItta/static/media/3-red.a78f6d9601b94575b1bf.png",
+    "static/media/2-red.png": "/UniVOCItta/static/media/2-red.3b1b9e268c8ae16b25c7.png",
+    "static/media/5-red.png": "/UniVOCItta/static/media/5-red.3cc17235197c047085ff.png",
+    "static/media/4-red.png": "/UniVOCItta/static/media/4-red.120d52e48a5796f9160e.png",
+    "static/media/1-red.png": "/UniVOCItta/static/media/1-red.0e98943b44b77ba2559e.png",
     "static/media/tortellini_Angelo_Muratore.jpg": "/UniVOCItta/static/media/tortellini_Angelo_Muratore.bd5a15fe196a2cfa3d3f.jpg",
+    "static/media/location_icon_android.png": "/UniVOCItta/static/media/location_icon_android.0f9e6db77cf25835ef75.png",
     "static/media/team.jpg": "/UniVOCItta/static/media/team.e6d58d1b3bae349b0c9d.jpg",
     "static/media/Portrait_placeholder.png": "/UniVOCItta/static/media/Portrait_placeholder.00b3cfff282b854c2395.png",
-    "static/media/3.png": "/UniVOCItta/static/media/3.5874667282f451e9b50a.png",
-    "static/media/2.png": "/UniVOCItta/static/media/2.c3dd91ae96c2f3248245.png",
-    "static/media/5.png": "/UniVOCItta/static/media/5.03c59d870143b14d883c.png",
-    "static/media/4.png": "/UniVOCItta/static/media/4.987476be0ad51ca74204.png",
-    "static/media/1.png": "/UniVOCItta/static/media/1.0119a22b6cc458688bb7.png",
     "static/media/revicons.eot": "/UniVOCItta/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/UniVOCItta/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/maps-icon-maroon.png": "/UniVOCItta/static/media/maps-icon-maroon.8c0b6c14cf0c633aca47.png",
@@ -95,10 +97,10 @@
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.ddcb4f72.css.map": "/UniVOCItta/static/css/main.ddcb4f72.css.map",
-    "main.b01742ee.js.map": "/UniVOCItta/static/js/main.b01742ee.js.map"
+    "main.173353c5.js.map": "/UniVOCItta/static/js/main.173353c5.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcb4f72.css",
-    "static/js/main.b01742ee.js"
+    "static/js/main.173353c5.js"
   ]
 }
