@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UniVOCItta/static/css/main.ddcb4f72.css",
-    "main.js": "/UniVOCItta/static/js/main.fd688fea.js",
+    "main.css": "/UniVOCItta/static/css/main.1e6e64e2.css",
+    "main.js": "/UniVOCItta/static/js/main.e3642f76.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/museo_mineralogia_Antonio_Todero.jpg": "/UniVOCItta/static/media/museo_mineralogia_Antonio_Todero.4cbc987cbaf3cded067b.jpg",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.0556b58a3805a8bf77f0.jpg",
@@ -22,8 +22,10 @@
     "static/media/san_francesco_tombe_Andrea_Samaritani.jpg": "/UniVOCItta/static/media/san_francesco_tombe_Andrea_Samaritani.9d281e900ddb5ad9e532.jpg",
     "static/media/piazza_santo_stefano_Vanni_Lazzari.jpg": "/UniVOCItta/static/media/piazza_santo_stefano_Vanni_Lazzari.3ef0458af58584100663.jpg",
     "static/media/piazza_ravegnana_free.jpg": "/UniVOCItta/static/media/piazza_ravegnana_free.c3e551b2be6132e76b63.jpg",
+    "static/media/rettorato_palazzo_poggi_Antonio_Cesari.jpg": "/UniVOCItta/static/media/rettorato_palazzo_poggi_Antonio_Cesari.5b497fe9b6f31c809d0d.jpg",
     "static/media/palazzo_poggi_studenti_UNIBO.jpg": "/UniVOCItta/static/media/palazzo_poggi_studenti_UNIBO.3c29d12765a5c50afa47.jpg",
     "static/media/san_luca_wikipedia_Nebbius.jpg": "/UniVOCItta/static/media/san_luca_wikipedia_Nebbius.77e40f82613c19771ffa.jpg",
+    "static/media/san_michele_vista_bologna_NC.jpg": "/UniVOCItta/static/media/san_michele_vista_bologna_NC.370272b691baa751857f.jpg",
     "static/media/museo_capellini_Oscar_Ferrari_IMG_025.jpg": "/UniVOCItta/static/media/museo_capellini_Oscar_Ferrari_IMG_025.38f3da446058c7e27e17.jpg",
     "static/media/palazzo_aldrovandi_Fabrizio_Garrisi_CC_4.0.jpg": "/UniVOCItta/static/media/palazzo_aldrovandi_Fabrizio_Garrisi_CC_4.0.c511f7b4d7dafbac8b85.jpg",
     "static/media/piazza_maggiore_Pasquali_Federico.jpg": "/UniVOCItta/static/media/piazza_maggiore_Pasquali_Federico.36c5b59ffb53bb417e27.jpg",
@@ -41,7 +43,6 @@
     "static/media/chiostro_SanMichele_Barbi.jpg": "/UniVOCItta/static/media/chiostro_SanMichele_Barbi.273fa348360510e49ad2.jpg",
     "static/media/palazzo_sanuti_Alex_Roudy.jpg": "/UniVOCItta/static/media/palazzo_sanuti_Alex_Roudy.1dc6c8838cd864297123.jpg",
     "static/media/museo_cattaneo_Oscar_Ferrari.jpg": "/UniVOCItta/static/media/museo_cattaneo_Oscar_Ferrari.cf0ad9c7317d9c7c1c38.jpg",
-    "static/media/portici3.jpg": "/UniVOCItta/static/media/portici3.4e619cab09de0008e39f.jpg",
     "static/media/poggi_museo.jpg": "/UniVOCItta/static/media/poggi_museo.7dcd9ab324b969d8291a.jpg",
     "static/media/porta_san_vitale_wikidata.jpg": "/UniVOCItta/static/media/porta_san_vitale_wikidata.4d9a342df0dd780e1e9b.jpg",
     "static/media/complesso_san_gregorio_BolognaOnline.jpg": "/UniVOCItta/static/media/complesso_san_gregorio_BolognaOnline.8c7833cbd2ef68ffaae4.jpg",
@@ -59,6 +60,7 @@
     "static/media/palazzo_ranuzzi_Musei_Civici_Bologna.jpg": "/UniVOCItta/static/media/palazzo_ranuzzi_Musei_Civici_Bologna.12c2da7a2e6e65f5b123.jpg",
     "static/media/san_petronio_Alexandra_Dan.jpg": "/UniVOCItta/static/media/san_petronio_Alexandra_Dan.4daf87057862cea59064.jpg",
     "static/media/pinacoteca_museo.jpg": "/UniVOCItta/static/media/pinacoteca_museo.d339e970e1d51a018cc2.jpg",
+    "static/media/palazzo_sampieri_Unknown.jpg": "/UniVOCItta/static/media/palazzo_sampieri_Unknown.e50d9620ea7ec33e449c.jpg",
     "static/media/mast_museo.jpg": "/UniVOCItta/static/media/mast_museo.0aabba1b9dfd52798a75.jpg",
     "static/media/Rémusat_Charles.jpg": "/UniVOCItta/static/media/Rémusat_Charles.99fdc2493031d53f7e00.jpg",
     "static/media/Fauré_Gabriel.jfif": "/UniVOCItta/static/media/Fauré_Gabriel.a6cfb406e6910433eac7.jfif",
@@ -67,6 +69,7 @@
     "static/media/Alexandre_Nikitenko.jpg": "/UniVOCItta/static/media/Alexandre_Nikitenko.e8ff8a657f391609c95e.jpg",
     "static/media/Dickens.jpg": "/UniVOCItta/static/media/Dickens.8aaaaf81997239bead0a.jpg",
     "static/media/voltaire.jpg": "/UniVOCItta/static/media/voltaire.9950e48f675507b95960.jpg",
+    "static/media/Portici_Bologna_02.jpg": "/UniVOCItta/static/media/Portici_Bologna_02.aa4cf1b82db2da05362c.jpg",
     "static/media/Laura_Bassi.jpg": "/UniVOCItta/static/media/Laura_Bassi.513ea1e2e9350ea8f38e.jpg",
     "static/media/miguel_cervantes.jpg": "/UniVOCItta/static/media/miguel_cervantes.bd1be221927aa234eccf.jpg",
     "static/media/museum.jpg": "/UniVOCItta/static/media/museum.85adbacea77896e1bceb.jpg",
@@ -96,11 +99,11 @@
     "static/media/slick.woff": "/UniVOCItta/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.ddcb4f72.css.map": "/UniVOCItta/static/css/main.ddcb4f72.css.map",
-    "main.fd688fea.js.map": "/UniVOCItta/static/js/main.fd688fea.js.map"
+    "main.1e6e64e2.css.map": "/UniVOCItta/static/css/main.1e6e64e2.css.map",
+    "main.e3642f76.js.map": "/UniVOCItta/static/js/main.e3642f76.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddcb4f72.css",
-    "static/js/main.fd688fea.js"
+    "static/css/main.1e6e64e2.css",
+    "static/js/main.e3642f76.js"
   ]
 }
