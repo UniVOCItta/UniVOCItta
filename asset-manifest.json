@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/UniVOCItta/static/css/main.1e6e64e2.css",
-    "main.js": "/UniVOCItta/static/js/main.1bc51777.js",
+    "main.css": "/UniVOCItta/static/css/main.83683f4e.css",
+    "main.js": "/UniVOCItta/static/js/main.beb7ec14.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/museo_mineralogia_Antonio_Todero.jpg": "/UniVOCItta/static/media/museo_mineralogia_Antonio_Todero.4cbc987cbaf3cded067b.jpg",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.0556b58a3805a8bf77f0.jpg",
-    "static/media/bologna_Festi_Elisa.jpg": "/UniVOCItta/static/media/bologna_Festi_Elisa.9e1644c332679f7a8701.jpg",
     "static/media/bib_universitaria_2_Antonio_Cesari.jpg.jpg": "/UniVOCItta/static/media/bib_universitaria_2_Antonio_Cesari.jpg.3f1ad169a67e2c329b40.jpg",
     "static/media/bologna_torri.jpg": "/UniVOCItta/static/media/bologna_torri.aded7d29c40a01d8215b.jpg",
     "static/media/via_cartoleria_UNIBO.jpg": "/UniVOCItta/static/media/via_cartoleria_UNIBO.f1ecf281c5d7b61dc0c0.jpg",
     "static/media/pinacoteca_Gueraldo_Anna_Chiara.jpg": "/UniVOCItta/static/media/pinacoteca_Gueraldo_Anna_Chiara.c20272e06e924c55d382.jpg",
     "static/media/piazza_maggiore.jpg": "/UniVOCItta/static/media/piazza_maggiore.bb9c3b057e4c3c27ed69.jpg",
-    "static/media/bologna_2.png": "/UniVOCItta/static/media/bologna_2.45cf00654a4e3dd3d826.png",
     "static/media/arca_San-Domenico_Barbi.jpg": "/UniVOCItta/static/media/arca_San-Domenico_Barbi.f8538044967723782e07.jpg",
     "static/media/piazza_malpighi_scatti_di_gusto.jpg": "/UniVOCItta/static/media/piazza_malpighi_scatti_di_gusto.27a348d9a47867bc4d9a.jpg",
     "static/media/palazzo_caprara_Barbi.jpg": "/UniVOCItta/static/media/palazzo_caprara_Barbi.02f8f207b53f7dd82786.jpg",
@@ -62,10 +60,14 @@
     "static/media/pinacoteca_museo.jpg": "/UniVOCItta/static/media/pinacoteca_museo.d339e970e1d51a018cc2.jpg",
     "static/media/palazzo_sampieri_Unknown.jpg": "/UniVOCItta/static/media/palazzo_sampieri_Unknown.e50d9620ea7ec33e449c.jpg",
     "static/media/mast_museo.jpg": "/UniVOCItta/static/media/mast_museo.0aabba1b9dfd52798a75.jpg",
+    "static/media/Vernone_Lee-Violet_Page.jpg": "/UniVOCItta/static/media/Vernone_Lee-Violet_Page.e01e58217d872ded3f1f.jpg",
+    "static/media/John_Evelyn.jpg": "/UniVOCItta/static/media/John_Evelyn.944146f5b65921e8e1bd.jpg",
     "static/media/Rémusat_Charles.jpg": "/UniVOCItta/static/media/Rémusat_Charles.99fdc2493031d53f7e00.jpg",
+    "static/media/LadyMorgan.jpg": "/UniVOCItta/static/media/LadyMorgan.4c3b4482f8dcb1a760cb.jpg",
     "static/media/Fauré_Gabriel.jfif": "/UniVOCItta/static/media/Fauré_Gabriel.a6cfb406e6910433eac7.jfif",
     "static/media/Nikolai_Pokrovsky.jpg": "/UniVOCItta/static/media/Nikolai_Pokrovsky.dc75c8961d691087d484.jpg",
     "static/media/specola_museo.webp": "/UniVOCItta/static/media/specola_museo.d46cca11dbd3512a4357.webp",
+    "static/media/James_Edward_Smith.jpg": "/UniVOCItta/static/media/James_Edward_Smith.8d37be9a4ab241188127.jpg",
     "static/media/Alexandre_Nikitenko.jpg": "/UniVOCItta/static/media/Alexandre_Nikitenko.e8ff8a657f391609c95e.jpg",
     "static/media/Dickens.jpg": "/UniVOCItta/static/media/Dickens.8aaaaf81997239bead0a.jpg",
     "static/media/voltaire.jpg": "/UniVOCItta/static/media/voltaire.9950e48f675507b95960.jpg",
@@ -99,11 +101,11 @@
     "static/media/slick.woff": "/UniVOCItta/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.1e6e64e2.css.map": "/UniVOCItta/static/css/main.1e6e64e2.css.map",
-    "main.1bc51777.js.map": "/UniVOCItta/static/js/main.1bc51777.js.map"
+    "main.83683f4e.css.map": "/UniVOCItta/static/css/main.83683f4e.css.map",
+    "main.beb7ec14.js.map": "/UniVOCItta/static/js/main.beb7ec14.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e6e64e2.css",
-    "static/js/main.1bc51777.js"
+    "static/css/main.83683f4e.css",
+    "static/js/main.beb7ec14.js"
   ]
 }
