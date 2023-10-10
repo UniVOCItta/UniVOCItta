@@ -367,7 +367,7 @@ function Places() {
       id: 24,
       title: 'Palazzo del Podestà',
       category: 'Palace',
-      img: require('../../../assets/imgs/places/palazzo_podestà_UNIBO.jpg'),
+      img: require('../../../assets/imgs/places/palazzo_podest…_UNIBO.jpg'),
       path: '/maps/places/singleplace', 
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       location: [44.494236, 11.343253],

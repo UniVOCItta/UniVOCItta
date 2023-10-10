@@ -19,7 +19,7 @@ import bassi from '../assets/imgs/travellers/Laura_Bassi.jpg';
 import dickens from "../assets/imgs/travellers/Dickens.jpg";
 import figueroa from "../assets/imgs/travellers/Alvaro_Figueroa.png"
 import lady from "../assets/imgs/travellers/lady_miller.PNG";
-import moratin from "../assets/imgs/travellers/Leandro_Fernàndez_Moratìn.jpg";
+import moratin from "../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
 // Carousel 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

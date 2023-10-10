@@ -6,8 +6,8 @@ import { HashLink } from 'react-router-hash-link';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 // Imgs
 import voltaire from "../../../../assets/imgs/travellers/voltaire.jpg";
-import remusat from "../../../../assets/imgs/travellers/Rémusat_Charles.jpg";
-import faure from "../../../../assets/imgs/travellers/Fauré_Gabriel.jfif";
+import remusat from "../../../../assets/imgs/travellers/Remusat_Charles.jpg";
+import faure from "../../../../assets/imgs/travellers/Faure_Gabriel.jfif";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
