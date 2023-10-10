@@ -1,0 +1,216 @@
+{ 
+    "comment": "SPAGNOLO", 
+
+    "language": "Lengua",
+    "en": "Inglés",
+    "it": "Italiano",
+    "fr": "Francés",
+    "es": "Español",
+    "ru": "Ruso", 
+
+    "sidebar": {
+      "home": "Página principal",
+      "project": "Proyecto",
+      "univocitta": "UniVOCIttà",
+      "aim": "Objetivo",
+      "about": "Conócenos",
+      "team": "Equipo",
+      "partners": "Instituciones y colaboradores",
+      "contacts": "Contacto",
+      "corpus": "Corpus",
+      "overview": "Panorámica",
+      "languages": "Lenguas",
+      "query": "Búsqueda",
+      "maps": "Mapas",
+      "places": "Lugares",
+      "routes": "Itinerarios",
+      "travellers": "Viajeros"
+      },
+
+    "body":{
+      "univocittà": "Univocittà",
+      "univocitta_text": "UniVOCIttà es un proyecto centrado en el concepto de 'voces' de figuras literarias y viajeros del pasado que promueve una interpretación original y un enfoque de investigación hacia el redescubrimiento y la preservación a largo plazo del patrimonio cultural de Bolonia.",
+      "corpus": "Corpus",
+      "corpus_text": "Navega a través de nuestro corpus plurilingüe, haz búsquedas para conocer a los viajeros del pasado que han recorrido Bolonia y descubre qué han escrito sobre la ciudad.",
+      "corpus_text_2": "Hay cuatro lenguas disponibles:",
+      "places": "Lugares",
+      "places_text": "Utiliza el mapa y descubre de qué monumento o lugar de Bolonia se ha escrito.",
+      "routes": "Itinerarios",
+      "routes_text": "Echa una ojeada a los itinerarios que te proponemos para visitar la ciudad.",
+      "routes_carousel_food": "Gastronomía",
+      "routes_carousel_women": "Mujeres",
+      "routes_carousel_UNESCO": "UNESCO",
+      "routes_carousel_uni": "Universidad",
+      "travellers": "Viajeros",
+      "travellers_text": "Descubre a los científicos, escritores y artistas que han visitado Bolonia a lo largo del tiempo.",
+      "name_1": "Lorem ipsum",
+      "go_button": "Ir"
+    },
+
+    "permanent_bar": {
+      "home": "Página principal",
+      "corpus": "Corpus",
+      "maps": "Mapas",
+      "profile": "Perfil"
+    },
+
+    "project":{
+      "button": "Empezamos",
+      "univocittà": "Univocittà",
+      "project_text": "‘UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese’ (Voces digitales sobre la singularidad del patrimonio boloñés) es un proyecto de Humanidades digitales iniciado en julio de 2022. UniVOCIttà representa la continuación de un proyecto anterior titulado 'UNICittà: RiScopriamo Bologna attraverso l'Alma Mater' (Redescubrir Bolonia a través del Alma Mater), que finalizó en octubre de 2021. UniVOCIttà nace gracias al apoyo del Departamento LILEC (Lingue, Letterature e Culture Moderne) de la Universidad de Bolonia para dar respuesta al interés y la necesidad de valorizar el patrimonio cultural de la ciudad de Bolonia y su provincia y en respuesta a las demandas de la ciudad y de las instituciones internacionales en materia de patrimonio. En particular, este proyecto pretende promover un proceso de identificación entre las comunidades locales y el territorio para desarrollar un turismo cultural participativo y consciente en línea con las directrices de la OMT (Organización Mundial del Turismo de las Naciones Unidas).",
+      "aim": "Objetivo",
+      "aim_text": "El objetivo del proyecto es reunir las 'voces' de célebres viajeros que nos guían en el redescubrimiento de la importancia del patrimonio cultural de la ciudad de Bolonia y su influencia en el desarrollo de una cultura europea.",
+      "aim_li_1": "promover la democratización del conocimiento;",
+      "aim_li_2": "divulgar entre el público una serie de escritos que a menudo se han excluido de la investigación académica;",
+      "aim_li_3": "contribuir a la promoción de Bolonia como meta de turismo cultural."
+    },
+
+    "about":{
+      "about": "Conócenos",
+      "text": "El proyecto UniVOCIttà forma parte de las actividades de la Unidad de Investigación LBC-CeSLiC del Departamento LILEC de la Universidad de Bolonia, formada por las profesoras Antonella Luporini, Ana Pano Alamán, Monica Perotto, Monica Turci y Valeria Zotti. El carácter interdisciplinario del proyecto, que combina literatura, lingüística, estudios del patrimonio y tecnologías de la información, cuenta también con la participación de Fabio Vitali, profesor de informática en el Departamento DISI (Informatica, Scienza e Ingegneria), y Valentina Cozzi, becaria de investigación que se ha ocupado del desarrollo de la aplicación web. El proyecto cuenta con la colaboración de Carmelo Caruso, informático del LILEC, para la parte de gestión de datos.",
+      "team": "Equipo",
+      "team_text": "Lorem ipsum",
+      "card_name": "Lorem ipsum",
+      "card_description": "Lorem ipsum",
+      "institution": "Instituciones y colaboradores",
+      "institution_text": "Lorem ipsum",
+      "contact": "Contacto",
+      "contact_text": "¿Quieres ponerte en contacto con nosotros? Nos gustaría conocer tu opinión: no dudes en escribirnos a la dirección <a href=\"mailto:univocitta.lilec@gmail.com\">univocitta.lilec@gmail.com</a> (o <a href=\"mailto:lilec.lbc@unibo.it\">lilec.lbc@unibo.it</a>) si tienes preguntas o sugerencias.",
+      "reach_us": "Dónde estamos",
+      "reach_us_text": "Unità di ricerca LBC - CeSLiC (Centro di Studi Linguistico-Culturali) - Dipartimento LILEC"
+    },
+
+    "corpus":{
+      "corpus": "Corpus",
+      "text": "El corpus digital proporciona información sobre la singularidad del patrimonio de Bolonia, integrando un enfoque de Humanidades digitales al estudio del patrimonio cultural. Utilizando un programa específico (<a href=\"https://atlasti.com\">Atlas.ti</a>), las lingüistas de la unidad de investigación LBC-CeSLiC anotaron los textos y recopilaron una serie de metadatos (e.g., artistas, personalidades conocidas, lugares del patrimonio, experiencias, etc.) que constituyen los contenidos más significativos del proyecto. Esto datos destacan las relaciones lingüísticas, culturales y semánticas que presentan los textos del corpus.",
+      "languages": "Lenguas",
+      "languages_text": "El corpus está disponible en las siguientes lenguas:",
+      "language_text_postilla": "*Algunos fragmentos de los textos del corpus se han traducido al italiano; esta función se está implementando, por los que, actualmente, no está disponible para todos los textos.",
+      "query": "Interroga el corpus",
+      "query_text": "Interroga el corpus multilingüe: puedes buscar por palabra clave, o bien emplear los filtros para encontrar fácilmente lo que buscas.",
+      "filters": "Filtros",
+      "search": "Encuentra",
+      "all_lang": "Todas las lenguas",
+      "all_place": "Todos los lugares",
+      "all_authors": "Todos los autores",
+      "all_period": "Todos los periodos",
+        "13_century": "Siglo XIII",
+        "14_century": "Siglo XIV",
+        "15_century": "Siglo XV",
+        "16_century": "Siglo XVI",
+        "17_century": "Siglo XVII",
+        "18_century": "Siglo XVIII",
+        "19_century": "Siglo XIX",
+        "20_century": "Siglo XX",
+        "21_century": "Siglo XXI",
+      "all_experience": "Todas les experiencias",
+        "awe": "Estupor",
+        "joy": "Alegría",
+        "anger": "Rabia",
+        "fear": "Miedo",
+        "disgust": "Disgusto",
+        "sadness": "Tristeza",
+      "all_characters": "Todos los personajes",
+      "all_artists": "Todos los artistas",
+      "all_cities": "Todas las poblaciones",
+      "fragment": "Fragmento",
+      "source": "Fuente",
+      "entries": "Resultados por página"
+    },
+
+    "maps":{
+      "maps": "Mapa",
+      "text": "Explora Bolonia y su provincia a través de las palabras y experiencias de viajeros del pasado. Descubre los lugares más conocidos pero también los más escondidos de la capital de la región de Emilia-Romaña. Visita la ciudad siguiendo los itinerarios sugeridos que te guiarán por los lugares más evocadores de Bolonia. Conoce a otros viajeros que visitaron Bolonia antes que tú. El tuyo se convertirá en un viaje no solo en el espacio sino también en el tiempo.",
+      "places_button": "Lugares",
+      "places_text": "Descubre los lugares imperdibles de Bolonia: torres, plazas, edificios históricos y mucho más.",
+      "places_featured": "Lugares en primer plano",
+      "button_museum": "Museo",
+      "button_uni": "Universidad",
+      "button_library": "Biblioteca",
+      "button_worship": "Lugares de culto",
+      "button_porticoes": "Pórticos",
+      "button_art": "Galerías de arte",
+      "button_park": "Parque",
+      "button_square": "Plaza",
+      "travellers_button": "Viajeros",
+      "travellers_text": "Muchos escritores, eruditos y artistas extranjeros han visitado Bolonia a lo largo de los siglos, descubre quiénes son y sus impresiones sobre la ciudad, y compáralas con las tuyas. Al fin y al cabo, aunque fueran famosos, eran viajeros como tú…",
+      "travellers_en": "Viajeros ingleses",
+      "travellers_en_text": "Descubre qué viajeros anglófonos han visitado Bolonia a lo largo de los siglos. ¿Qué impresiones les dejó Bolonia? Averígualo.",
+      "travellers_fr": "Viajeros franceses",
+      "travellers_fr_text": "Descubre qué viajeros francófonos han visitado Bolonia a lo largo de los siglos. ¿Qué impresiones les dejó Bolonia? Averígualo.",
+      "travellers_es": "Viajeros españoles",
+      "travellers_es_text": "Descubre qué viajeros hispanófonos han visitado Bolonia a lo largo de los siglos. ¿Qué impresiones les dejó Bolonia? Averígualo.",
+      "travellers_ru": "Viajeros rusos",
+      "travellers_ru_text": "Descubre qué viajeros rusófonos han visitado Bolonia a lo largo de los siglos. ¿Qué impresiones les dejó Bolonia? Averígualo.",
+      "travellers_more": "Ver más",
+      "routes_button": "Itinerarios",
+      "routes_title": "Itinerarios culturales",
+      "routes_text":"Descubre Bolonia a través de nuestros itinerarios sugeridos sobre arte, cultura y gastronomía. En función de tus intereses y preferencias, encontrarás el más adecuado: nuestros itinerarios te permitirán vivir experiencias extraordinarias, mediadas por las voces de viajeros que han visitado Bolonia en otros tiempos.",
+      "suggested_routes": "Itinerarios sugeridos",
+      "women_category": "Mujeres",
+      "uni_category": "Universidad",
+      "museum_category": "Museos",
+      "food_category": "Gastronomía",
+      "all": "Todos",
+      "min": "min",
+      "km": "km",
+      "easy": "Sencillo",
+      "intermediate": "Intermedio",
+      "difficult": "Difícil",
+      "more": "Ver más"
+    },
+
+    "places": {   
+      "title": "Lorem ipsum",
+      "sanpetronio": "Lorem ipsum",
+      "sanpetronio_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+
+    "travellers": {
+      "bbb": "Lorem ipsum"
+    },
+
+    "routes": {
+      "university": "Lorem ipsum",
+      "city_centre": "Lorem ipsum",
+      "churches": "Lorem ipsum",
+      "food": "Lorem ipsum",
+      "porticoes": "Lorem ipsum",
+      "towers": "Lorem ipsum"
+    },
+
+    "sign-in-up":{
+      "sign-in": "Accede",
+      "sign-in_email": "Accede a través de correo electrónico",
+      "sign-in_text":"¿Todavía no te has registrado?",
+      "sign-up": "Regístrate",
+      "create_account": "Crea tu cuenta",
+      "sign-up_text":"¿Ya tienes una cuenta?",
+      "email": "Dirección de correo",
+      "password": "Contraseña",
+      "sign-in_button": "Accede",
+      "continue_google": "Continúa con Google",
+      "continue_fb": "Continúa con Facebook"
+    },
+
+    "profile":{
+    "user_greeting": "Hola,",
+    "user_detail": "DATOS SOBRE EL PERFIL",
+      "age": "Edad",
+      "occupation": "Profesión",
+    "favourites": "Favoritos",
+    "visited_places": "Lugares visitados",
+    "bookmarks": "Marcadores",
+    "plan": "Organiza tu viaje",
+    "settings": "CONFIGURACIÓN",
+    "logout": "SALIR"
+    },
+
+    "footer":{
+      "about": "Conócenos",
+      "more": "Otros",
+      "privacy": "Política de privacidad",
+      "cookie": "Política de cookies",
+      "documentation": "Documentación"
+    }
+}

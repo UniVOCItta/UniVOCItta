@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap'); /* font per cit. frammenti*/
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /*'Lato', sans-serif;*/
+    /*'Poppins', sans-serif;*/
+    /*'Montserrat', sans-serif;*/
+    /*'Quicksand', sans-serif;*/
+
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif CARINO */
+}
+
+h1, p {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-weight: bolder !important;
+  padding-top: 5px;
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+    min-height: calc(100vh - 211px - 58px);
+    background: #F3F3F4 !important;
+}
+
+.home{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/*SECONDARY PAGES*/
+
+/*Background img for secondary pages (Project)*/
+
+#img-background {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: 0;
+}
+.img-content {
+  position: absolute;
+  width: 100%;
+  height: 150%; /*move title: desktop vs. smartphone view*/
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0; /*E' UN PROBLEMA DELL'INDEX CHE ENTRA IN CONFLITTO CON QUELLO DEL MENU*/
+}
+
+.img-title {
+  color: #F3F3F4;
+  font-size: 2em;
+}
+
+.img-title-black{
+  color:black;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 800px) {
+  .img-content {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-content {
+    height: 45%;
+  }
+}
+
+
+/*PROJECT Page*/
+/*
+.video-container {
+  width: 100%;
+  height: 100vh;
+}
+*/
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: -2;
+}
+.video-content {
+  position: absolute;
+  width: 100%;
+  height: 150%; /*move title: desktop vs. smartphone view*/
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+.video-title {
+  color: #F3F3F4;
+  font-size: 2em;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(0, 0, 0, .4)
+}
+@media screen and (max-width: 600px) {
+  .video-content {
+    height: 45%;
+  }  
+}
+
+/*Team Cards*/
+.row {
+  align-items: center !important;
+}
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+#figurine {
+  align-items: center !important;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-body {
+  background-color:rgba(150, 150, 150, 0.5);
+  border: rgb(0, 0, 0);
+}
+.fa-brands {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.fa-brands:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*CORPUS Page*/
+
+/*
+.corpus-filters {
+  align-items: center;
+}
+.col-container {
+  display: table; 
+  border-spacing: 5px;
+}
+.col-2, .col-10 {
+  display: table-cell;
+}
+
+.col-2 {
+  margin-right: 100px;
+}
+*/
+
+.fragment_font {
+  font-family: 'Charm', cursive;
+
+}
+
+.col-2 {
+  text-align: center;
+}
+
+#my-select {
+  color: #000000;
+  font-size: 16px;
+}
+
+#my-select:focus {
+  border-color: rgba(106, 70, 108, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(176, 111, 180, 0.25);
+}
+
+.filter-sidebar {
+  background-color: #80A2B3;  
+}
+
+.location-container, .map-marker-fragments {
+  display: flex;
+  justify-content: center;
+}
+
+/*Help and documentation button*/
+.help {
+  margin-left: 1100px;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .help {
+    margin-left: 210px;
+    font-size: 30px; 
+    cursor: pointer;
+  }
+}
+
+/* Styles for sidebar */
+.sidebar {
+  /* styles for sidebar here */
+  display: none; /* hide sidebar by default */
+}
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: block; /* show sidebar when screen is small */
+  }
+  .filters {
+    display: none;
+  }
+}
+
+.map-marker-fragments{
+  font-size: 20px;
+  display: flex; 
+  align-items: center;
+}
+
+
+/*Pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .page-link {
+  color: #000000;
+  background-color: #fff;
+  border-color: #766c6c;
+}
+
+.pagination .page-link:hover {
+  color: #fff;
+  background-color: #80A2B3;
+  border-color: #766c6c;
+}
+
+.pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #80A2B3;
+  border-color: #766c6c;
+} 
+
+.total-pages {
+  width: 5%; /* Or any other desired width */
+  margin: 0 auto; /* Set the left and right margins to auto */
+}
+.entries {
+  text-align: right;
+}
+
+/*MAP Page*/
+
+.leaflet-container {
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+  position: relative;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.leaflet-container a {
+  color:black !important;
+}
+
+#corpus-map {
+  width: 80%;
+  height: 25vh;
+  z-index: 1;
+  position: relative;
+  align-content: center !important;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+#routes-map {
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+  position: relative;
+  align-content: center !important;
+  align-items: center;
+  align-self: center;
+}
+
+#places-map {
+  width: 50%;
+  height: 45vh;
+  z-index: 1;
+  position: relative;
+  align-content: center !important;
+  align-items: center;
+  align-self: center;
+}
+
+.row-container {
+  display: flex; 
+  align-items: center;
+}
+
+.heart-icon {
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+/* Shadow on the left quote that does NOT work*/
+.left-quote svg {
+  filter: drop-shadow(1px 1px 2px black);
+}
+
+
+/*Buttons of map page (redirect to Routes, Places, Travellers)*/
+.map-buttons {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .leaflet-container {
+    height: 30vh;
+  } 
+}
+
+/*Breadcrumbs*/
+.breadcrumb {
+  margin-top: 10px;
+}
+#crumb {
+  color: rgb(0, 0, 0);
+}
+
+
+/*Heritage Routes*/
+.heritage-routes {
+  background-color: rgb(195, 193, 191);
+}
+.routes-icons { 
+  text-align: center;
+  padding-bottom: 10px;
+}
+.routes-icon {
+  font-size: 35px;
+}
+.suggested-route {
+  padding-bottom: 50px;
+}
+
+.routes-filter-buttons {
+  align-items: center;
+  text-align: center;
+}
+
+.routes-filter {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tag-buttons {
+  align-items: center !important;
+}
+.badge {
+  margin-right: 10px;
+  font-size: 15px !important;
+  padding: 0,5rem;
+}
+.side-img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.more-icon {
+  font-size: 20px;
+}
+
+.more-icon:hover {
+  color: rgb(73, 72, 72);
+}
+
+
+/*Single Routes + map polyline*/
+
+.card-title-routes{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.card-body-routes{
+  background-color: #F3F3F4;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.routes-img-small {
+  max-width: 300px;
+  max-height: 150px;
+  float: left; 
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+#scrollable-col {
+  margin:4px, 4px;
+  padding:4px;
+  background-color: #F3F3F4;
+  width: 500px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
+/*
+#scrollable-col h3 {
+  position: sticky;
+  top: 0;
+  background-color: #F3F3F4;
+  z-index: 1;
+}
+*/
+
+/* Styles for MOBILE VISUALISATION ROUTES */
+.mobile-visualisation {
+  display: none; /* hide sidebar by default */
+}
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+  .mobile-visualisation {
+    display: block; /* show MOBILE VISUALISATION when screen is small */
+  }
+  .fragments-list {
+    display: none;
+  }
+  #routes-map {
+    height: 30vh;
+  }
+  #scrollable-col {
+    background-color: #F3F3F4;
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+  }
+  .routes-img-small {
+    max-width: 200px;
+    max-height: 75px;
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+
+/*Places*/
+#places-card-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#places-card-text {
+  margin-top: -2px;
+}
+
+.routes-filter.variant-outline-success {
+  background-color: #80A2B3 !important; /*NON FUNZIONA*/
+}
+
+/* Places Single Page */
+.single-place-img {
+  max-width: 500px;
+  max-height: 350px;
+  float: left; 
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .single-place-img {
+    max-width: 375px;
+    max-height: 225px;
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.places-fragments {
+  padding-left: 35em;
+}
+@media screen and (max-width: 600px) {
+  .places-fragments {
+    padding-left: 20px;
+  }
+} 
+
+.map-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-overlay .map-container {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  /* additional styles for the map container */
+}
+
+.close-button {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Map (places) for small screens */
+@media screen and (max-width: 600px) {
+  .close-button {
+    top: 240px;
+  }
+}
+
+/*Travellers*/
+.slider-h2, .slider-p {
+  margin-left: 5px;
+}
+.slider-button {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: -10px;
+}
+.english_travellers, .french_travellers, .spanish_travellers, .russian_travellers {
+  margin-right: 6px;
+  align-items: center;
+  z-index: 2;
+}
+
+.travellers-buttons {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/*Traveller Single Page */
+.traveller-page {
+  max-width: 400px;
+  max-height: 350px;
+  float: left; 
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .traveller-page {
+    max-width: 300px;
+    max-height: 250px;
+    float: left; 
+    margin-right: 10px
+  } 
+}
+
+.traveller-fragments {
+  padding-left: 20em;
+}
+
+@media screen and (max-width: 600px) {
+  .traveller-fragments {
+    padding-left: 20px;
+  }
+} 
+
+.traveller-fragments li {
+  padding-left: 0px;
+}
+
+/*
+.product--image {
+  width: 287px !important;
+  height: 300px !important;
+}
+*/
+
+/*PROFILE page*/
+.list-group {
+  margin-bottom: 5px !important;
+}
+.list-group-item{
+  background-color: #F3F3F4 !important;
+  line-height: 50px;
+}
+.main-icon {
+  font-size: 30px;
+}
+.secondary-icon {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.profile-link {
+  color: black;
+}
+.profile-link:hover {
+  color: rgb(73, 72, 72);
+}
+
+
+/*Login (signin)*/
+.sign-in-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.google-button, .facebook-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/*Profile Details */
+/* Accordion
+.accordion {
+  margin-bottom: 10px;
+}
+.accordion-body {
+  background-color: #F3F3F4;
+}
+.accordion-header {
+  background-color: #F3F3F4;
+}
+.accordion-button {
+  background-color: #F3F3F4 !important;
+}
+*/

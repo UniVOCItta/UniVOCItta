@@ -1,0 +1,413 @@
+[
+    {
+        "id": 0,
+        "fragment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "language": "Language",
+        "author": [
+            "Tizio",
+            "Caio",
+            "Sempronio"
+        ],
+        "artist": [
+            "Name",
+            "Name",
+            "Name"
+        ],
+        "character": [
+            "Name",
+            "Name",
+            "Name"
+        ],
+        "experience": [
+            "emotion",
+            "emotion"
+        ],
+        "city": "Name", 
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [44.496599, 11.351678],
+        "period": [
+            "a century",
+            "a century"
+        ],
+        "bibliographic_reference": "text",
+        "web_link": "a link",
+        "translation_it": "La traduzione in italiano"
+    },
+    {
+        "id": 1,
+        "name": "Poppi, Bonoli & Gualandi and the Instituto delle Scienze",
+        "fragment": "The Istituto delle Scienze di Bologna was thus established and in 1714 it was merged with the Accademia delle Scienze, which in turn had developed from the existing Accademia degli Inquieti, founded in 1690-1691 by the young astronomer Eustachio Manfredi and a group of friends (Baldini, 2007; Bònoli, 2007b; Bònoli and Piliarvu, 2001: 176; Tabarroni, 1981). Manfredi, who had already coordinated the astronomical activities of the observatory set up at Marsili’s palazzo, was appointed to oversee work on the large new observatory slated to be built on top of the Palazzo Poggi, which the Bologna Senate had purchased to house the Istituto delle Scienze.",
+        "language": "English",
+        "author": [
+            "Francesco Poppi",
+            "Fabrizio Bonoli",
+            "Andrea Gualandi"
+        ],
+        "artist": [
+            "",
+            "",
+            ""
+        ],
+        "character": [
+            "Eustachio Manfredi",
+            "",
+            ""
+        ],
+        "experience": [
+            "Awe",
+            "Disgust"
+        ],
+        "city": "Bologna",
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [45.496599, 11.351678],
+        "period": [
+            "18th century"
+        ],
+        "bibliographic_reference": "A Short History of two Nineteenth century German Instruments at the Bologna Observatory: The 16-cm Steinheil Refractor and the Ertel & Sohn Meridian Circle. Journal of Astronomical History and Heritage (2008), Vol. 11, No. 2. Pp.157-166.",
+        "web_link": "https://articles.adsabs.harvard.edu/full/2008JAHH...11..157P"
+    },
+
+    {
+        "id": 2,
+        "name": "Sarti Carlo and the sanction of Pope XIV",
+        "fragment": "In 1742, with the sanction of Pope Benedict XIV, the Senate decided to transfer the Aldrovandi and Cospi museums to the Institute of Sciences founded by Luigi Ferdinando Marsigli, to exhibit these museums beside the already existing Marsigli Museum. The Cospi Museum was moved in 1743 and the Aldrovandi Museum in 1749 (Sarti 1988a, p. 20). These two museums contributed to enriching the Museum of the Institute of Science, which Marsigli had made famous in Europe thanks to the collection of thousands of objects from every corner of the word.",
+        "language": "English",
+        "author": [
+            "Carlo Sarti"
+        ],
+        "artist": [
+            "",
+            "",
+            ""
+        ],
+        "character": [
+            "Ferdinando Luigi Marsili",
+            "Benedetto XIV"
+        ],
+        "experience": [
+            "Disgust",
+            "Fear"
+        ],
+        "city": "Bologna",
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [45.496599, 11.351678],
+        "period": [
+            "18th century"
+        ],
+        "bibliographic_reference": "The Capellini Museum (University of Bologna), the most ancient Italian Geo-Paleontological Museum., Annali di Storia delle Università Italiane 17 (2013), pp. 1-15.",
+        "web_link": "https://www.researchgate.net/profile/Carlo-Sarti"
+    },
+
+    {
+        "id": 3,
+        "name": "John Moore - the university of Bologna",
+        "fragment": "The University of Bologna is one of the most ancient and most celebrated feats of literature in Europe; and the academy for the arts and sciences, founded by the Count Marsigli at the beginning of the present century, is sufficient, of itself, to engage strangers to visit this city, if there was nothing else worthy of their curiosity.",
+        "language": "French",
+        "author": [
+            "John Moore"
+        ],
+        "artist": [
+            "",
+            "",
+            ""
+        ],
+        "character": [
+            "Ferdinando Luigi Marsili"
+        ],
+        "experience": [
+            "Awe",
+            "Joy"
+        ],
+        "city": "Bologna",
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [45.496599, 11.351678],
+        "period": [
+            "18th century"
+        ],
+        "bibliographic_reference": "A View of Society and Manners in Italy: with Anecdotes relating to some Eminent Character (1775)",
+        "web_link": ""
+    },
+
+    {
+        "id": 4,
+        "name": "Cavazza Marta on Voltaire and Laura Bassi",
+        "fragment": "In a letter dated November 23,1744, Voltaire himself petitions her [Laura Bassi] help in securing election to the Bolognese Academy of Sciences, to which Bassi had already been elected.",
+        "language": "French",
+        "author": [
+            "Marta Cavazza"
+        ],
+        "artist": [
+            "",
+            "",
+            ""
+        ],
+        "character": [
+            "Laura Bassi",
+            "Voltaire"
+        ],
+        "experience": [
+            "Anger",
+            "Fear"
+        ],
+        "city": "Bologna",
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [45.496599, 11.351678],
+        "period": [
+            "18th century"
+        ],
+        "bibliographic_reference": "“Laura Bassi and Giuseppe Veratti: an electric couple during the Enlightenment”. Contributions to Science(2009). Pp. 115-128.",
+        "web_link": ""
+    },
+    {
+        "id": 5,
+        "name": "Lady Miller - Letters from Italy",
+        "fragment": "The Instituto is distinct from the University, which is the most celebrated in Italy, and where is chiefly studied grammar, rhetoric, philosophy, physic, and jurisprudence; they trace the antiquity of its establishment up to the Emperor Theodosius. The Academy of Sciences makes part of the Instituto, and was begun in the year 1690, by a young man of the age of sixteen years only, one Eustatio Manfredi ; he formed a little society, who met together at stated times to confer upon literary subjects. The Count Marsigli invited them to assemble in his palace, and let on foot an academy of painting.",
+        "language": "Spanish",
+        "author": [
+            "Anna, Lady Miller"
+        ],
+        "artist": [
+            "",
+            "",
+            ""
+        ],
+        "character": [
+            "Eustachio Manfredi",
+            "Ferdinando Luigi Marsili",
+            "Teodosio I"
+        ],
+        "experience": [
+            "Fear",
+            "Sadness"
+        ],
+        "city": "Bologna",
+        "place": {
+            "Storico-Culturale": [
+                "Necropoli",
+                "Torre"
+            ],
+            "All'aperto": [
+                "Certosa",
+                "Cortile"
+            ]
+        },
+        "topic": [
+            "uno", 
+            "due"
+        ],
+        "nature": [
+            ""
+        ],
+        "object": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "artwork": {
+            "Architettura": [
+                "Monumento", 
+                "Mura"
+            ], 
+            "": [
+                "",
+                ""
+            ]
+        },
+        "main_location": [45.496599, 11.351678],
+        "period": [
+            "17th century"
+        ],
+        "bibliographic_reference": "Letters from Italy describing the Manners, Customs, Antiquities, Paintings etc. in that Country in the years MDCCLXX and MDCCLXXI to a friend residing in France. (1770-1771)",
+        "web_link": ""
+    }
+]
+
+
+
+
+

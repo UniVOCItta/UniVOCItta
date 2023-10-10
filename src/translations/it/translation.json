@@ -1,0 +1,216 @@
+{ 
+    "comment": "ITALIANO", 
+
+    "language": "Lingua",
+    "en": "Inglese",
+    "it": "Italiano",
+    "fr": "Francese",
+    "es": "Spagnolo",
+    "ru": "Russo", 
+
+    "sidebar": {
+      "home": "Home",
+      "project": "Progetto",
+      "univocitta": "UniVOCIttà",
+      "aim": "Obiettivo",
+      "about": "Su di noi",
+      "team": "Team",
+      "partners": "Istituzioni e partner",
+      "contacts": "Contatti",
+      "corpus": "Corpus",
+      "overview": "Panoramica",
+      "languages": "Lingue",
+      "query": "Query",
+      "maps": "Mappe",
+      "places": "Luoghi",
+      "routes": "Itinerari",
+      "travellers": "Viaggiatori"
+      },
+
+    "body":{
+      "univocittà": "Univocittà",
+      "univocitta_text": "UniVOCIttà è un progetto incentrato sul concetto di 'voci' di figure letterarie e viaggiatori del passato che promuove un'interpretazione e un approccio d’indagine originali nei confronti della riscoperta e della salvaguardia a lungo termine del patrimonio culturale bolognese.",
+      "corpus": "Corpus",
+      "corpus_text": "Naviga il nostro corpus plurilingue, interrogalo per conoscere i viaggiatori del passato che sono passati per Bologna e scopri cosa hanno scritto sulla città.",
+      "corpus_text_2": "Ci sono quattro lingue disponibili:",
+      "places": "Luoghi",
+      "places_text": "Utilizza la mappa e scopri a proposito di quale monumento o luogo di Bologna è stato scritto qualcosa.",
+      "routes": "Itinerari",
+      "routes_text": "Dai un’occhiata ai nostri percorsi suggeriti e visita la città.",
+      "routes_carousel_food": "Cibo",
+      "routes_carousel_women": "Donne",
+      "routes_carousel_UNESCO": "UNESCO",
+      "routes_carousel_uni": "Università",
+      "travellers": "Viaggiatori",
+      "travellers_text": "Scopri gli studiosi, gli artisti e i poeti che hanno visitato Bologna nel corso dei secoli.",
+      "name_1": "Lorem ipsum",
+      "go_button": "Vai"
+    },
+
+    "permanent_bar": {
+      "home": "Home",
+      "corpus": "Corpus",
+      "maps": "Maps",
+      "profile": "Profilo"
+    },
+
+    "project":{
+      "button": "Cominciamo",
+      "univocittà": "Univocittà",
+      "project_text": "‘UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese’ è un progetto di Informatica umanistica iniziato nel luglio 2022. UniVOCIttà trae ispirazione e rappresenta il proseguimento di un precedente progetto dal titolo, ‘UNICittà: Riscopriamo Bologna attraverso l’Alma Mater’ che si è concluso nell’ottobre 2021. UniVOCIttà si è sviluppato grazie al supporto del dipartimento LILEC dell’Università di Bologna per rispondere all’interesse e al bisogno di valorizzare il patrimonio culturale della città di Bologna e della sua provincia in risposta a sollecitazioni della città e di istituzioni internazionali. In particolare, questo progetto mira a promuovere un processo di identificazione tra le comunità locali e il territorio per sviluppare un turismo culturale partecipato e consapevole in linea con il progetto dell’UNWTO (United Nations World Tourism Organization).",
+      "aim": "Obiettivo",
+      "aim_text": "L’obiettivo del progetto è quello di raccogliere le 'voci' di eccellenti viaggiatori che ci guidano alla riscoperta dell’importanza del patrimonio culturale della città di Bologna e la sua influenza nello sviluppo di una cultura europea.",
+      "aim_li_1": "promuovere la democratizzazione della conoscenza;",
+      "aim_li_2": "disseminare i frammenti testuali al pubblico, spesso lasciato al di fuori delle scoperte della comunità accademica;",
+      "aim_li_3": "contribuire alla promozione di Bologna come meta di turismo culturale."
+    },
+
+    "about":{
+      "about": "Su di noi",
+      "text": "Il progetto UniVOCIttà si inserisce tra le attività dell’Unità di ricerca LBC- CeSLiC del Dipartimento LILEC dell’Università di Bologna, composta dalle professoresse Antonella Luporini, Ana Pano Alamán, Monica Perotto, Monica Turci e Valeria Zotti. La natura interdisciplinare del progetto, che coniuga letteratura, linguistica, heritage studies e tecnologie informatiche, vede anche la partecipazione di Fabio Vitali, professore ordinario di informatica presso il Dipartimento di Informatica – Scienza e Ingegneria (DISI), e Valentina Cozzi, l’assegnista di ricerca che si è occupata dello sviluppo dell’applicazione web, nonché la collaborazione di Carmelo Caruso, informatico presso il LILEC, per la parte di data management.",
+      "team": "Team",
+      "team_text": "Lorem ipsum",
+      "card_name": "Lorem ipsum",
+      "card_description": "Lorem ipsum",
+      "institution": "Istituzioni e partner",
+      "institution_text": "Lorem ipsum",
+      "contact": "Contatti",
+      "contact_text": "Desideri contattarci? Ci piacerebbe sentire la tua opinione: non esitare a contattarci via mail al seguente indirizzo <a href=\"mailto:univocitta.lilec@gmail.com\">univocitta.lilec@gmail.com</a> (o <a href=\"mailto:lilec.lbc@unibo.it\">lilec.lbc@unibo.it</a>) se hai domande o suggerimenti.",
+      "reach_us": "Come raggiungerci",
+      "reach_us_text": "Unità di ricerca LBC - CeSLiC (Centro di Studi Linguistico-Culturali) - Dipartimento LILEC"
+    },
+
+    "corpus":{
+      "corpus": "Corpus",
+      "text": "Il corpus digitale fornisce informazioni sull’unicità del patrimonio bolognese, integrando un approccio di digital humanities allo studio del patrimonio culturale. Attraverso software specifici (<a href=\"https://atlasti.com\">Atlas.ti</a>) i linguisti dell’unità di ricerca LBC-CeSLiC hanno annotato i testi e raccolto una serie di metadati (e.g. artisti, personaggi noti, luoghi del patrimonio, esperienze, etc.) che rendono fruibili contenuti significativi evidenziandone interconnessioni linguistiche, culturali e semantiche.",
+      "languages": "Lingue",
+      "languages_text": "Il nostro corpus multilingue è disponibile nelle seguenti lingue:",
+      "language_text_postilla": "*Alcuni frammenti sono stati tradotti in italiano; poiché questa funzionalità è in corso di implementazione, non è attualmente disponibile per tutti i frammenti.",
+      "query": "Interroga il corpus",
+      "query_text": "Interroga il nostro corpus multilingue: fai una ricerca per parole chiave oppure usa i filtri per trovare facilmente quello che cerchi.",
+      "filters": "Filtri",
+      "search": "Trova",
+      "all_lang": "All Languages",
+      "all_place": "All Place",
+      "all_authors": "All Authors",
+      "all_period": "All Period",
+        "13_century": "XIII secolo",
+        "14_century": "XIV secolo",
+        "15_century": "XV secolo",
+        "16_century": "XVI secolo",
+        "17_century": "XVII secolo",
+        "18_century": "XVIII secolo",
+        "19_century": "XIX secolo",
+        "20_century": "XX secolo",
+        "21_century": "XXI secolo",
+      "all_experience": "All Experience",
+        "awe": "Stupore",
+        "joy": "Gioia",
+        "anger": "Rabbia",
+        "fear": "Paura",
+        "disgust": "Disgusto",
+        "sadness": "Tristezza",
+      "all_characters": "All Characters",
+      "all_artists": "All Artists",
+      "all_cities": "All Cities",
+      "fragment": "Frammento",
+      "source": "Fonte",
+      "entries": "Risultati per pagina"
+    },
+
+    "maps":{
+      "maps": "Mappa",
+      "text": "Esplora Bologna e la sua provincia attraverso le parole e le esperienze dei viaggiatori del passato. Scopri i luoghi noti ma anche quelli più nascosti del capoluogo di regione dell’Emilia-Romagna. Visita la città seguendo i percorsi suggeriti che ti guideranno attraverso i luoghi più suggestivi di Bologna. Conosci i viaggiatori del passato che hanno visitato Bologna prima di te. Il tuo diventerà un viaggio non solo nello spazio ma anche nel tempo.",
+      "places_button": "Luoghi",
+      "places_text": "Scopri i luoghi imperdibili di Bologna: torri, piazze, edifici storici e molto altro.",
+      "places_featured": "Luoghi in primo piano",
+      "button_museum": "Museo",
+      "button_uni": "Università",
+      "button_library": "Biblioteca",
+      "button_worship": "Luogo di culto",
+      "button_porticoes": "Portici",
+      "button_art": "Galleria d'arte",
+      "button_park": "Parco",
+      "button_square": "Piazza",
+      "travellers_button": "Viaggiatori",
+      "travellers_text": "Molti scrittori, studiosi e artisti stranieri hanno visitato Bologna nel corso dei secoli, scopri chi sono e le loro impressioni della città e confrontale con le tue. In fondo anche se sono famosi, erano viaggiatori come te...",
+      "travellers_en": "Viaggiatori inglesi",
+      "travellers_en_text": "Scopri i viaggiatori anglofoni che hanno visitato Bologna nel corso dei secoli. Che impressioni hanno avuto di Bologna? Scopriamolo.",
+      "travellers_fr": "Viaggiatori francesi",
+      "travellers_fr_text": "Scopri i viaggiatori francofoni che hanno visitato Bologna nel corso dei secoli. Che impressioni hanno avuto di Bologna? Scopriamolo.",
+      "travellers_es": "Viaggiatori spagnoli",
+      "travellers_es_text": "Scopri i viaggiatori ispanofoni che hanno visitato Bologna nel corso dei secoli. Che impressioni hanno avuto di Bologna? Scopriamolo.",
+      "travellers_ru": "Viaggiatori russi",
+      "travellers_ru_text": "Scopri i viaggiatori russofoni che hanno visitato Bologna nel corso dei secoli. Che impressioni hanno avuto di Bologna? Scopriamolo.",
+      "travellers_more": "Mostra di più",
+      "routes_button": "Percorsi",
+      "routes_title": "Percorsi culturali",
+      "routes_text":"Scopri Bologna attraverso i nostri percorsi suggeriti su arte, culturale e gastronomia. Qualunque siano i tuoi interessi e le tue preferenze, troverai quello che fa per te: i nostri itinerari ti permetteranno infatti di vivere delle esperienze straordinarie, mediate dalle voci dei viaggiatori del passato che hanno visitato Bologna prima di te.",
+      "suggested_routes": "Percorsi suggeriti",
+      "women_category": "Donne",
+      "uni_category": "Università",
+      "museum_category": "Musei",
+      "food_category": "Cibo",
+      "all": "Tutto",
+      "min": "min",
+      "km": "km",
+      "easy": "Semplice",
+      "intermediate": "Intermedio",
+      "difficult": "Difficile",
+      "more": "Scopri di più"
+    },
+
+    "places": {   
+      "title": "Lorem ipsum",
+      "sanpetronio": "Lorem ipsum",
+      "sanpetronio_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+
+    "travellers": {
+      "bbb": "Lorem ipsum"
+    },
+
+    "routes": {
+      "university": "Lorem ipsum",
+      "city_centre": "Lorem ipsum",
+      "churches": "Lorem ipsum",
+      "food": "Lorem ipsum",
+      "porticoes": "Lorem ipsum",
+      "towers": "Lorem ipsum"
+    },
+
+    "sign-in-up":{
+      "sign-in": "Accedi",
+      "sign-in_email": "Accedi tramite Email",
+      "sign-in_text":"Non hai ancora un account?",
+      "sign-up": "Registrati",
+      "create_account": "Crea il tuo Account",
+      "sign-up_text":"Hai già un account?",
+      "email": "Indirizzo Email",
+      "password": "Password",
+      "sign-in_button": "Accedi",
+      "continue_google": "Continua con Google",
+      "continue_fb": "Continua con Facebook"
+    },
+
+    "profile":{
+    "user_greeting": "Ciao,",
+    "user_detail": "DETTAGLI DEL PROFILO",
+      "age": "Età",
+      "occupation": "Occupazione",
+    "favourites": "Preferiti",
+    "visited_places": "Luoghi visitati",
+    "bookmarks": "Segnalibri",
+    "plan": "Pianifica il tuo viaggio",
+    "settings": "IMPOSTAZIONI",
+    "logout": "ESCI"
+    },
+
+    "footer":{
+      "about": "Su di noi",
+      "more": "Altro",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "documentation": "Documentazione"
+    }
+}

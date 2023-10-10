@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Torri",
+        "location": [44.49427, 11.34677],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "Torri_2",
+        "location": [44.49427, 11.34680],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "San Petronio",
+        "location": [44.492778, 11.343056],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "English"
+    },
+    {
+        "name": "Nettuno",
+        "location": [44.49423, 11.34267],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Spanish"
+    },
+    {
+        "name": "San Luca",
+        "location": [44.479117, 11.298069],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Spanish"
+    },
+    {
+        "name": "Archiginnasio",
+        "location": [44.49205, 11.343406],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "English"
+    },
+    {
+        "name": "Porta",
+        "location": [44.490515, 11.32989],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "Palazzo Poggi",
+        "location": [44.496599, 11.351678],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "Basilica di San Francesco",
+        "location": [44.494913, 11.335046],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Russian"
+    },
+    {
+        "name": "Giardini Margherita",
+        "location": [44.482377, 11.352546],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Spanish"
+    },
+    {
+        "name": "Piazza Santo Stefano",
+        "location": [44.492266, 11.348138],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Russian"
+    },
+    {
+        "name": "Pinacoteca nazionale di Bologna",
+        "location": [44.4977, 11.353469],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Spanish"
+    },
+    {
+        "name": "Cimitero monumentale della Certosa",
+        "location": [44.497597, 11.30777],
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "Spanish"
+    }
+]
