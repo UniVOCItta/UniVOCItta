@@ -83,5 +83,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Using [capacitorjs](https://capacitorjs.com/solution/react)
 
 # Sync & Update
-./sync.sh 
-./update.sh
+- Before starting working: ./sync.sh 
+- After working: ./update.sh
+
+# push on Github pages
+- (only the first time): npm install gh-pages --save-dev
+- npm run build
+- npm run deploy
