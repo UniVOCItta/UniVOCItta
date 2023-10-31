@@ -31,9 +31,11 @@
     "corpus": "корпус",
     "corpus_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "places": "мест",
+    "places_text": "Lorem ipsum",
     "routes": "маршрутов",
+    "routes_text": "Lorem ipsum",
     "travellers": "путешественников",
-
+    
     "project_aim": "цель",
 
     "about": "о",

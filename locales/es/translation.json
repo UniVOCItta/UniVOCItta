@@ -31,7 +31,9 @@
     "corpus": "Corpus",
     "corpus_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "places": "Sitios",
+    "places_text": "Lorem ipsum",
     "routes": "Itinerarios",
+    "routes_text": "Lorem ipsum",
     "travellers": "Viajeros",
 
     "project_aim": "Objetivo",

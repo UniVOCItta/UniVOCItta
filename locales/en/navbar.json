@@ -1,19 +1,12 @@
 {
-    "navbar_home": "Home",
-    "navbar_project": "Project",
-    "navbar_project_univocitta": "UniVOCIttà",
-    "navbar_project_aim": "Aim",
-    "navbar_about": "About",
-    "navbar_about_team": "Team",
-    "navbar_about_institution": "Institutions and partners",
-    "navbar_about_contact": "Contacts",
-    "navbar_corpus": "Corpus",
-    "navbar_corpus_overview": "Overview",
-    "navbar_corpus_lang": "Languages",
-    "navbar_corpus_query": "Query",
-    "navbar_map": "Maps",
-    "navbar_map_overview": "Overview",
-    "navbar_map_places": "Places",
-    "navbar_map_routes": "Routes",
-    "navbar_map_travellers": "Travellers",
-}
+    "en": {
+      "home": {
+        "title": "Home"
+      }
+    },
+    "fr": {
+      "home": {
+        "title": "Accueil"
+      }
+    }
+  }
