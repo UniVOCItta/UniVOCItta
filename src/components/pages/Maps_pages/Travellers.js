@@ -146,7 +146,8 @@ function Travellers() {
               </p>
             </div>
           </Carousel>
-          <HashLink to='maps/travellerpage'>Link to traveller page</HashLink>
+          <HashLink to='travellerpage'>Link to traveller page</HashLink>
+          <HashLink to='en/dickens'>Link to Dickens</HashLink>
     </div>
     </>
   )

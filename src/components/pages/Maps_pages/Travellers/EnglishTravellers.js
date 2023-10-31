@@ -12,6 +12,12 @@ import john_evelyn from "../../../../assets/imgs/travellers/en/John_Evelyn.jpg";
 import lady_morgan from "../../../../assets/imgs/travellers/en/LadyMorgan.jpg";
 import vernon_lee from "../../../../assets/imgs/travellers/en/Vernone_Lee-Violet_Page.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
+import trollope from '../../../../assets/imgs/travellers/en/Frances_Trollope.jpg';
+import addison from '../../../../assets/imgs/travellers/en/Josep_Addison.jpg';
+import burton from '../../../../assets/imgs/travellers/en/Richard_Frances_Burton.jpg';
+import byron from '../../../../assets/imgs/travellers/en/Lord_Byron.jpg';
+import starke from '../../../../assets/imgs/travellers/en/Mariana_Starke.webp';
+import browning from '../../../../assets/imgs/travellers/en/Robert_Browning.jpg';
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -69,72 +75,82 @@ function EnglishTravellers() {
           >
             <div id="traveller-card" className='card'>
               <img id='fixed' className='product--image'
-              src={lady_morgan}></img>
-              <h4 className='slider-h2'>Sydney, Lady Morgan</h4>
-              <p className='slider-p'>Irish</p>
-              <p className='slider-p'>Novelist, best known for The Wild Irish Girl (1806), a romantic novel.</p>
+              src={trollope}></img>
+              <h4 className='slider-h2'>Frances Trollope</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Trollope_text_carousel')}</p>
               <p>
-                <HashLink to='https://it.wikipedia.org/wiki/Lady_Morgan'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/trollope'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={dickens}></img>
               <h4 className='slider-h2'>Charles Dickens</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Writer and social critic, the greatest novelist of the Victorian era.</p>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Dickens_text_carousel')}</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Charles_Dickens'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/dickens'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={vernon_lee}></img>
               <h4 className='slider-h2'>Vernon Lee</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Pseudonym of the British writer Violet Paget.</p>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Lee_text_carousel')}</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Vernon_Lee'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/lee'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={lady_miller}></img>
-              <h4 className='slider-h2'>Lady Miller</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Poet, travel writer, heiress and salon hostess.</p>
+              src={addison}></img>
+              <h4 className='slider-h2'>Joseph Addison</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Burton_text_carousel')}</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Anna,_Lady_Miller'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/addison'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={js_smith}></img>
-              <h4 className='slider-h2'>James Edward Smith</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Botanist and founder of the Linnean Society.</p>
+              src={burton}></img>
+              <h4 className='slider-h2'>Richard Burton</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Burton_text_carousel')}</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/James_Edward_Smith_(botanist)'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/burton'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={john_evelyn}></img>
-              <h4 className='slider-h2'>John Evelyn</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Writer, landowner, gardener, courtier and minor government official.</p>
+              src={byron}></img>
+              <h4 className='slider-h2'>Lord Byron</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Byron_text_carousel')}</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/John_Evelyn'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/byron'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder}></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              src={starke}></img>
+              <h4 className='slider-h2'>Mariana Starke</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Starke_text_carousel')}</p>
               <p>
-                <HashLink to='#'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/en/starke'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+              </p>
+            </div>
+            <div className='card'>
+              <img className='product--image'
+              src={browning}></img>
+              <h4 className='slider-h2'>Robert Browning</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Browning_text_carousel')}</p>
+              <p>
+                <HashLink to='../maps/travellers/en/browning'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>

@@ -9,6 +9,12 @@ import voltaire from "../../../../assets/imgs/travellers/voltaire.jpg";
 import remusat from "../../../../assets/imgs/travellers/Remusat_Charles.jpg";
 import faure from "../../../../assets/imgs/travellers/Faure_Gabriel.jfif";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
+import taine from "../../../../assets/imgs/travellers/fr/Hippolyte_Taine.jpg";
+import de_staël from "../../../../assets/imgs/travellers/fr/Mme_de_Staël.jpg";
+import bazin from "../../../../assets/imgs/travellers/fr/Rene_Bazin.jpg";
+import lande from "../../../../assets/imgs/travellers/fr/Jérôme_de_La_Lande.jpg";
+import montaigne from "../../../../assets/imgs/travellers/fr/Michel_de_Montaigne.jpg";
+import goncourt_brothers from "../../../../assets/imgs/travellers/fr/Goncourt_brothers.jpg";
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -66,72 +72,62 @@ function FrenchTravellers() {
           >
             <div id="traveller-card" className='card'>
               <img id='fixed' className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>Italian</p>
-              <p className='slider-p'>Physicist and academic.</p>
-              <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Laura_Bassi'><button className='slider-button'>{t('footer.more')}</button></HashLink>
-              </p>
-            </div>
-            <div className='card'>
-              <img className='product--image'
-              src={faure} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Fauré Gabriel</h4>
+              src={goncourt_brothers} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Jules and Edmond de Goncourt</h4>
               <p className='slider-p'>French</p>
-              <p className='slider-p'>Poet, novelist and essayist and social critic</p>
+              <p className='slider-p'>Writers who, as collaborative sibling authors, were inseparable in life.</p>
               <p>
-                <HashLink to='https://fr.wikipedia.org/wiki/Gabriel_Faur%C3%A9'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/fr/goncourt'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
-              <p>
-                <button className='slider-button'>{t('footer.more')}</button>
-              </p>
-            </div>
-            <div className='card'>
-              <img className='product--image'
-              src={remusat} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Charles Rémusat</h4>
+              src={montaigne} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Michel de Montaigne</h4>
               <p className='slider-p'>French</p>
-              <p className='slider-p'>Politician and writer.</p>
+              <p className='slider-p'>One of the most significant philosophers of the French Renaissance.</p>
               <p>
-                <HashLink to='https://fr.wikipedia.org/wiki/Charles_de_R%C3%A9musat'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/fr/montaigne'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
-              <p>
-                <button className='slider-button'>{t('footer.more')}</button>
-              </p>
-            </div>
-            <div className='card'>
-              <img className='product--image'
-              src={voltaire} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Voltaire</h4>
+              src={lande} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Jêrome de La Lande</h4>
               <p className='slider-p'>French</p>
-              <p className='slider-p'>Enlightenment writer, historian, and philosopher.</p>
+              <p className='slider-p'>Astronomer, freemason and writer.</p>
               <p>
-                <HashLink to='https://fr.wikipedia.org/wiki/Voltaire'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/fr/lande'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name </h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              src={bazin} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>René Bazin</h4>
+              <p className='slider-p'>French</p>
+              <p className='slider-p'>Novelist.</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
+                <HashLink to='../maps/travellers/fr/bazin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+              </p>
+            </div>
+            <div className='card'>
+              <img className='product--image'
+              src={de_staël} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Madame De Staël Holstein</h4>
+              <p className='slider-p'>French</p>
+              <p className='slider-p'>Woman of letters and political theorist.</p>
+              <p>
+                <HashLink to='../maps/travellers/fr/destael'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+              </p>
+            </div>
+            <div className='card'>
+              <img className='product--image'
+              src={taine} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Hippolyte Taine</h4>
+              <p className='slider-p'>French</p>
+              <p className='slider-p'>Historian, critic and philosopher.</p>
+              <p>
+                <HashLink to='../maps/travellers/fr/taine'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>

@@ -8,6 +8,9 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import muratov from "../../../../assets/imgs/travellers/dmitry_muratov.jfif";
 import nikitenko from "../../../../assets/imgs/travellers/Alexandre_Nikitenko.jpg";
 import pokvrosky from "../../../../assets/imgs/travellers/Nikolai_Pokrovsky.jpg";
+import glagolev from "../../../../assets/imgs/travellers/ru/Alexandr_Glagolev.jpg";
+import fonzivin from "../../../../assets/imgs/travellers/ru/Denis_Fonvizin2.jpg";
+import tolstoj from "../../../../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
@@ -66,72 +69,52 @@ function RussianTravellers() {
           >
             <div id="traveller-card" className='card'>
               <img id='fixed' className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description</p>
+              src={tolstoj} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Pëtr Andreevič Tolstoj</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Tolstoj_text_carousel')}.</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Laura_Bassi'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/ru/tolstoj'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={muratov} alt='Muratov'></img>
-              <h4 className='slider-h2'>Dmitry Andreyevich Muratov</h4>
-              <p className='slider-p'>Russian</p>
-              <p className='slider-p'>Journalist, television presenter and the editor-in-chief of the Russian newspaper Novaya Gazeta.</p>
+              src={portrait_placeholder} alt='Muratov'></img>
+              <h4 className='slider-h2'>Pavel Pavlovič Muratov</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Muratov_text_carousel')}.</p>
               <p>
-                <HashLink to='https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D1%80%D0%B0%D1%82%D0%BE%D0%B2,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%B8%D1%87'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/ru/muratov'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              src={fonzivin} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Denis Ivanovič Fonvizin</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Fonzivin_text_carousel')}.</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
-              </p>
-            </div>
-            <div className='card'>
-              <img className='product--image'
-              src={nikitenko} alt='Nikitenko'></img>
-              <h4 className='slider-h2'>Aleksandr Nikitenko</h4>
-              <p className='slider-p'>??Russian</p>
-              <p className='slider-p'>Prominent literary historian.</p>
-              <p>
-                <HashLink to='https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/ru/fonzivin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              <h4 className='slider-h2'>Andrej Gavrilovič Glagolev</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Glagolev_text_carousel')}</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
-              </p>
-            </div>
-            <div className='card'>
-              <img className='product--image'
-              src={pokvrosky} alt='Pokrovsky'></img>
-              <h4 className='slider-h2'>Nikolai Nikolayevich Pokrovsky</h4>
-              <p className='slider-p'>Russian</p>
-              <p className='slider-p'>Politician and the last foreign minister of the Russian Empire.</p>
-              <p>
-                <HashLink to='https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_(%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C)'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/ru/glagolev'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              <h4 className='slider-h2'>Nikolaj Ivanovič Greč</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Grec_text_carousel')}</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
+                <HashLink to='../maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>

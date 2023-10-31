@@ -15,11 +15,12 @@ import docufilm from '../assets/imgs/bassi_docufilm.jpg';
 import food from '../assets/imgs/routes/tortellini_Angelo_Muratore.jpg';
 import porticoes from '../assets/imgs/Portici_Bologna_02.jpg';
 import unibo from '../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg';
-import bassi from '../assets/imgs/travellers/Laura_Bassi.jpg';
+import appennino from '../assets/imgs/appennino.jpg'
+import madame from '../assets/imgs/travellers/fr/Mme_de_Staël.jpg';
 import dickens from "../assets/imgs/travellers/Dickens.jpg";
-import figueroa from "../assets/imgs/travellers/Alvaro_Figueroa.png"
-import lady from "../assets/imgs/travellers/lady_miller.PNG";
-import moratin from "../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
+import tolstoj from "../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg"
+import cervantes from "../assets/imgs/travellers/es/miguel_cervantes.jpg";
+import lee from "../assets/imgs/travellers/en/Vernone_Lee-Violet_Page.jpg";
 // Carousel 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -65,7 +66,7 @@ function Body() {
   return (
     <>
     <div className='container-fluid' id='section-container-white'>
-    <h1 id='left' className='section'>UniVOCIttà</h1>
+    <h1 id='left' className='section'>UniVOCIttà: voci digitali sull'unicità del patrimonio bolognese</h1>
       <p>{t('body.univocitta_text')}</p>
       <div>
         <Link to='../project'>
@@ -85,40 +86,40 @@ function Body() {
             >
               <div className='card'>
                 <img className='product--image'
-                src={bassi}></img>
-                <h4 className='body-card-h'>Name</h4>
-                <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
                 src={dickens}></img>
-                <h4 className='body-card-h'>Name</h4>
+                <h4 className='body-card-h'>Charles Dickens</h4>
                 <p>
                   <button className='body-slider-button'>{t('footer.more')}</button>
                 </p>
               </div>
               <div className='card'>
                 <img className='product--image'
-                src={figueroa}></img>
-                <h4 className='body-card-h'>Name</h4>
+                src={madame}></img>
+                <h4 className='body-card-h'>Madame De Staël</h4>
                 <p>
                   <button className='body-slider-button'>{t('footer.more')}</button>
                 </p>
               </div>
               <div className='card'>
                 <img className='product--image'
-                src={lady}></img>
-                <h4 className='body-card-h'>Name</h4>
+                src={tolstoj}></img>
+                <h4 className='body-card-h'>Pëtr Andreevič Tolstoj</h4>
                 <p>
                   <button className='body-slider-button'>{t('footer.more')}</button>
                 </p>
               </div>
               <div className='card'>
                 <img className='product--image'
-                src={moratin}></img>
-                <h4 className='body-card-h'>Name</h4>
+                src={lee}></img>
+                <h4 className='body-card-h'>Vernon Lee</h4>
+                <p>
+                  <button className='body-slider-button'>{t('footer.more')}</button>
+                </p>
+              </div>
+              <div className='card'>
+                <img className='product--image'
+                src={cervantes}></img>
+                <h4 className='body-card-h'>Miguel de Cervantes</h4>
                 <p>
                   <button className='body-slider-button'>{t('footer.more')}</button>
                 </p>
@@ -148,7 +149,7 @@ function Body() {
                 ></img>
                 <h4 className='body-card-h'>Museums</h4>
                 <p>
-                  <HashLink to='../maps/routes'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
+                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -159,7 +160,7 @@ function Body() {
                 ></img>
                 <h4 className='body-card-h'>Food</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -170,7 +171,20 @@ function Body() {
                 ></img>
                 <h4 className='body-card-h'>Women</h4>
                 <p>
+                  <HashLink to='/maps/women'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
+                </p>
+              </div>
+              <div className='card'>
+                <img className='product--image'
+                  src={appennino}
+                  alt= "Portici di Bologna"
+                  copyright= "Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
+                ></img>
+                <h4 className='body-card-h'>Appennino</h4>
+                <p>
+                <Link to='/maps/appennino'>
                   <button className='body-slider-button'>{t('footer.more')}</button>
+                </Link>
                 </p>
               </div>
               <div className='card'>
@@ -181,7 +195,9 @@ function Body() {
                 ></img>
                 <h4 className='body-card-h'>UNESCO</h4>
                 <p>
+                <Link to='../coming'>
                   <button className='body-slider-button'>{t('footer.more')}</button>
+                </Link>
                 </p>
               </div>
               <div className='card'>
@@ -192,7 +208,7 @@ function Body() {
                 ></img>
                 <h4 className='body-card-h'>University</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
           </Carousel>
