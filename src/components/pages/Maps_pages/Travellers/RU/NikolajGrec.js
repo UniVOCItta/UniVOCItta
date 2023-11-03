@@ -1,5 +1,5 @@
 import React from 'react';
-import taine from "../../../../../assets/imgs/travellers/fr/Hippolyte_Taine.jpg";
+import grec from "../../../../../assets/imgs/travellers/ru/Nikolay_Grech.jpg";
 import portrait from "../../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Router-dom
 import { HashLink } from 'react-router-hash-link';
@@ -36,7 +36,7 @@ function TravellerPage() {
         <Breadcrumb.Item active>Nikolaj Ivanovič Greč</Breadcrumb.Item>
     </Breadcrumb>
       <h1>Nikolaj Ivanovič Greč</h1>
-      <img src={portrait} className='traveller-page'></img>
+      <img src={grec} className='traveller-page'></img>
       <div className='traveller-description'>
         <p><strong>Nationality</strong>: {t('travellers.ru_nationality')}</p>
         <p><strong>Lifetime</strong>: 1787-1867</p>

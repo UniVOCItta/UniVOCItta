@@ -5,10 +5,11 @@ import { HashLink } from 'react-router-hash-link';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 // Imgs
-import muratov from "../../../../assets/imgs/travellers/dmitry_muratov.jfif";
+import muratov from "../../../../assets/imgs/travellers/ru/muratov.jpg";
 import nikitenko from "../../../../assets/imgs/travellers/Alexandre_Nikitenko.jpg";
 import pokvrosky from "../../../../assets/imgs/travellers/Nikolai_Pokrovsky.jpg";
 import glagolev from "../../../../assets/imgs/travellers/ru/Alexandr_Glagolev.jpg";
+import grec from "../../../../assets/imgs/travellers/ru/Nikolay_Grech.jpg";
 import fonzivin from "../../../../assets/imgs/travellers/ru/Denis_Fonvizin2.jpg";
 import tolstoj from "../../../../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
@@ -79,7 +80,7 @@ function RussianTravellers() {
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Muratov'></img>
+              src={muratov} alt='Muratov'></img>
               <h4 className='slider-h2'>Pavel Pavlovič Muratov</h4>
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Muratov_text_carousel')}.</p>
@@ -109,7 +110,7 @@ function RussianTravellers() {
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
+              src={grec} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Nikolaj Ivanovič Greč</h4>
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Grec_text_carousel')}</p>

@@ -5,8 +5,13 @@ import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+// Translation
+import { useTranslation } from "react-i18next";
 
 function TravellerPage() {
+
+  const { t } = useTranslation();
+
   return (
     <>
     <div className='container-fluid'>
@@ -24,7 +29,7 @@ function TravellerPage() {
         </Breadcrumb.Item>
         <Breadcrumb.Item>
           <HashLink smooth to="/maps/travellers/spanish_travellers" id='crumb'>
-           English Travellers
+           Spanish Travellers
           </HashLink>
         </Breadcrumb.Item>
         <Breadcrumb.Item active>Cristóbal de Villalón</Breadcrumb.Item>
@@ -32,11 +37,11 @@ function TravellerPage() {
       <h1>Cristóbal de Villalón</h1>
       <img src={portrait} className='traveller-page'></img>
       <div className='traveller-description'>
-        <p><strong>Nationality</strong>: Spanish</p>
-        <p><strong>Lifetime</strong>: ...</p>
-        <p><strong>Occupation</strong>: ...</p>
-        <p><strong>Visited Bologna in</strong>: 0000/something century</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [<HashLink to='https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Villal%C3%B3n'>Wikipedia</HashLink>]</p>
+        <p><strong>Nationality</strong>: {t('travellers.es_nationality')}</p>
+        <p><strong>Lifetime</strong>: 1501- ?</p>
+        <p><strong>Occupation</strong>: {t('travellers.es_Villalon_occupation')}</p>
+        {/*<p><strong>Visited Bologna in</strong>: 0000/something century</p>*/}
+        <p dangerouslySetInnerHTML={{ __html: t('travellers.es_Villalon_text')}}></p>
         <h4>Fragments</h4>
         <ul className='traveller-fragments'>
           <li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</li>

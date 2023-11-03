@@ -89,7 +89,7 @@ function Body() {
                 src={dickens}></img>
                 <h4 className='body-card-h'>Charles Dickens</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../maps/travellers/en/dickens'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -97,7 +97,7 @@ function Body() {
                 src={madame}></img>
                 <h4 className='body-card-h'>Madame De Staël</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../maps/travellers/fr/destael'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -105,7 +105,7 @@ function Body() {
                 src={tolstoj}></img>
                 <h4 className='body-card-h'>Pëtr Andreevič Tolstoj</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../maps/travellers/ru/tolstoj'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -113,7 +113,7 @@ function Body() {
                 src={lee}></img>
                 <h4 className='body-card-h'>Vernon Lee</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../maps/travellers/en/lee'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -121,7 +121,7 @@ function Body() {
                 src={cervantes}></img>
                 <h4 className='body-card-h'>Miguel de Cervantes</h4>
                 <p>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
+                  <HashLink to='../maps/travellers/es/cervantes'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
                 </p>
               </div>
           </Carousel>

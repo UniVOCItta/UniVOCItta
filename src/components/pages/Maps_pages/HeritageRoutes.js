@@ -125,6 +125,24 @@ const HeritageRoutes = () => {
           tag_3: "tag"
       }
     },
+    {
+      id: 4,
+      category: "Appennino",
+      title: "A title",
+      time: "5 min",
+      km: "10km",
+      path: "Intermediate",
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg'),
+      copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+      more: "Find out more",
+      link: "/maps/appennino",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
   ];
 
   return (

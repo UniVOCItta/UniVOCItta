@@ -13,6 +13,10 @@ import lady from "../../../assets/imgs/travellers/lady_miller.PNG";
 import moratin from "../../../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
 import cervantes from "../../../assets/imgs/travellers/miguel_cervantes.jpg";
 import voltaire from "../../../assets/imgs/travellers/voltaire.jpg";
+import madame from "../../../assets/imgs/travellers/fr/Mme_de_Staël.jpg";
+import stendhal from "../../../assets/imgs/travellers/fr/Stendhal.jpg";
+import lee from "../../../assets/imgs/travellers/en/Vernone_Lee-Violet_Page.jpg";
+import tolstoj from "../../../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg";
 // Icons
 import * as FaIcons from 'react-icons/fa';
 // Multi-carousel
@@ -75,79 +79,71 @@ function Travellers() {
           responsive={responsive}
           infinite={true}
           >
-            <div id="traveller-card" className='card'>
-              <img id='fixed' className='product--image'
-              src={bassi} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Laura Bassi</h4>
-              <p className='slider-p'>Italian</p>
-              <p className='slider-p'>Physicist and academic.</p>
-              <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Laura_Bassi'><button className='slider-button'>More</button></HashLink>
-              </p>
-            </div>
             <div className='card'>
               <img className='product--image'
               src={dickens} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Charles Dickens</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Writer and social critic</p>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Dickens_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/en/dickens'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={figueroa} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Alvaro Figueroa</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Politician and businessman.</p>
+              src={madame} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Madame De Staël</h4>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Stael_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/fr/destael'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={lady} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Lady Miller</h4>
-              <p className='slider-p'>English</p>
-              <p className='slider-p'>Poet, travel writer, heiress and salon hostess.</p>
+              src={tolstoj} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Pëtr Andreevič Tolstoj</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Tolstoj_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/ru/tolstoj'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={moratin} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Leandro Moratìn</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Dramatist, translator and neoclassical poet.</p>
+              src={lee} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Vernon Lee</h4>
+              <p className='slider-p'>{t('travellers.en_nationality')}</p>
+              <p className='slider-p'>{t('travellers.en_Lee_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/en/lee'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={cervantes} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Miguel de Cervantes</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Early Modern writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists.</p>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Cervantes_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/es/cervantes'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={voltaire} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Voltaire</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Enlightenment writer, historian, and philosopher.</p>
+              src={stendhal} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Stendhal</h4>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Stendhal_text_carousel')}</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/fr/stendhal'><button className='slider-button'>More</button></HashLink>
               </p>
             </div>
           </Carousel>
+          {/*
           <HashLink to='travellerpage'>Link to traveller page</HashLink>
           <HashLink to='en/dickens'>Link to Dickens</HashLink>
+          */}
     </div>
     </>
   )

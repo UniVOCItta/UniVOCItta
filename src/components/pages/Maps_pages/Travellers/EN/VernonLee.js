@@ -41,7 +41,7 @@ function TravellerPage() {
         <p><strong>Nationality</strong>: {t('travellers.en_nationality')}</p>
         <p><strong>Lifetime</strong>: 1856-1935</p>
         <p><strong>Occupation</strong>: {t('travellers.en_Lee_occupation')}</p>
-        <p><strong>Visited Bologna in</strong>: 0000/something century</p>
+        {/*<p><strong>Visited Bologna in</strong>: 0000/something century</p>*/}
         <p dangerouslySetInnerHTML={{ __html: t('travellers.en_Lee_text')}}></p>
         <h4>Fragments</h4>
         <ul className='traveller-fragments'>

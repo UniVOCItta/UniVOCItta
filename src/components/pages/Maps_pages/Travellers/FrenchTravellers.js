@@ -15,6 +15,7 @@ import bazin from "../../../../assets/imgs/travellers/fr/Rene_Bazin.jpg";
 import lande from "../../../../assets/imgs/travellers/fr/Jérôme_de_La_Lande.jpg";
 import montaigne from "../../../../assets/imgs/travellers/fr/Michel_de_Montaigne.jpg";
 import goncourt_brothers from "../../../../assets/imgs/travellers/fr/Goncourt_brothers.jpg";
+import stendhal from "../../../../assets/imgs/travellers/fr/Stendhal.jpg";
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -73,9 +74,9 @@ function FrenchTravellers() {
             <div id="traveller-card" className='card'>
               <img id='fixed' className='product--image'
               src={goncourt_brothers} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Jules and Edmond de Goncourt</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Writers who, as collaborative sibling authors, were inseparable in life.</p>
+              <h4 className='slider-h2'>J. & E. de Goncourt</h4>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Goncourt_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/goncourt'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
@@ -84,8 +85,8 @@ function FrenchTravellers() {
               <img className='product--image'
               src={montaigne} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Michel de Montaigne</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>One of the most significant philosophers of the French Renaissance.</p>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Montaigne_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/montaigne'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
@@ -94,8 +95,8 @@ function FrenchTravellers() {
               <img className='product--image'
               src={lande} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Jêrome de La Lande</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Astronomer, freemason and writer.</p>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Lande_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/lande'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
@@ -104,8 +105,8 @@ function FrenchTravellers() {
               <img className='product--image'
               src={bazin} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>René Bazin</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Novelist.</p>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Bazin_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/bazin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
@@ -113,9 +114,9 @@ function FrenchTravellers() {
             <div className='card'>
               <img className='product--image'
               src={de_staël} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Madame De Staël Holstein</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Woman of letters and political theorist.</p>
+              <h4 className='slider-h2'>Madame De Staël</h4>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Stael_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/destael'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
@@ -124,10 +125,20 @@ function FrenchTravellers() {
               <img className='product--image'
               src={taine} alt='Portrait placeholder'></img>
               <h4 className='slider-h2'>Hippolyte Taine</h4>
-              <p className='slider-p'>French</p>
-              <p className='slider-p'>Historian, critic and philosopher.</p>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Taine_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/fr/taine'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+              </p>
+            </div>
+            <div className='card'>
+              <img className='product--image'
+              src={stendhal} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Stendhal</h4>
+              <p className='slider-p'>{t('travellers.fr_nationality')}</p>
+              <p className='slider-p'>{t('travellers.fr_Stendhal_text_carousel')}</p>
+              <p>
+                <HashLink to='../maps/travellers/fr/stendhal'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>

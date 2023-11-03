@@ -1,13 +1,18 @@
 import React from 'react';
-import baroja from "../../../../../assets/imgs/travellers/es/Pío_Baroja.jpg";
+import stael from "../../../../../assets/imgs/travellers/fr/Mme_de_Staël.jpg";
 import portrait from "../../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Router-dom
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+// Translation
+import { useTranslation } from "react-i18next";
 
 function TravellerPage() {
+
+  const { t } = useTranslation(); 
+
   return (
     <>
     <div className='container-fluid'>
@@ -31,13 +36,13 @@ function TravellerPage() {
         <Breadcrumb.Item active>Madame De Staël Holstein</Breadcrumb.Item>
     </Breadcrumb>
       <h1>Madame De Staël Holstein</h1>
-      <img src={baroja} className='traveller-page'></img>
+      <img src={stael} className='traveller-page'></img>
       <div className='traveller-description'>
-        <p><strong>Nationality</strong>: French</p>
+        <p><strong>Nationality</strong>: {t('travellers.fr_nationality')}</p>
         <p><strong>Lifetime</strong>: 1766-1817</p>
-        <p><strong>Occupation</strong>: ...</p>
-        <p><strong>Visited Bologna in</strong>: 0000/something century</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [<HashLink to='https://es.wikipedia.org/wiki/P%C3%ADo_Baroja'>Wikipedia</HashLink>]</p>
+        <p><strong>Occupation</strong>: {t('travellers.fr_Stael_occupation')}</p>
+        {/*<p><strong>Visited Bologna in</strong>: 0000/something century</p>*/}
+        <p dangerouslySetInnerHTML={{ __html: t('travellers.fr_Stael_text')}}></p>
         <h4>Fragments</h4>
         <ul className='traveller-fragments'>
           <li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</li>

@@ -45,6 +45,7 @@ import JeromeLande from './components/pages/Maps_pages/Travellers/FR/JeromedeLaL
 import MadameDeStael from './components/pages/Maps_pages/Travellers/FR/MadameDeStael';
 import MicheldeMontaigne from './components/pages/Maps_pages/Travellers/FR/MicheldeMontaigne';
 import ReneBazin from './components/pages/Maps_pages/Travellers/FR/ReneBazin';
+import Stendhal from './components/pages/Maps_pages/Travellers/FR/Stendhal';
 // ES
 import BenitoGaldos from './components/pages/Maps_pages/Travellers/ES/BenitoPerezGaldos';
 import CarmendeBurgos from './components/pages/Maps_pages/Travellers/ES/CarmenBurgos';
@@ -132,6 +133,7 @@ function App() {
                       <Route path='maps/travellers/fr/destael' element={<MadameDeStael/>}/> 
                       <Route path='maps/travellers/fr/montaigne' element={<MicheldeMontaigne/>}/> 
                       <Route path='maps/travellers/fr/bazin' element={<ReneBazin/>}/>
+                      <Route path='maps/travellers/fr/stendhal' element={<Stendhal/>}/>
                       {/*ES travellers*/}
                       <Route path='maps/travellers/es/galdos' element={<BenitoGaldos/>}/>   
                       <Route path='maps/travellers/es/burgos' element={<CarmendeBurgos/>}/> 

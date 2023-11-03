@@ -6,8 +6,13 @@ import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+// Translation
+import { useTranslation } from "react-i18next";
 
 function TravellerPage() {
+
+  const { t } = useTranslation();
+
   return (
     <>
     <div className='container-fluid'>
@@ -28,16 +33,16 @@ function TravellerPage() {
            French Travellers
           </HashLink>
         </Breadcrumb.Item>
-        <Breadcrumb.Item active>Jérôme de Lalande</Breadcrumb.Item>
+        <Breadcrumb.Item active>Jérôme de la Lande</Breadcrumb.Item>
     </Breadcrumb>
-      <h1>Jérôme de Lalande</h1>
+      <h1>Jérôme de la Lande</h1>
       <img src={lalande} className='traveller-page'></img>
       <div className='traveller-description'>
-        <p><strong>Nationality</strong>: French</p>
+        <p><strong>Nationality</strong>: {t('travellers.fr_nationality')}</p>
         <p><strong>Lifetime</strong>: 1732-1807</p>
-        <p><strong>Occupation</strong>: ...</p>
-        <p><strong>Visited Bologna in</strong>: 0000/something century</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [<HashLink to='https://fr.wikipedia.org/wiki/Joseph_J%C3%A9r%C3%B4me_Lefran%C3%A7ois_de_Lalande'>Wikipedia</HashLink>]</p>
+        <p><strong>Occupation</strong>: {t('travellers.fr_Lande_occupation')}</p>
+        {/*<p><strong>Visited Bologna in</strong>: 0000/something century</p>*/}
+        <p dangerouslySetInnerHTML={{ __html: t('travellers.fr_Lande_text')}}></p>
         <h4>Fragments</h4>
         <ul className='traveller-fragments'>
           <li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</li>

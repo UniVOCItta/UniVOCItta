@@ -1,5 +1,6 @@
 import React from 'react';
 import muratov from "../../../../../assets/imgs/travellers/ru/dmitry_muratov.webp";
+import real_muratov from "../../../../../assets/imgs/travellers/ru/muratov.jpg";
 import portrait from "../../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Router-dom
 import { HashLink } from 'react-router-hash-link';
@@ -36,7 +37,7 @@ function TravellerPage() {
         <Breadcrumb.Item active>Pavel Pavlovič Muratov</Breadcrumb.Item>
     </Breadcrumb>
       <h1>Pavel Pavlovič Muratov</h1>
-      <img src={portrait} className='traveller-page'></img>
+      <img src={real_muratov} className='traveller-page'></img>
       <div className='traveller-description'>
         <p><strong>Nationality</strong>: {t('travellers.ru_nationality')}</p>
         <p><strong>Lifetime</strong>: 1881-1950</p>
