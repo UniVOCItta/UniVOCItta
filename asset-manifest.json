@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UniVOCItta/static/css/main.e4a8930f.css",
-    "main.js": "/UniVOCItta/static/js/main.813e42a4.js",
+    "main.js": "/UniVOCItta/static/js/main.89748ff0.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/museo_mineralogia_Antonio_Todero.jpg": "/UniVOCItta/static/media/museo_mineralogia_Antonio_Todero.4cbc987cbaf3cded067b.jpg",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.0556b58a3805a8bf77f0.jpg",
@@ -138,10 +138,10 @@
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.e4a8930f.css.map": "/UniVOCItta/static/css/main.e4a8930f.css.map",
-    "main.813e42a4.js.map": "/UniVOCItta/static/js/main.813e42a4.js.map"
+    "main.89748ff0.js.map": "/UniVOCItta/static/js/main.89748ff0.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a8930f.css",
-    "static/js/main.813e42a4.js"
+    "static/js/main.89748ff0.js"
   ]
 }
