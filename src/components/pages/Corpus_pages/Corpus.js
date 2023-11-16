@@ -40,10 +40,12 @@ export default function Corpus() {
         {/* IMG BACKGROUND */}
         <div className="img_wrap">
             <img id='img-background' src={corpus} copyright='©Università di Bologna' className='img-fluid'/>
+            {/*
             <div className='img-content'>
                 <h1 className='img-title-black'>CORPUS</h1>
                 <Link to='#'><Button className='corpus-button' variant="dark">Button</Button></Link>
             </div>
+            */}
         </div>
         <div className='container-fluid'>
         {/* CORPUS */}

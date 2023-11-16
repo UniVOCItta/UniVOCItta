@@ -93,10 +93,12 @@ export default function About() {
         <>
         {/* IMG BACKGROUND */}
         <img id='img-background' src={uni} alt='Via Cartoleria, 5 - Dipartimento LILEC' copyright='©Università di Bologna' className='img-fluid'/>
+        {/*}
         <div className='img-content'>
           <h1 className='img-title'>ABOUT US</h1>
           <Link to='#'><Button className='corpus-button' variant="dark">Button</Button></Link>
         </div>
+        */}
         <div className='container-fluid'>
         {/* ABOUT US */}
         <h1 className='about'>{t('about.about')}</h1>
@@ -251,6 +253,7 @@ export default function About() {
             </div>
             <br/>
             <div id ="figurine" className="row g-4 justify-content-center">
+              {/*
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
                   <div className="card-body text-center">
@@ -302,6 +305,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
+            */}
             </div>
             <br/>
             {/* Tirocinanti 

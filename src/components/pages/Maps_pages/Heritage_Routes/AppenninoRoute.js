@@ -107,7 +107,7 @@ const coordinates = [
   [44.383333, 11.333333], // 3. Pianoro
   [44.325736, 11.332990], // 4. Livergnano 
   [44.266667, 11.316567], // 5. Loiano 
-  [44.500833, 11.356944], // 6. Osservatorio di Loiano
+  [44.259153, 11.334404], // 6. Osservatorio di Loiano
   [44.216667, 11.316667] // 7 Monghidoro
 ];
 

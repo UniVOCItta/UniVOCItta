@@ -22,9 +22,10 @@ export default function Maps() {
         {/* IMG BACKGROUND */}
         <div className="img_wrap">
             <img id='img-background' src={bologna_360} copyright='free' className='img-fluid'/>
-                <div className='img-content'>
+                {/*<div className='img-content'>
                     <h1 className='img-title'>Maps</h1>
                 </div>
+                */}
         </div>
         <div id='map' className='container-fluid'>
             {/* Maps */}

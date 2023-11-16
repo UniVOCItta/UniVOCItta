@@ -19,12 +19,14 @@ export default function Project() {
       <div className='video-container'>
         <video src={bologna_video} alt='Video by <a href="https://pixabay.com/users/caelan-12802865/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=51131">Caelan Kelley</a> ' autoPlay loop muted />
         <div className='video-content'>
+          {/*
           <h1 className='video-title'>Title</h1>
           <Link to='/corpus'>
             <Button className='corpus-button' variant='dark'>
               {t('project.button')}
             </Button>
           </Link>
+          */}
         </div>
       </div>
       <div className='container-fluid'>
