@@ -1,0 +1,57 @@
+{
+    "comment": "SPANISH",  
+
+    "language": "Idioma",
+    "en": "Inglés",
+    "it": "Italiano",
+    "fr": "Francés",
+    "es": "Español",
+    "ru": "Ruso",
+
+    "navbar_home": "Home",
+    "navbar_project": "Proyecto",
+    "navbar_project_univocitta": "UniVOCIttà",
+    "navbar_project_aim": "Objetivo",
+    "navbar_about": "En torno a",
+    "navbar_about_team": "Equipo",
+    "navbar_about_institution": "Instituciones y partners",
+    "navbar_about_contact": "Contactos",
+    "navbar_corpus": "Corpus",
+    "navbar_corpus_overview": "Resumen",
+    "navbar_corpus_lang": "Idiomas",
+    "navbar_corpus_query": "Consulta",
+    "navbar_map": "Mapas",
+    "navbar_map_overview": "Resumen",
+    "navbar_map_places": "Sitios",
+    "navbar_map_routes": "Itinerarios",
+    "navbar_map_travellers": "Viajeros",
+
+    "univocittà": "Univocittà",
+    "univocitta_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "corpus": "Corpus",
+    "corpus_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "places": "Sitios",
+    "places_text": "Lorem ipsum",
+    "routes": "Itinerarios",
+    "routes_text": "Lorem ipsum",
+    "travellers": "Viajeros",
+
+    "project_aim": "Objetivo",
+    
+    "about": "En torno a",
+    "about_team": "Equipo",
+    "about_institution": "Instituciones y partners",
+    "about_contact": "Contactos",
+
+    "user_greeting": "Hola,",
+    "user_detail": "Detalles del perfil",
+    "favourites": "Favoritos",
+    "visited_places": "Lugares visitados",
+    "booksmarks": "Marcadores",
+    "plan": "Planifica tu viaje",
+    "settings": "AJUSTES",
+    "logout": "LOGOUT",
+
+    "footer_about": "En torno a",
+    "footer_more": "Más"
+}
