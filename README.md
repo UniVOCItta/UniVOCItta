@@ -81,7 +81,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # App conversion and build
 Using [capacitorjs](https://capacitorjs.com/solution/react)
-.
+- npm run build
+- npx cap sync
+
+
 # Sync & Update
 - Before starting working: ./sync.sh 
 - After working: ./update.sh

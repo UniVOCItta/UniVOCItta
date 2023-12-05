@@ -21,7 +21,7 @@ function Footer() {
             <ul className="list-unstyled d-flex flex-row justify-content-center">
               <li><Link className='fa-footer' to='https://www.facebook.com/profile.php?id=100091523413697'><FaIcons.FaFacebook/></Link></li>
               <li><Link className='fa-footer' to='https://www.instagram.com/univocitta/'><FaIcons.FaInstagram/></Link></li>
-              <li><Link className='fa-footer' to='https://github.com/UniVOCItta/UniVOCItta'><FaIcons.FaGithub/></Link></li>
+              <li><Link className='fa-footer' to='https://github.com/UniVOCItta'><FaIcons.FaGithub/></Link></li>
             </ul>
           </Row>
       </Col>
