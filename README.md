@@ -83,7 +83,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Using [capacitorjs](https://capacitorjs.com/solution/react)
 - npm run build
 - npx cap sync
-
+- npx cap run ios
+- npx cap run android
 
 # Sync & Update
 - Before starting working: ./sync.sh 
