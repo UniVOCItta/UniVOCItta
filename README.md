@@ -81,3 +81,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # App conversion and build
 Using [capacitorjs](https://capacitorjs.com/solution/react)
+.
+# Sync & Update
+- Before starting working: ./sync.sh 
+- After working: ./update.sh
+
+# push on Github pages
+- (only the first time): npm install gh-pages --save-dev
+- (only the first time): npm install
+- npm run build
+- npm run deploy
+- check if evrything is ok after at least 10min here: [https://univocitta.github.io/UniVOCItta/](https://univocitta.github.io/UniVOCItta/)

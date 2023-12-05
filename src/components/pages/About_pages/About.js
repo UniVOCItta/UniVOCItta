@@ -3,11 +3,15 @@ import '../../../App.css';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 // Bootstrap
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Row, Col } from 'react-bootstrap';
 // Imgs
 import team from '../../../assets/imgs/team.jpg';
 import uni from '../../../assets/imgs/via_cartoleria_UNIBO.jpg';
 import locationIcon from '../../../assets/imgs/maps-icon.png';
+import placeholder from '../../../assets/imgs/placeholder.png';
+import unibo_logo from '../../../assets/imgs/logos/unibo_logo.jpg';
+import lilec_logo from '../../../assets/imgs/logos/lilec_logo.jpg';
+import lab_logo from '../../../assets/imgs/logos/lab_logo.png'
 // Icons
 import * as FaIcons from 'react-icons/fa';
 import * as FiIcons from 'react-icons/fi';
@@ -26,6 +30,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 // Translation
 import { useTranslation } from "react-i18next";
+
 
 
 function LeafletgeoSearch() {
@@ -88,10 +93,12 @@ export default function About() {
         <>
         {/* IMG BACKGROUND */}
         <img id='img-background' src={uni} alt='Via Cartoleria, 5 - Dipartimento LILEC' copyright='©Università di Bologna' className='img-fluid'/>
+        {/*}
         <div className='img-content'>
           <h1 className='img-title'>ABOUT US</h1>
           <Link to='#'><Button className='corpus-button' variant="dark">Button</Button></Link>
         </div>
+        */}
         <div className='container-fluid'>
         {/* ABOUT US */}
         <h1 className='about'>{t('about.about')}</h1>
@@ -246,6 +253,7 @@ export default function About() {
             </div>
             <br/>
             <div id ="figurine" className="row g-4 justify-content-center">
+              {/*
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
                   <div className="card-body text-center">
@@ -297,6 +305,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
+            */}
             </div>
             <br/>
             {/* Tirocinanti 
@@ -329,6 +338,18 @@ export default function About() {
             {/* Institutions and Partners */}
             <h2 id='partners'>{t('about.institution')}</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Row>
+                  <Col>
+                  <img src={unibo_logo}></img>
+                  </Col>
+                  <Col>
+                  <img src={lilec_logo}></img>
+                  </Col>
+                  <Col>
+                  <img src={lab_logo}></img>
+                  </Col>
+                </Row>
+            
             {/* Contacts */}
             <h2 id='contacts'>{t('about.contact')}</h2>
                 <p dangerouslySetInnerHTML={{ __html: t('about.contact_text') }}></p>

@@ -18,13 +18,49 @@ import Places from './components/pages/Maps_pages/Places';
 import SinglePlace from './components/pages/Maps_pages/Places/SinglePlace';
 import HeritageRoutes from './components/pages/Maps_pages/HeritageRoutes';
 import RouteDetails from './components/pages/Maps_pages/Heritage_Routes/RouteDetails';
+//Routes 
 import MuseumRoute from './components/pages/Maps_pages/Heritage_Routes/MuseumRoute';
+import WomenRoute from './components/pages/Maps_pages/Heritage_Routes/WomenRoute';
+import AppenninoRoute from './components/pages/Maps_pages/Heritage_Routes/AppenninoRoute';
+//Travellers 
 import Travellers from './components/pages/Maps_pages/Travellers';
 import EnglishTravellers from './components/pages/Maps_pages/Travellers/EnglishTravellers';
 import FrenchTravellers from './components/pages/Maps_pages/Travellers/FrenchTravellers';
 import SpanishTravellers from './components/pages/Maps_pages/Travellers/SpanishTravellers';
 import RussianTravellers from './components/pages/Maps_pages/Travellers/RussianTravellers';
 import TravellerPage from './components/pages/Maps_pages/Travellers/TravellerPage';
+//EN 
+import CharlesDickens from './components/pages/Maps_pages/Travellers/EN/CharlesDickens';
+import FrancesTrollope from './components/pages/Maps_pages/Travellers/EN/FrancesTrollope';
+import JosephAddison from './components/pages/Maps_pages/Travellers/EN/JosephAddison';
+import LordByron from './components/pages/Maps_pages/Travellers/EN/LordByron';
+import MarianaStarke from './components/pages/Maps_pages/Travellers/EN/MarianaStarke';
+import RichardBurton from './components/pages/Maps_pages/Travellers/EN/RichardBurton';
+import RobertBrowning from './components/pages/Maps_pages/Travellers/EN/RobertBrowning';
+import VernonLee from './components/pages/Maps_pages/Travellers/EN/VernonLee';
+// FR
+import GoncourtBrothers from './components/pages/Maps_pages/Travellers/FR/BrothersGoncourt';
+import HyppoliteTaine from './components/pages/Maps_pages/Travellers/FR/HyppolyteTaine';
+import JeromeLande from './components/pages/Maps_pages/Travellers/FR/JeromedeLaLande';
+import MadameDeStael from './components/pages/Maps_pages/Travellers/FR/MadameDeStael';
+import MicheldeMontaigne from './components/pages/Maps_pages/Travellers/FR/MicheldeMontaigne';
+import ReneBazin from './components/pages/Maps_pages/Travellers/FR/ReneBazin';
+import Stendhal from './components/pages/Maps_pages/Travellers/FR/Stendhal';
+// ES
+import BenitoGaldos from './components/pages/Maps_pages/Travellers/ES/BenitoPerezGaldos';
+import CarmendeBurgos from './components/pages/Maps_pages/Travellers/ES/CarmenBurgos';
+import CristobaldeVillalon from './components/pages/Maps_pages/Travellers/ES/CristobaldeVillalon';
+import LeandroMoratin from './components/pages/Maps_pages/Travellers/ES/LeandroMoratin';
+import MigueldeCervantes from './components/pages/Maps_pages/Travellers/ES/MigueldeCervantes';
+import PedrodeAlarcon from './components/pages/Maps_pages/Travellers/ES/PedrodeAlarcon';
+import PioBaroja from './components/pages/Maps_pages/Travellers/ES/PioBaroja';
+// RU
+import AleksandrGlagolev from './components/pages/Maps_pages/Travellers/RU/AleksandrGlagolev';
+import DenisFonzivin from './components/pages/Maps_pages/Travellers/RU/DenisFonzivin';
+import DmitryMuratov from './components/pages/Maps_pages/Travellers/RU/DmitryMuratov';
+import NikolajGrec from './components/pages/Maps_pages/Travellers/RU/NikolajGrec';
+import PetrAndreevicTolstoj from './components/pages/Maps_pages/Travellers/RU/PetrAndreevicTolstoj';
+// Other imports 
 import ProfileDetails from './components/pages/Profile_pages/ProfileDetails';
 import Signin from './components/pages/Profile_pages/Signin';
 import Signup from './components/pages/Profile_pages/Signup';
@@ -73,12 +109,45 @@ function App() {
                   <Route  path='/maps/routes' element={<HeritageRoutes/>}/>
                     <Route path="/maps/routedetails/:id" component={RouteDetails} />
                     <Route  path='/maps/museum' element={<MuseumRoute/>}/>
+                    <Route  path='/maps/women' element={<WomenRoute/>}/>
+                    <Route  path='/maps/appennino' element={<AppenninoRoute/>}/>
                   <Route  path='/maps/travellers' element={<Travellers/>}/>
                     <Route path='maps/travellers/english_travellers' element={<EnglishTravellers/>}/>
                     <Route path='maps/travellers/french_travellers' element={<FrenchTravellers/>}/>
                     <Route path='maps/travellers/spanish_travellers' element={<SpanishTravellers/>}/>
                     <Route path='maps/travellers/russian_travellers' element={<RussianTravellers/>}/>
-                    <Route path='maps/travellers/maps/travellerpage' element={<TravellerPage/>}/>  
+                    <Route path='maps/travellers/travellerpage' element={<TravellerPage/>}/>  
+                      {/*EN travellers*/}
+                      <Route path='maps/travellers/en/dickens' element={<CharlesDickens/>}/>   
+                      <Route path='maps/travellers/en/trollope' element={<FrancesTrollope/>}/> 
+                      <Route path='maps/travellers/en/addison' element={<JosephAddison/>}/> 
+                      <Route path='maps/travellers/en/byron' element={<LordByron/>}/> 
+                      <Route path='maps/travellers/en/starke' element={<MarianaStarke/>}/> 
+                      <Route path='maps/travellers/en/burton' element={<RichardBurton/>}/> 
+                      <Route path='maps/travellers/en/browning' element={<RobertBrowning/>}/> 
+                      <Route path='maps/travellers/en/lee' element={<VernonLee/>}/> 
+                      {/*FR travellers*/}
+                      <Route path='maps/travellers/fr/goncourt' element={<GoncourtBrothers/>}/>   
+                      <Route path='maps/travellers/fr/taine' element={<HyppoliteTaine/>}/> 
+                      <Route path='maps/travellers/fr/lande' element={<JeromeLande/>}/> 
+                      <Route path='maps/travellers/fr/destael' element={<MadameDeStael/>}/> 
+                      <Route path='maps/travellers/fr/montaigne' element={<MicheldeMontaigne/>}/> 
+                      <Route path='maps/travellers/fr/bazin' element={<ReneBazin/>}/>
+                      <Route path='maps/travellers/fr/stendhal' element={<Stendhal/>}/>
+                      {/*ES travellers*/}
+                      <Route path='maps/travellers/es/galdos' element={<BenitoGaldos/>}/>   
+                      <Route path='maps/travellers/es/burgos' element={<CarmendeBurgos/>}/> 
+                      <Route path='maps/travellers/es/villalon' element={<CristobaldeVillalon/>}/> 
+                      <Route path='maps/travellers/es/moratin' element={<LeandroMoratin/>}/> 
+                      <Route path='maps/travellers/es/cervantes' element={<MigueldeCervantes/>}/> 
+                      <Route path='maps/travellers/es/alarcon' element={<PedrodeAlarcon/>}/> 
+                      <Route path='maps/travellers/es/baroja' element={<PioBaroja/>}/>
+                      {/*RU travellers*/}
+                      <Route path='maps/travellers/ru/glagolev' element={<AleksandrGlagolev/>}/>  
+                      <Route path='maps/travellers/ru/fonzivin' element={<DenisFonzivin/>}/> 
+                      <Route path='maps/travellers/ru/muratov' element={<DmitryMuratov/>}/> 
+                      <Route path='maps/travellers/ru/grec' element={<NikolajGrec/>}/> 
+                      <Route path='maps/travellers/ru/tolstoj' element={<PetrAndreevicTolstoj/>}/>  
               <Route  path='/signup' element={<Signup/>}/>
               <Route  path='/signin' element={<Signin/>}/>
                 <Route  path='/signin/profile' element={<ProtectedRoute><Profile/></ProtectedRoute>}/> {/*needs to be protected route*/}

@@ -36,11 +36,47 @@ const HeritageRoutes = () => {
   const routes =  [
     {
       id: 0,
+      category: "Women",
+      title: "Women Route",
+      time: "1h 30min",
+      km: "6km",
+      path: t('maps.intermediate'),
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/bassi_docufilm.jpg'),
+      copyright: "Unibo",
+      more: <a href='https://react-icons.github.io/react-icons/search?q=facebook'>"Find out more"</a>,
+      link: "/maps/women",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+    {
+      id: 1,
+      category: "Nature",
+      title: "Appennino Route",
+      time: "12h",
+      km: "50km",
+      path: t('maps.difficult'),
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/appennino.jpg'),
+      copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+      more: "Find out more",
+      link: "/maps/appennino",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+    {
+      id: 2,
       category: "Museum",
-      title: "A title",
-      time: "5 min",
-      km: "10km",
-      path: "Intermediate",
+      title: "Museum Route",
+      time: ".. min",
+      km: "..km",
+      path: t('maps.easy'),
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       img: require('../../../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg'),
       copyright: "Foto di Anna Chiara Gueraldo",
@@ -53,12 +89,12 @@ const HeritageRoutes = () => {
       }
     },
     {
-      id: 1,
+      id: 3,
       category: "University",
-      title: t('sidebar.project'),
-      time: "15 min",
-      km: "3km",
-      path: "Easy",
+      title: "University Route",
+      time: ".. min",
+      km: "..km",
+      path: t('maps.easy'),
       img: require('../../../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg'),
       copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
@@ -70,14 +106,13 @@ const HeritageRoutes = () => {
           tag_3: "tag"
       },
     },
-  
     {
-      id: 2,
+      id: 4,
       category: "Food",
-      title: "A title",
-      time: "30 min",
-      km: "5km",
-      path: "Easy",
+      title: "Food Route",
+      time: ".. min",
+      km: "..km",
+      path: t('maps.easy'),
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       img: require('../../../assets/imgs/routes/tortellini_Angelo_Muratore.jpg'),
       copyright: "Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
@@ -90,35 +125,17 @@ const HeritageRoutes = () => {
       }
     },
     {
-      id: 3,
-      category: "Women",
-      title: "A title",
-      time: "5 min",
-      km: "10km",
-      path: "Intermediate",
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      img: require('../../../assets/imgs/routes/bassi_docufilm.jpg'),
-      copyright: "Unibo",
-      more: <a href='https://react-icons.github.io/react-icons/search?q=facebook'>"Find out more"</a>,
-      link: "/coming",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
-    },
-    {
-      id: 4,
+      id: 5,
       category: "University",
       title: "A title",
-      time: "5 min",
-      km: "10km",
-      path: "Intermediate",
+      time: "..min",
+      km: "..km",
+      path: t('maps.easy'),
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       img: require('../../../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg'),
       copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       more: "Find out more",
-      link: "/coming",
+      link: "/maps/appennino",
       tag: {
           tag_1: "tag",
           tag_2: "tag",

@@ -9,6 +9,10 @@ import figueroa from "../../../../assets/imgs/travellers/Alvaro_Figueroa.png";
 import moratin from "../../../../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
 import cervantes from "../../../../assets/imgs/travellers/miguel_cervantes.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
+import burgos from "../../../../assets/imgs/travellers/es/Cármen_de_Burgos_y_Seguí.jpg";
+import alarcòn from "../../../../assets/imgs/travellers/es/Pedro_Antonio_de_Alarcón.jpg";
+import galdos from "../../../../assets/imgs/travellers/es/Benito_Pérez_Galdós.jpg";
+import baroja from "../../../../assets/imgs/travellers/es/Pío_Baroja.jpg";
 // Multi-carousel
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -66,72 +70,72 @@ function SpanishTravellers() {
           >
             <div id="traveller-card" className='card'>
               <img id='fixed' className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>Laura Bassi</h4>
-              <p className='slider-p'>Italian</p>
-              <p className='slider-p'>Physicist and academic.</p>
+              src={burgos} alt='Not stated. Unknown authorUnknown author, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons'></img>
+              <h4 className='slider-h2'>Burgos, Carmen de</h4>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Burgos_text_carousel')}.</p>
               <p>
-                <HashLink to='https://en.wikipedia.org/wiki/Laura_Bassi'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/es/burgos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={figueroa} alt='Figueroa'></img>
-              <h4 className='slider-h2'>Alvaro Figueroa</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Politician and businessman.</p>
+              src={alarcòn} alt='Alarcón, Pedro A. de'></img>
+              <h4 className='slider-h2'>Alarcón, Pedro A. de</h4>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Alarcon_text_carousel')}.</p>
               <p>
-                <HashLink to='https://es.wikipedia.org/wiki/Conde_de_Romanones'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/es/alarcon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small descriptio.</p>
+              src={galdos} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Pérez Galdós, Benito</h4>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Galdos_text_carousel')}.</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
+                <HashLink to='../maps/travellers/es/galdos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={moratin} alt='Moratìn'></img>
               <h4 className='slider-h2'>Leandro Moratìn</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Dramatist, translator and neoclassical poet.</p>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Moratin_text_carousel')}.</p>
               <p>
-                <HashLink to='https://es.wikipedia.org/wiki/Leandro_Fern%C3%A1ndez_de_Morat%C3%ADn'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/es/moratin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              <h4 className='slider-h2'>de Villalón, Cristóbal</h4>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Villalon_text_carousel')}</p>
               <p>
-                <button className='slider-button'>{t('footer.more')}</button>
+                <HashLink to='../maps/travellers/es/villalon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
               src={cervantes} alt='Cervantes'></img>
               <h4 className='slider-h2'>Miguel de Cervantes</h4>
-              <p className='slider-p'>Spanish</p>
-              <p className='slider-p'>Early Modern writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists.</p>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Cervantes_text_carousel')}.</p>
               <p>
-                <HashLink to='https://es.wikipedia.org/wiki/Miguel_de_Cervantes'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='../maps/travellers/es/cervantes'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
               <img className='product--image'
-              src={portrait_placeholder} alt='Portrait placeholder'></img>
-              <h4 className='slider-h2'>A Name</h4>
-              <p className='slider-p'>A Nationality</p>
-              <p className='slider-p'>Small description.</p>
+              src={baroja} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Pío Baroja</h4>
+              <p className='slider-p'>{t('travellers.es_nationality')}</p>
+              <p className='slider-p'>{t('travellers.es_Baroja_text_carousel')}.</p>
               <p>
-                <button className='slider-button'>More</button>
+                <HashLink to='../maps/travellers/es/baroja'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>
