@@ -3,9 +3,9 @@ import { HashLink } from 'react-router-hash-link';
 
 function CarouselCard({k,src,alt,copyright,title,link,linkText}) {
   return (
-    <div key={k} className='card' style={{objectFit: "contain"}}>
+    <div key={k} className='card' style={{objectFit: "contain", height:"100%"}}>
     <img
-      style={{objectFit: "contain"}}
+      style={{objectFit: "contain",maxHeight:"400px"}}
       src={src}
       alt={alt}
       copyright={copyright}
