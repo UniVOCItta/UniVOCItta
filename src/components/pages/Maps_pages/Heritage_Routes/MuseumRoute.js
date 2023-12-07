@@ -48,31 +48,31 @@ function LeafletgeoSearch() {
 
 const markerIcons = [
   new L.Icon({
-    iconUrl: require('../../../../assets/imgs/maps-icons/1-red.png'),
+    iconUrl: require('../../../../assets/imgs/maps-icons/1.png'),
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -46],
   }),
   new L.Icon({
-    iconUrl: require('../../../../assets/imgs/maps-icons/2-red.png'),
+    iconUrl: require('../../../../assets/imgs/maps-icons/2.png'),
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -46],
   }),
   new L.Icon({
-    iconUrl: require('../../../../assets/imgs/maps-icons/3-red.png'),
+    iconUrl: require('../../../../assets/imgs/maps-icons/3.png'),
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -46],
   }),
   new L.Icon({
-    iconUrl: require('../../../../assets/imgs/maps-icons/4-red.png'),
+    iconUrl: require('../../../../assets/imgs/maps-icons/4.png'),
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -46],
   }),
   new L.Icon({
-    iconUrl: require('../../../../assets/imgs/maps-icons/5-red.png'),
+    iconUrl: require('../../../../assets/imgs/maps-icons/5.png'),
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -46],
