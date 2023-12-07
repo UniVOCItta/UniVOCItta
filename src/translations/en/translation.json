@@ -281,22 +281,30 @@
       "ru_Grec": "Lorem ipsum",
         "ru_Grec_text_carousel": "Lorem ipsum dolor sit amet",
         "ru_Grec_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [<a href=\"https://atlasti.com\">Wikipedia</a>].",
-        "ru_Grec_occupation": "Lorem ipsum"
+        "ru_Grec_occupation": "Lorem ipsum",
+      "ru_Herzen": "Aleksandr Herzen",
+        "ru_Herzen_text_carousel": "Lorem",
+        "ru_Herzen_text": "Lorem [(<a href=\"#\">Source</a>)].",
+        "ru_Herzen_occupation": "Lorem"
     },
 
     "routes": {
-      "university": "Lorem ipsum",
+      "appennini": "Percorso degli Appennini",
         "university_text": "Lorem ipsum",
       "city_centre": "Lorem ipsum",
         "city_centre_text": "Lorem ipsum",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
-      "food": "Lorem ipsum",
+      "food": "Cibo",
         "food_text": "Lorem ipsum",
-      "porticoes": "Lorem ipsum",
+      "museums": "Musei",
+      "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
       "towers": "Lorem ipsum",
-        "towers_text": "Lorem ipsum"
+        "towers_text": "Lorem ipsum",
+      "unesco": "UNESCO",
+      "university": "Università",
+      "women": "Percorso delle donne"
     },
 
     "sign-in-up": {
