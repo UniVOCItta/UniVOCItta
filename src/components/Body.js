@@ -28,9 +28,32 @@ import 'react-multi-carousel/lib/styles.css';
 import { useTranslation } from "react-i18next";
 // Reusable elements
 import Map from './pages/Maps_pages/Map';
+import CarouselCard from './CarouselCard';
+
 
 
 function Body() {
+  // Translation 
+  const { t } = useTranslation();
+
+  const carousel_data={
+    travellers:[
+      {src:dickens,alt:'',copyright:'',title:'Charles Dickens',link:'../maps/travellers/en/dickens',linkText:t('footer.more')},
+      {src:madame,alt:'',copyright:'',title:'Madame De Staël',link:'../maps/travellers/fr/destael',linkText:t('footer.more')},
+      {src:tolstoj,alt:'',copyright:'',title:'Pëtr Andreevič Tolstoj',link:'../maps/travellers/ru/tolstoj',linkText:t('footer.more')},
+      {src:lee,alt:'',copyright:'',title:'Vernon Lee',link:'../maps/travellers/en/lee',linkText:t('footer.more')},
+      {src:cervantes,alt:'',copyright:'',title:'Miguel de Cervantes',link:'../maps/travellers/es/cervantes',linkText:t('footer.more')},
+    ],
+    routes:[
+      {src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},
+      {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Food',link:'../coming',linkText:t('footer.more')},
+      {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:'Women',link:'/maps/women',linkText:t('footer.more')},
+      {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Appennino',link:'/maps/appennino',linkText:t('footer.more')},
+      {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'UNESCO',link:'../coming',linkText:t('footer.more')},
+      {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'University',link:'../coming',linkText:t('footer.more')},
+    ]
+  }
+
   // Responsiveness of the imgs slider
   const responsive = {
     superLargeDesktop: {
@@ -52,8 +75,6 @@ function Body() {
   };
   
 
-  // Translation 
-  const { t } = useTranslation();
 
    const [selectedLanguageButton, setSelectedLanguageButton] = useState(null);
   const handleButtonClick = (language) => {
@@ -79,51 +100,22 @@ function Body() {
       <h1 id='right' href='#'>{t('body.travellers')}</h1>
         <p>{t('body.travellers_text')} </p>
           {/*Carousel Slider*/}
-          <Carousel className='img-carousel'
+          <Carousel
             responsive={responsive}
             infinite={true}
             centerMode={true}
             >
-              <div className='card'>
-                <img className='product--image'
-                src={dickens}></img>
-                <h4 className='body-card-h'>Charles Dickens</h4>
-                <p>
-                  <HashLink to='../maps/travellers/en/dickens'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                src={madame}></img>
-                <h4 className='body-card-h'>Madame De Staël</h4>
-                <p>
-                  <HashLink to='../maps/travellers/fr/destael'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                src={tolstoj}></img>
-                <h4 className='body-card-h'>Pëtr Andreevič Tolstoj</h4>
-                <p>
-                  <HashLink to='../maps/travellers/ru/tolstoj'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                src={lee}></img>
-                <h4 className='body-card-h'>Vernon Lee</h4>
-                <p>
-                  <HashLink to='../maps/travellers/en/lee'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                src={cervantes}></img>
-                <h4 className='body-card-h'>Miguel de Cervantes</h4>
-                <p>
-                  <HashLink to='../maps/travellers/es/cervantes'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
+              {carousel_data.travellers.map((el,i)=>{
+                return <CarouselCard 
+                  k={i} 
+                  src={el.src}
+                  alt={el.alt}
+                  copyright={el.copyright}
+                  title={el.title} 
+                  link={el.link}
+                  linkText={el.linkText}
+                />
+              })}
           </Carousel>
             <Link to='../Maps/Travellers'>
               <FaIcons.FaArrowAltCircleRight className='arrow_icon_right'/>
@@ -137,80 +129,21 @@ function Body() {
       <p>{t('body.routes_text')}</p>
           <div>
           {/*Carousel Slider*/}
-          <Carousel className='img-carousel'
+          <Carousel
             responsive={responsive}
             infinite={true}
             >
-              <div className='card'>
-                <img className='product--image'
-                  src={museum}
-                  alt="La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018"
-                  copyright= "Foto di Anna Chiara Gueraldo"
-                ></img>
-                <h4 className='body-card-h'>Museums</h4>
-                <p>
-                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                  src={food}
-                  alt= "Tortellini"
-                  copyright= "Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-                ></img>
-                <h4 className='body-card-h'>Food</h4>
-                <p>
-                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                  src={docufilm}
-                  alt= "Una cattedra per Laura Bassi"
-                  copyright= "Unibo"
-                ></img>
-                <h4 className='body-card-h'>Women</h4>
-                <p>
-                  <HashLink to='/maps/women'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                  src={appennino}
-                  alt= "Portici di Bologna"
-                  copyright= "Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-                ></img>
-                <h4 className='body-card-h'>Appennino</h4>
-                <p>
-                <Link to='/maps/appennino'>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
-                </Link>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                  src={porticoes}
-                  alt= "Portici di Bologna"
-                  copyright= "Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-                ></img>
-                <h4 className='body-card-h'>UNESCO</h4>
-                <p>
-                <Link to='../coming'>
-                  <button className='body-slider-button'>{t('footer.more')}</button>
-                </Link>
-                </p>
-              </div>
-              <div className='card'>
-                <img className='product--image'
-                src={unibo}
-                alt= "Archiginnasio ora blu Bologna"
-                copyright= "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-                ></img>
-                <h4 className='body-card-h'>University</h4>
-                <p>
-                  <HashLink to='../coming'><button className='body-slider-button'>{t('footer.more')}</button></HashLink>
-                </p>
-              </div>
+             {carousel_data.routes.map((el,i)=>{
+                return <CarouselCard 
+                  k={i} 
+                  src={el.src}
+                  alt={el.alt}
+                  copyright={el.copyright}
+                  title={el.title} 
+                  link={el.link}
+                  linkText={el.linkText}
+                />
+              })}
           </Carousel>
           </div>
           <div>
