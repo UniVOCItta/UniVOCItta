@@ -10,6 +10,7 @@ import nikitenko from "../../../../assets/imgs/travellers/Alexandre_Nikitenko.jp
 import pokvrosky from "../../../../assets/imgs/travellers/Nikolai_Pokrovsky.jpg";
 import glagolev from "../../../../assets/imgs/travellers/ru/Alexandr_Glagolev.jpg";
 import grec from "../../../../assets/imgs/travellers/ru/Nikolay_Grech.jpg";
+import herzen from "../../../../assets/imgs/travellers/ru/Herzen.jpg";
 import fonzivin from "../../../../assets/imgs/travellers/ru/Denis_Fonvizin2.jpg";
 import tolstoj from "../../../../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
@@ -114,6 +115,16 @@ function RussianTravellers() {
               <h4 className='slider-h2'>Nikolaj Ivanovič Greč</h4>
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Grec_text_carousel')}</p>
+              <p>
+                <HashLink to='../maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+              </p>
+            </div>
+            <div className='card'>
+              <img className='product--image'
+              src={herzen} alt='Portrait placeholder'></img>
+              <h4 className='slider-h2'>Aleksandr Herzen</h4>
+              <p className='slider-p'>{t('travellers.ru_nationality')}</p>
+              <p className='slider-p'>{t('travellers.ru_Herzen_text_carousel')}</p>
               <p>
                 <HashLink to='../maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>

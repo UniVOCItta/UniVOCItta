@@ -56,6 +56,7 @@ import PedrodeAlarcon from './components/pages/Maps_pages/Travellers/ES/PedrodeA
 import PioBaroja from './components/pages/Maps_pages/Travellers/ES/PioBaroja';
 // RU
 import AleksandrGlagolev from './components/pages/Maps_pages/Travellers/RU/AleksandrGlagolev';
+import AleksandrHerzen from './components/pages/Maps_pages/Travellers/RU/AleksandrHerzen';
 import DenisFonzivin from './components/pages/Maps_pages/Travellers/RU/DenisFonzivin';
 import DmitryMuratov from './components/pages/Maps_pages/Travellers/RU/DmitryMuratov';
 import NikolajGrec from './components/pages/Maps_pages/Travellers/RU/NikolajGrec';
@@ -144,6 +145,7 @@ function App() {
                       <Route path='maps/travellers/es/baroja' element={<PioBaroja/>}/>
                       {/*RU travellers*/}
                       <Route path='maps/travellers/ru/glagolev' element={<AleksandrGlagolev/>}/>  
+                      <Route path='maps/travellers/ru/herzen' element={<AleksandrHerzen/>}/>  
                       <Route path='maps/travellers/ru/fonzivin' element={<DenisFonzivin/>}/> 
                       <Route path='maps/travellers/ru/muratov' element={<DmitryMuratov/>}/> 
                       <Route path='maps/travellers/ru/grec' element={<NikolajGrec/>}/> 
