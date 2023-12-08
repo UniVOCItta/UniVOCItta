@@ -22,6 +22,8 @@ import RouteDetails from './components/pages/Maps_pages/Heritage_Routes/RouteDet
 import MuseumRoute from './components/pages/Maps_pages/Heritage_Routes/MuseumRoute';
 import WomenRoute from './components/pages/Maps_pages/Heritage_Routes/WomenRoute';
 import AppenninoRoute from './components/pages/Maps_pages/Heritage_Routes/AppenninoRoute';
+import FoodRoute from './components/pages/Maps_pages/Heritage_Routes/FoodRoute';
+import CityCentreRoute from './components/pages/Maps_pages/Heritage_Routes/CityCentreRoute';
 //Travellers 
 import Travellers from './components/pages/Maps_pages/Travellers';
 import EnglishTravellers from './components/pages/Maps_pages/Travellers/EnglishTravellers';
@@ -112,6 +114,8 @@ function App() {
                     <Route  path='/maps/museum' element={<MuseumRoute/>}/>
                     <Route  path='/maps/women' element={<WomenRoute/>}/>
                     <Route  path='/maps/appennino' element={<AppenninoRoute/>}/>
+                    <Route  path='/maps/food' element={<FoodRoute/>}/>
+                    <Route  path='/maps/city_centre' element={<CityCentreRoute/>}/>
                   <Route  path='/maps/travellers' element={<Travellers/>}/>
                     <Route path='maps/travellers/english_travellers' element={<EnglishTravellers/>}/>
                     <Route path='maps/travellers/french_travellers' element={<FrenchTravellers/>}/>

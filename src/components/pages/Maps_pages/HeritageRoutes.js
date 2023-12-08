@@ -91,7 +91,7 @@ const HeritageRoutes = () => {
     {
       id: 3,
       category: "University",
-      title: "University Route",
+      title: "City Centre Route",
       time: ".. min",
       km: "..km",
       path: t('maps.easy'),
@@ -99,7 +99,7 @@ const HeritageRoutes = () => {
       copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
       more: "Find out more",
-      link: "/coming",
+      link: "/maps/city_centre",
       tag: {
           tag_1: "tag",
           tag_2: "tag",
@@ -117,7 +117,7 @@ const HeritageRoutes = () => {
       img: require('../../../assets/imgs/routes/tortellini_Angelo_Muratore.jpg'),
       copyright: "Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       more: "Find out more",
-      link: "/coming",
+      link: "/maps/food",
       tag: {
           tag_1: "tag",
           tag_2: "tag",
