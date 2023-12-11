@@ -13,6 +13,16 @@ const coordinates = [
   [44.216667, 11.316667] // 7 Monghidoro
 ];
 
+const zooms =[
+  10,
+  15,
+  20,
+  null,
+  null,
+  20,
+  20
+]
+
 const markerContent = [
   "Santuario della Madonna di San Luca",
   "Rastignano - Carteria di Sesto",
@@ -120,13 +130,21 @@ const cards =[
   ]
 ]
 
+const intestation ={
+  difficulty:'maps.difficult',
+  time:"12 h",
+  km:"50 km"
+}
+
   return <GenericRoute 
       coordinates={coordinates} 
+      zooms={zooms}
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
       title={"Appennino Route"} 
       text={"routes.appennini_text"} 
       cards={cards} 
+      intestation={intestation}
   />
 }
 

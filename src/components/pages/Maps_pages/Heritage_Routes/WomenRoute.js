@@ -11,7 +11,14 @@ const WomenRoute = () => {
     [44.4892, 11.3397], // 5 Santuario Del Corpus Domini
     [44.497597, 11.30777] // 6 Cimitero della Certosa
   ];
-  
+  const zooms =[
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
   const markerContent = [
     "Accademia delle Scienze",
     "Zona Universitaria, Palazzo Poggi e Rettorato",
@@ -175,13 +182,21 @@ const WomenRoute = () => {
   ]
   ]
 
+  const intestation ={
+    difficulty:'maps.intermediate',
+    time:"1h 30m",
+    km:"6km"
+  }
+
   return <GenericRoute 
       coordinates={coordinates} 
+      zooms={zooms} 
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
       title={"Women Route"} 
       text={"Bologna è ricca di donne che hanno dato il loro contributo al progresso artistico, alla divulgazione scientifica, alla strategia politica e al benessere sociale della città. Unite tutte da un unico fil rouge, la passione, che veicola da sempre l’animo femminile."} 
-      cards={cards} 
+      cards={cards}
+      intestation={intestation} 
   />
 }
 

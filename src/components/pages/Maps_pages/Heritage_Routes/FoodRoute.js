@@ -10,7 +10,13 @@ const FoodRoute = () => {
     [44.494222, 11.345222], // 4. Mercato di Mezzo
     [44.49373, 11.343064], // 5. Piazza Maggiore
   ];
-  
+  const zooms =[
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
   const markerContent = [
     "Mercato delle Erbe",
     "Via Rizzoli",
@@ -154,13 +160,22 @@ const FoodRoute = () => {
   ]
   ]
 
+  const intestation ={
+    //Questo è da modificare è copiato da quello dell'appennino <---------
+    difficulty:'maps.difficult',
+    time:"12 h",
+    km:"50 km"
+  }
+
   return <GenericRoute 
-      coordinates={coordinates} 
+      coordinates={coordinates}  
+      zooms={zooms}
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
       title={"Bologna la Grassa: usi e costumi"} 
       text={"'La Grassa', per le sue tipiche e squisite pietanze: tortellini, mortadella, lasagne, tagliatelle al ragù e crescentine, sono solo alcuni dei prodotti caratteristici di questa capitale del gusto."} 
-      cards={cards} 
+      cards={cards}
+      intestation={intestation} 
   />
 }
 

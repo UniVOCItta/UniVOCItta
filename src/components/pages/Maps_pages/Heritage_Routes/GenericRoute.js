@@ -91,15 +91,17 @@ function convertCoordinatestoMarkers(coords,m_icons,m_content){
 }
 
 
-const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards}) => {
+const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zooms,intestation}) => {
   // const map = useMap();
+
+  const ZOOM_LEVEL = 13;
   const markerIcons =generateIcons(coordinates.length);
   const markers = convertCoordinatestoMarkers(coordinates,markerIcons,markerContent)
   const path = <Polyline positions={coordinates} color="black" weight={3} opacity={0.3}  />;
 
   const [center, setCenter] = useState(init_pos?init_pos:{ lat: 44.49381, lng: 11.33875 });
+  const [currentZoom, setCurrentZoom] = useState(zooms[0]!==null?zooms[0]:ZOOM_LEVEL);
   const [userLocation, setUserLocation] = useState(null);
-  const ZOOM_LEVEL = 13;
   const mapRef = useRef();
 
   useEffect(() => {
@@ -155,8 +157,15 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards}) =>
 
   // Translation
   const { t } = useTranslation();
+
+  const clickSection =(i)=>{
+    setCenter({lat:coordinates[i][0],lng:coordinates[i][1]});
+    if(zooms[i]!==null){
+      setCurrentZoom(zooms[i])
+    }
+  }
   
-  console.log("center",center)
+  // console.log("center",center)
   return (
     <>
     <div className='container-fluid'>
@@ -195,13 +204,13 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards}) =>
           <p>{t(text)}</p>
           <Row className='routes-icons'>
             <Col>
-              <RiIcons.RiTimerLine className='routes-icon'/><span>&nbsp;12 h</span>
+              <RiIcons.RiTimerLine className='routes-icon'/><span>&nbsp;{intestation.time}</span>
             </Col>
             <Col>
-              <GiIcons.GiPathDistance className='routes-icon'/><span>&nbsp;50 km</span>
+              <GiIcons.GiPathDistance className='routes-icon'/><span>&nbsp;{intestation.km}</span>
             </Col>
             <Col>
-              <GiIcons.GiFootsteps className='routes-icon'/><span>&nbsp;{t('maps.difficult')}</span>
+              <GiIcons.GiFootsteps className='routes-icon'/><span>&nbsp;{t(intestation.difficulty)}</span>
             </Col>
           </Row>
           <br/>
@@ -210,9 +219,7 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards}) =>
                 <Col id='scrollable-col'>
                   <h3>&nbsp;ITINERARY</h3>
                   {cards.map((el,i)=>{
-                    return <div key={"desktop_"+i} onClick={()=>{
-                      setCenter({lat:coordinates[i][0],lng:coordinates[i][1]})
-                      }}>
+                    return <div key={"desktop_"+i} onClick={()=>{clickSection(i)}}>
                       {el.map((el2,i2)=>{
                         return <div key={"desktop_"+i+"_"+i2}>
                                 <Card className='card-title-routes'>
@@ -231,21 +238,19 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards}) =>
                   })}
                 </Col>
                 <Col>
-                {getMap(center,ZOOM_LEVEL,mapRef,userLocation,currentLocationIcon,markers,path)}
+                {getMap(center,currentZoom,mapRef,userLocation,currentLocationIcon,markers,path)}
                 </Col>
               </Row>
           </div>
              {/* MOBILE VISUALISATION */}
              <div className='mobile-visualisation'>
                 <Col>
-                {getMap(center,ZOOM_LEVEL,mapRef,userLocation,currentLocationIcon,markers,path)}
+                {getMap(center,currentZoom,mapRef,userLocation,currentLocationIcon,markers,path)}
                 </Col>
                 <Col id='scrollable-col'>
                   <h3>&nbsp;ITINERARY</h3>
                   {cards.map((el,i)=>{
-                    return <div key={"desktop_"+i} onClick={()=>{
-                      setCenter({lat:coordinates[i][0],lng:coordinates[i][1]})
-                      }}>
+                    return <div key={"desktop_"+i} onClick={()=>{clickSection(i)}}>
                       {el.map((el2,i2)=>{
                         return <div key={"desktop_"+i+"_"+i2}>
                                 <Card className='card-title-routes'>

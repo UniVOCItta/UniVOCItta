@@ -10,7 +10,15 @@ const CityCentreRoute = () => {
     [44.492778, 11.343056], // 4. Basilica di San Petronio
     [44.492686, 11.343492], // 5. Via dell'Archiginnasio
   ];
-  
+
+  const zooms =[
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+
   const markerContent = [
     "Piazza di Porta Ravegnana",
     "Piazza del Nettuno",
@@ -20,6 +28,7 @@ const CityCentreRoute = () => {
     // Add more popup content for each coordinate
   ];
 
+  
   const cards =[
   //location 1 - Piazza di Porta Ravegnana
   [
@@ -195,13 +204,22 @@ const CityCentreRoute = () => {
   ]
   ]
 
+  const intestation ={
+    //Questo è da modificare è copiato da quello dell'appennino <---------
+    difficulty:'maps.difficult',
+    time:"12 h",
+    km:"50 km"
+  }
+
   return <GenericRoute 
       coordinates={coordinates} 
+      zooms={zooms}
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
       title={"Alla scoperta dei luoghi simbolo di Bologna"} 
       text={"Alla scoperta dei luoghi simbolo di Bologna....."} 
-      cards={cards} 
+      cards={cards}
+      intestation={intestation}
   />
 }
 
