@@ -9,7 +9,7 @@ import bologna_video from '../../../assets/videos/bologna_video.mp4';
 // Translation
 import { useTranslation } from 'react-i18next';
 // User Auth
-import { UserAuth } from '../../../context/AuthContext';
+//import { UserAuth } from '../../../context/AuthContext';
 
 export default function Project() {
   const { t } = useTranslation();
