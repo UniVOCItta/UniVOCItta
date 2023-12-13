@@ -6,13 +6,8 @@ import { Link } from 'react-router-dom';
 // Bootstrap
 import { Breadcrumb, Button} from 'react-bootstrap';
 // Imgs
-import bassi from '../../../assets/imgs/travellers/Laura_Bassi.jpg';
 import dickens from "../../../assets/imgs/travellers/Dickens.jpg";
-import figueroa from "../../../assets/imgs/travellers/Alvaro_Figueroa.png"
-import lady from "../../../assets/imgs/travellers/lady_miller.PNG";
-import moratin from "../../../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
 import cervantes from "../../../assets/imgs/travellers/miguel_cervantes.jpg";
-import voltaire from "../../../assets/imgs/travellers/voltaire.jpg";
 import madame from "../../../assets/imgs/travellers/fr/Mme_de_Staël.jpg";
 import stendhal from "../../../assets/imgs/travellers/fr/Stendhal.jpg";
 import lee from "../../../assets/imgs/travellers/en/Vernone_Lee-Violet_Page.jpg";

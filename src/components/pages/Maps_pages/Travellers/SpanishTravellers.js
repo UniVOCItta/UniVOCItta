@@ -5,7 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 // Imgs
-import figueroa from "../../../../assets/imgs/travellers/Alvaro_Figueroa.png";
 import moratin from "../../../../assets/imgs/travellers/Leandro_Fern…ndez_Mozart.jpg";
 import cervantes from "../../../../assets/imgs/travellers/miguel_cervantes.jpg";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";

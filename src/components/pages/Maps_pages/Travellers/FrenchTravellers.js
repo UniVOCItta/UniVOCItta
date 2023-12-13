@@ -5,9 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 // Bootstrap
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 // Imgs
-import voltaire from "../../../../assets/imgs/travellers/voltaire.jpg";
-import remusat from "../../../../assets/imgs/travellers/Remusat_Charles.jpg";
-import faure from "../../../../assets/imgs/travellers/Faure_Gabriel.jfif";
 import portrait_placeholder from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
 import taine from "../../../../assets/imgs/travellers/fr/Hippolyte_Taine.jpg";
 import de_staël from "../../../../assets/imgs/travellers/fr/Mme_de_Staël.jpg";

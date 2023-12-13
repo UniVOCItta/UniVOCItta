@@ -1,5 +1,4 @@
 import React from 'react';
-import dickens from "../../../../assets/imgs/travellers/Dickens.jpg";
 import portrait from "../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Router-dom
 import { HashLink } from 'react-router-hash-link';

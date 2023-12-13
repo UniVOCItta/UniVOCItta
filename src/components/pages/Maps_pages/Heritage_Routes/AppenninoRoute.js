@@ -132,8 +132,8 @@ const cards =[
 
 const intestation ={
   difficulty:'maps.difficult',
-  time:"12 h",
-  km:"50 km"
+  time:"12h",
+  km:"50km"
 }
 
   return <GenericRoute 

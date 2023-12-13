@@ -205,10 +205,9 @@ const CityCentreRoute = () => {
   ]
 
   const intestation ={
-    //Questo è da modificare è copiato da quello dell'appennino <---------
-    difficulty:'maps.difficult',
-    time:"12 h",
-    km:"50 km"
+    difficulty:'maps.easy',
+    time:"10 min",
+    km:"650 m"
   }
 
   return <GenericRoute 

@@ -1,5 +1,4 @@
 import React from 'react';
-import muratov from "../../../../../assets/imgs/travellers/ru/dmitry_muratov.webp";
 import real_muratov from "../../../../../assets/imgs/travellers/ru/muratov.jpg";
 import portrait from "../../../../../assets/imgs/travellers/Portrait_placeholder.png";
 // Router-dom

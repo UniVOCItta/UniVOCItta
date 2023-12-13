@@ -12,9 +12,6 @@ import * as GiIcons from 'react-icons/gi';
 import placeholder from '../../../assets/imgs/placeholder.png';
 // Reusable elements
 import ScrollToTop from '../../ScrollToTop';
-// Experiment
-//import routes from "./Heritage_Routes/routes";
-import RouteDetails from './Heritage_Routes/RouteDetails';
 // Translation
 import { t } from 'i18next';
 // Favorites/UserAuth
@@ -72,31 +69,13 @@ const HeritageRoutes = () => {
     },
     {
       id: 2,
-      category: "Museum",
-      title: "Museum Route",
-      time: ".. min",
-      km: "..km",
-      path: t('maps.easy'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      img: require('../../../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg'),
-      copyright: "Foto di Anna Chiara Gueraldo",
-      more: "Find out more",
-      link: "/maps/museum",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
-    },
-    {
-      id: 3,
-      category: "University",
+      category: "Historical",
       title: "City Centre Route",
-      time: ".. min",
-      km: "..km",
+      time: "10min",
+      km: "650m",
       path: t('maps.easy'),
-      img: require('../../../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg'),
-      copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+      img: require('../../../assets/imgs/routes/bologna_free.jpg'),
+      copyright: "Free",
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
       more: "Find out more",
       link: "/maps/city_centre",
@@ -107,11 +86,11 @@ const HeritageRoutes = () => {
       },
     },
     {
-      id: 4,
+      id: 3,
       category: "Food",
       title: "Food Route",
-      time: ".. min",
-      km: "..km",
+      time: "17min",
+      km: "1,2km",
       path: t('maps.easy'),
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       img: require('../../../assets/imgs/routes/tortellini_Angelo_Muratore.jpg'),
@@ -125,17 +104,35 @@ const HeritageRoutes = () => {
       }
     },
     {
+      id: 4,
+      category: "Worship",
+      title: "San Luca",
+      time: "40min",
+      km: "2,5km",
+      path: t('maps.intermediate'),
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/san_luca_wikipedia_Nebbius.jpg'),
+      copyright: "Puscas Vadim  (Nebbius), CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+      more: "Find out more",
+      link: "/maps/san_luca",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+    {
       id: 5,
-      category: "University",
-      title: "A title",
-      time: "..min",
+      category: "Museum",
+      title: "Museum Route",
+      time: ".. min",
       km: "..km",
       path: t('maps.easy'),
       text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      img: require('../../../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg'),
-      copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+      img: require('../../../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg'),
+      copyright: "Foto di Anna Chiara Gueraldo",
       more: "Find out more",
-      link: "/maps/appennino",
+      link: "/maps/museum",
       tag: {
           tag_1: "tag",
           tag_2: "tag",
@@ -168,10 +165,13 @@ const HeritageRoutes = () => {
               <h2>{t('maps.suggested_routes')}</h2>
               <hr/>
               <div className='routes-filter-buttons'>
-                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Women' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Women')}>Women</Button> {/*NON FUNZIONA */}
-                <Button variant='dark' className={`routes-filter ${selectedCategory === 'University' ? 'active' : ''}`} onClick={() => handleCategoryFilter('University')} >University</Button> {/*NON FUNZIONA */}
-                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Museum' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Museum')} >Museums</Button>
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'Food' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Food')}>Food</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Historical' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Historical')}>Historical</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Nature' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Nature')}>Nature</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Museum' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Museum')} >Museums</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'University' ? 'active' : ''}`} onClick={() => handleCategoryFilter('University')} >University</Button> 
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Women' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Women')}>Women</Button> 
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Worship' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Worship')} >Worship</Button> 
                 <Button variant='outline-secondary' className={`routes-filter ${selectedCategory === null ? 'active' : ''}`} onClick={handleShowAll}>All</Button>
                 <br/>
                 {/* ADDITIONAL FILTERS

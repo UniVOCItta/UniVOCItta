@@ -6,9 +6,6 @@ import { HashLink } from 'react-router-hash-link';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 // Imgs
 import muratov from "../../../../assets/imgs/travellers/ru/muratov.jpg";
-import nikitenko from "../../../../assets/imgs/travellers/Alexandre_Nikitenko.jpg";
-import pokvrosky from "../../../../assets/imgs/travellers/Nikolai_Pokrovsky.jpg";
-import glagolev from "../../../../assets/imgs/travellers/ru/Alexandr_Glagolev.jpg";
 import grec from "../../../../assets/imgs/travellers/ru/Nikolay_Grech.jpg";
 import herzen from "../../../../assets/imgs/travellers/ru/Herzen.jpg";
 import fonzivin from "../../../../assets/imgs/travellers/ru/Denis_Fonvizin2.jpg";
