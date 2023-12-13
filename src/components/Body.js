@@ -10,14 +10,14 @@ import { HashLink } from 'react-router-hash-link';
 import * as FaIcons from 'react-icons/fa';
 // Imgs 
 import placeholder from '../assets/imgs/placeholder.png';
-import museum from '../assets/imgs/pinacoteca_Gueraldo_Anna_Chiara.jpg';
+import museum from '../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg';
 import docufilm from '../assets/imgs/bassi_docufilm.jpg';
 import food from '../assets/imgs/routes/tortellini_Angelo_Muratore.jpg';
 import porticoes from '../assets/imgs/Portici_Bologna_02.jpg';
 import unibo from '../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg';
 import appennino from '../assets/imgs/appennino.jpg'
 import madame from '../assets/imgs/travellers/fr/Mme_de_Staël.jpg';
-import dickens from "../assets/imgs/travellers/Dickens.jpg";
+import dickens from "../assets/imgs/travellers/en/Dickens.jpg";
 import tolstoj from "../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg"
 import cervantes from "../assets/imgs/travellers/es/miguel_cervantes.jpg";
 import lee from "../assets/imgs/travellers/en/Vernone_Lee-Violet_Page.jpg";

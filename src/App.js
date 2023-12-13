@@ -17,13 +17,13 @@ import Profile from './components/pages/Profile_pages/Profile';
 import Places from './components/pages/Maps_pages/Places';
 import SinglePlace from './components/pages/Maps_pages/Places/SinglePlace';
 import HeritageRoutes from './components/pages/Maps_pages/HeritageRoutes';
-import RouteDetails from './components/pages/Maps_pages/Heritage_Routes/RouteDetails';
 //Routes 
 import MuseumRoute from './components/pages/Maps_pages/Heritage_Routes/MuseumRoute';
 import WomenRoute from './components/pages/Maps_pages/Heritage_Routes/WomenRoute';
 import AppenninoRoute from './components/pages/Maps_pages/Heritage_Routes/AppenninoRoute';
 import FoodRoute from './components/pages/Maps_pages/Heritage_Routes/FoodRoute';
 import CityCentreRoute from './components/pages/Maps_pages/Heritage_Routes/CityCentreRoute';
+import SanLucaRoute from './components/pages/Maps_pages/Heritage_Routes/SanLucaRoute';
 //Travellers 
 import Travellers from './components/pages/Maps_pages/Travellers';
 import EnglishTravellers from './components/pages/Maps_pages/Travellers/EnglishTravellers';
@@ -110,12 +110,12 @@ function App() {
                   <Route  path='/maps/places' element={<Places/>}/>
                     <Route  path='/maps/places/singleplace' element={<SinglePlace/>}/>
                   <Route  path='/maps/routes' element={<HeritageRoutes/>}/>
-                    <Route path="/maps/routedetails/:id" component={RouteDetails} />
                     <Route  path='/maps/museum' element={<MuseumRoute/>}/>
                     <Route  path='/maps/women' element={<WomenRoute/>}/>
                     <Route  path='/maps/appennino' element={<AppenninoRoute/>}/>
                     <Route  path='/maps/food' element={<FoodRoute/>}/>
                     <Route  path='/maps/city_centre' element={<CityCentreRoute/>}/>
+                    <Route  path='/maps/san_luca' element={<SanLucaRoute/>}/>
                   <Route  path='/maps/travellers' element={<Travellers/>}/>
                     <Route path='maps/travellers/english_travellers' element={<EnglishTravellers/>}/>
                     <Route path='maps/travellers/french_travellers' element={<FrenchTravellers/>}/>

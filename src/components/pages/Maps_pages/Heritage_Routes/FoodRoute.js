@@ -162,9 +162,9 @@ const FoodRoute = () => {
 
   const intestation ={
     //Questo è da modificare è copiato da quello dell'appennino <---------
-    difficulty:'maps.difficult',
-    time:"12 h",
-    km:"50 km"
+    difficulty:'maps.easy',
+    time:"17 m",
+    km:"1,2 km"
   }
 
   return <GenericRoute 
