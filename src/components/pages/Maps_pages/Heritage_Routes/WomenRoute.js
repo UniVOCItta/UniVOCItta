@@ -12,12 +12,12 @@ const WomenRoute = () => {
     [44.497597, 11.30777] // 6 Cimitero della Certosa
   ];
   const zooms =[
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    20,
+    20,
+    18,
+    18,
+    14.8,
+    14.5
   ]
   const markerContent = [
     "Accademia delle Scienze",

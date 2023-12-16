@@ -6,7 +6,7 @@ import { Button, Form } from 'react-bootstrap';
 // Translation
 import { useTranslation } from "react-i18next";
 // Firebase and authentification
-import { UserAuth } from '../../../context/AuthContext';
+// import { UserAuth } from '../../../context/AuthContext';
 import {auth} from "../../../firebase";
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 
@@ -17,7 +17,7 @@ const Signup = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
-    const {createUser} = UserAuth();
+    // const {createUser} = UserAuth();
 
 
     const handleSubmit = async(e) => {
@@ -57,6 +57,7 @@ const Signup = () => {
                     {t('sign-in-up.sign-up')}
                 </Button>
             </Form>
+            <p>{error}</p>
         </div>
         </>
     );

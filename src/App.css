@@ -38,8 +38,11 @@ p {
 }
 
 body {
-    min-height: calc(100vh - 211px - 58px);
+    min-height: calc( 100vh - 275px );
     background: #F3F3F4 !important;
+    padding: 0;
+    margin: 0;
+    overflow-x: clip;
 }
 
 .home{

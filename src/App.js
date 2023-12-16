@@ -1,10 +1,8 @@
 import React, {Suspense, useState} from 'react';
 import './App.css';
 // Router-dom
-import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
-import { HashLink as Link} from 'react-router-hash-link';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 // Components
-import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Project from './components/pages/Project_pages/Project';
@@ -93,19 +91,20 @@ function App() {
         <HashRouter>
           {/*<ScrollToTop/>*/}
           <Navbar />
+          <div style={{minHeight:"calc( 100vh - 275px )"}}>
           <AuthContextProvider>
             <Routes>
               <Route  path='/' element={<Home/>}/>
               <Route  path='/project' element={<Project/>}/> {/*Use path #0 qui e nel data se non voglio che quando clicco si apra tutto e non solo il dropdown*/}
-                  <Route path='/project/univocitta' element={<h2/>}/>
-                  <Route path='/project/aim' element={<h2/>}/>
+                  {/* <Route path='/project/univocitta' element={<h2/>}/>
+                  <Route path='/project/aim' element={<h2/>}/> */}
               <Route  path='/about' element={<About/>}/>
-                  <Route path='/about/team>' element={<h2/>}/>
+                  {/* <Route path='/about/team>' element={<h2/>}/>
                   <Route path='/about/partners>' element={<h2/>}/>
-                  <Route path='/about/contacts>' element={<h2/>}/>
+                  <Route path='/about/contacts>' element={<h2/>}/> */}
               <Route  path='/corpus' element={<Corpus/>}/>
-                  <Route path='/corpus/languages>' element={<h2/>}/>
-                  <Route path='/corpus/query>' element={<h2/>}/>
+                  {/* <Route path='/corpus/languages>' element={<h2/>}/>
+                  <Route path='/corpus/query>' element={<h2/>}/> */}
               <Route  path='/maps' element={<Maps/>}/>
                   <Route  path='/maps/places' element={<Places/>}/>
                     <Route  path='/maps/places/singleplace' element={<SinglePlace/>}/>
@@ -166,7 +165,8 @@ function App() {
               <Route  path='/coming' element={<ComingSoon/>}/>
               <Route path='/documentation' element={<Documentation/>}/>
             </Routes>
-            </AuthContextProvider>
+          </AuthContextProvider>
+          </div>
             {/*<MovieList movies={moviesData} />*/}
           <Footer/>
           <Bottom/>

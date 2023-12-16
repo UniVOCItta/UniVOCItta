@@ -362,7 +362,8 @@
       "password": "Mot de passe",
       "sign-in_button": "Se connecter",
       "continue_google": "Continuez avec Google",
-      "continue_fb": "Continuez avec Facebook"
+      "continue_fb": "Continuez avec Facebook",
+      "sign-in-fail":"La connexion a échoué"
     },
 
     "profile": {

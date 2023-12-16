@@ -21,7 +21,7 @@ import spain from '../assets/imgs/spanish_flag.png';
 import russia from '../assets/imgs/russian_flag.png';
 // Translation
 import LocaleContext from '../LocaleContext';
-import i18n from '../i18n';
+// import i18n from '../i18n';
 import { useTranslation } from "react-i18next";
 
 const Nav = styled.div`

@@ -2,56 +2,52 @@ import React, { useState, useEffect, useRef } from "react";
 import '../../../App.css';
 import { HashLink } from 'react-router-hash-link';
 //Bootstrap
-import { Row, Col, Container, Table, Button, Tooltip, OverlayTrigger, Modal, Form, Dropdown, DropdownButton, DropdownToggle, InputGroup, Pagination } from 'react-bootstrap';
+import { Row, Col, Container, Table, Button, Tooltip, OverlayTrigger, Modal, Form, Dropdown, Pagination } from 'react-bootstrap';
 // JSON data
-import test from './database.json'
-import prova_output from './prova_output.json'
-import output from './output.json'
-import database_finale from './database_finale.json' //28/10
-import database_finalissimo from './database_finale_finalissimo.json' //30/10
+import database from '../../../const/database.json' //30/10
 // Icons
 import * as FaIcons from 'react-icons/fa';
 import * as IoIcons from 'react-icons/io';
 import * as BsIcons from 'react-icons/bs';
 import * as GrIcons from 'react-icons/gr';
 // Imgs
-import locationIcon from '../../../assets/imgs/maps-icon.png';
+// import locationIcon from '../../../assets/imgs/maps-icon.png';
 //Map
-import MapCorpus from './MapCorpus';
+// import MapCorpus from './MapCorpus';
 // Map (leafltet)
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
-import quotes from '../Maps_pages/quotes.json';
-import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
+// import quotes from '../Maps_pages/quotes.json';
+// import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
 import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
-import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
+// import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 // Translation
 import { useTranslation } from "react-i18next";
 // UserAuth
 import { UserAuth } from "../../../context/AuthContext";
 
     
-function LeafletgeoSearch() {
-    const map = useMap();
-    useEffect(() => {
-      const provider = new OpenStreetMapProvider();
+// function LeafletgeoSearch() {
+//     const map = useMap();
+//     useEffect(() => {
+//       const provider = new OpenStreetMapProvider();
   
-      const searchControl = new GeoSearchControl({
-        provider,
-        marker: {
-          locationIcon /*NON FUNZIONA */
-        }
-      });
+//       const searchControl = new GeoSearchControl({
+//         provider,
+//         marker: {
+//           locationIcon /*NON FUNZIONA */
+//         }
+//       });
   
-      map.addControl(searchControl);
+//       map.addControl(searchControl);
   
-      return () => map.removeControl(searchControl);
-    }, []);
+//       return () => map.removeControl(searchControl);
+//     }, []);
   
-    return null;
-    } 
+//     return null;
+//     } 
   
     const markerIcon = new L.Icon({
       iconUrl: require ('../../../assets/imgs/maps-icon.png'),
@@ -91,7 +87,7 @@ function LeafletgeoSearch() {
         const [selectedLanguageButton, setSelectedLanguageButton] = useState("");
 
 
-        const filteredData = database_finalissimo.filter((item) => {
+        const filteredData = database.filter((item) => {
             if (selectedLanguage && item.language !== selectedLanguage) {
                 return false;
             }
@@ -185,9 +181,9 @@ function LeafletgeoSearch() {
             setSelectedLanguageButton(language === selectedLanguageButton ? null : language);
         }
         
-        function handleClearSelection() {
-            setSelectedLanguageButton(null);
-        }
+        // function handleClearSelection() {
+        //     setSelectedLanguageButton(null);
+        // }
 
     // Translation 
     const { t } = useTranslation();
@@ -2383,14 +2379,16 @@ function LeafletgeoSearch() {
                 <tbody>
                 {currentData.filter((val)=>{
                         if (searchTerm === '') {
-                            return val;
+                            return true;
                         } else if (
                             val.autore[0].toLowerCase().includes(searchTerm.toLowerCase()) ||
                             val.fragment.toLowerCase().includes(searchTerm.toLowerCase()) ||
                             val.bibliographic_link.toLowerCase().includes(searchTerm.toLowerCase())
                         ) {
-                         return val;
-                        }  
+                            return true;
+                        }else{
+                            return false
+                        }
                     }).map((item, index) => (
                     <tr key={index}>
                     <td>

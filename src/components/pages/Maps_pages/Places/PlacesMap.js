@@ -13,9 +13,6 @@ import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 import locationIcon from '../../../../assets/imgs/maps-icon.png';
 // Icons
 import * as ImIcons from 'react-icons/im';
-//Test
-import test from "../../Corpus_pages/database.json"
-
 
 function LeafletgeoSearch() {
   const map = useMap();

@@ -362,7 +362,8 @@
       "password": "Contraseña",
       "sign-in_button": "Accede",
       "continue_google": "Continúa con Google",
-      "continue_fb": "Continúa con Facebook"
+      "continue_fb": "Continúa con Facebook",
+      "sign-in-fail": "Error de inicio de sesion"
     },
 
     "profile":{

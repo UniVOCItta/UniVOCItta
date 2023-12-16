@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../../App.css';
 // Reac Router
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // Bootstrap
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 // Media
 import bologna_video from '../../../assets/videos/bologna_video.mp4';
 // Translation

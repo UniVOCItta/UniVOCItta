@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { UserAuth } from '../../../context/AuthContext';
 import { auth } from '../../../firebase';
@@ -12,7 +12,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as RiIcons from 'react-icons/ri';
 import * as MdIcons from 'react-icons/md';
 // Translation
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 function Settings() {
   const { logout, user, favorites, setFavorites, bookmarks, setBookmarks } = UserAuth();
@@ -49,7 +49,7 @@ function Settings() {
   };
 
   // Translation 
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   // Rest of the component...
 

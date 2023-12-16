@@ -1,20 +1,20 @@
 import React , {useRef, useState, useEffect} from 'react';
 import '../../../App.css';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 // Bootstrap
-import { Button, Card, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 // Imgs
 import team from '../../../assets/imgs/team.jpg';
 import uni from '../../../assets/imgs/via_cartoleria_UNIBO.jpg';
 import locationIcon from '../../../assets/imgs/maps-icon.png';
-import placeholder from '../../../assets/imgs/placeholder.png';
+// import placeholder from '../../../assets/imgs/placeholder.png';
 import unibo_logo from '../../../assets/imgs/logos/unibo_logo.jpg';
 import lilec_logo from '../../../assets/imgs/logos/lilec_logo.jpg';
 import lab_logo from '../../../assets/imgs/logos/lab_logo.png'
 // Icons
 import * as FaIcons from 'react-icons/fa';
-import * as FiIcons from 'react-icons/fi';
+// import * as FiIcons from 'react-icons/fi';
 // Reusable elements
 //import EmailForm from './EmailForm';
 // Map (leafltet)
@@ -26,7 +26,7 @@ import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 // Multi-carousel
-import Carousel from 'react-multi-carousel';
+// import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 // Translation
 import { useTranslation } from "react-i18next";
@@ -65,26 +65,26 @@ export default function About() {
   const ZOOM_LEVEL = 17;
   const mapRef = useRef()
 
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-      slidesToSlide: 3
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 3
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 3
-    }
-  };
+  // const responsive = {
+  //   superLargeDesktop: {
+  //     // the naming can be any, depends on you.
+  //     breakpoint: { max: 4000, min: 3000 },
+  //     items: 5,
+  //     slidesToSlide: 3
+  //   },
+  //   desktop: {
+  //     breakpoint: { max: 3000, min: 1024 },
+  //     items: 5
+  //   },
+  //   tablet: {
+  //     breakpoint: { max: 1024, min: 464 },
+  //     items: 3
+  //   },
+  //   mobile: {
+  //     breakpoint: { max: 464, min: 0 },
+  //     items: 3
+  //   }
+  // };
 
   // Translation 
   const { t } = useTranslation();

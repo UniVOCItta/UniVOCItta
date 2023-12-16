@@ -3,26 +3,18 @@ import '../../../../App.css';
 import { HashLink } from 'react-router-hash-link';
 // Bootstrap 
 import { Breadcrumb, Card, Col, Row, Button } from 'react-bootstrap';
-// Imgs
-import locationIcon from '../../../../assets/imgs/maps-icons/red-icon.png';
-import poggi from '../../../../assets/imgs/routes/museums/poggi_museo.jpg';
-import specola from '../../../../assets/imgs/routes/museums/specola_museo.webp';
-import mast from '../../../../assets/imgs/routes/museums/mast_museo.jpg';
-import ustica from '../../../../assets/imgs/routes/museums/museo_ustica.jpg';
-import pinacoteca from '../../../../assets/imgs/routes/museums/pinacoteca_museo.jpg';
 // Icons
 import * as RiIcons from 'react-icons/ri';
 import * as GiIcons from 'react-icons/gi';
 import { FaRegHeart, FaHeart } from 'react-icons/fa';
 // Map (leafltet)
-import { MapContainer, TileLayer, Polyline, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Polyline, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
 import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
 //import 'leaflet-polylinedecorator';
-import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 // Favorites
 import { UserAuth } from '../../../../context/AuthContext';
 // Translation

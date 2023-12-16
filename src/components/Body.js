@@ -9,7 +9,6 @@ import { HashLink } from 'react-router-hash-link';
 // Icons
 import * as FaIcons from 'react-icons/fa';
 // Imgs 
-import placeholder from '../assets/imgs/placeholder.png';
 import museum from '../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg';
 import docufilm from '../assets/imgs/bassi_docufilm.jpg';
 import food from '../assets/imgs/routes/tortellini_Angelo_Muratore.jpg';
@@ -80,9 +79,9 @@ function Body() {
   const handleButtonClick = (language) => {
     setSelectedLanguageButton(language === selectedLanguageButton ? null : language);
   };
-  const handleClearSelection = () => {
-    setSelectedLanguageButton(null);
-  };
+  // const handleClearSelection = () => {
+  //   setSelectedLanguageButton(null);
+  // };
   
   return (
     <>

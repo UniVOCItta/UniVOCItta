@@ -23,15 +23,20 @@ const Signin = () => {
     const [error, setError] = useState(''); 
     const navigate = useNavigate();
 
-    const { signIn } = UserAuth();
+    // Translation 
+    const { t } = useTranslation();
+
+    // const { signIn } = UserAuth();
 
     const handleSubmit = async(e) => {
         e.preventDefault();
         try {
+            setError('')
             await signInWithEmailAndPassword(auth, email, password);
             navigate('./profile');
-        } catch (error) {
-            console.log(error);
+        } catch (err) {
+            setError(t('sign-in-up.sign-in-fail'))
+            console.log(err.message);
         }
     };
 
@@ -49,11 +54,13 @@ const Signin = () => {
     const googleProvider = new GoogleAuthProvider();
     const GoogleLogin = async () => {
         try{
+            setError('')
             const result = await signInWithPopup(auth, googleProvider)
             navigate('./profile') 
             console.log(result.user);
-        } catch (error) {
-            console.log(error);
+        } catch (err) {
+            setError(t('sign-in-up.sign-in-fail'))
+            console.log(err);
         }
     }
 
@@ -61,19 +68,18 @@ const Signin = () => {
     const fbProvider = new FacebookAuthProvider();
     const FacebookLogin = async () => {
         try{
+            setError('')
             const result = await signInWithPopup(auth, fbProvider)
             navigate('./profile') 
             console.log(result.user);
-        } catch (error) {
-            console.log(error);
+        } catch (err) {
+            setError(t('sign-in-up.sign-in-fail'))
+            console.log(err);
         }
     }
 
-    // Translation 
-    const { t } = useTranslation();
     return (
-        <>
-        <div className='container-fluid'>
+        <div className='container-fluid' >
             <h1>
                 {t('sign-in-up.sign-in_email')}
             </h1>
@@ -92,15 +98,9 @@ const Signin = () => {
                 <Button type="submit" className='sign-in-button' variant="secondary">
                     {t('sign-in-up.sign-in')}
                 </Button>
+                <p style={{textAlign: "center", color: "darkred"}}>{error}</p>
                 <br/>
                 <br/>
-                {/*<br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                */}
                 <Row>
                 <Button variant='danger' className='google-button' onClick={GoogleLogin}>
                     <BsIcons.BsGoogle/>&nbsp;&nbsp;{t('sign-in-up.continue_google')}
@@ -110,10 +110,10 @@ const Signin = () => {
                 <Button className='facebook-button' onClick={FacebookLogin}>
                     <ImIcons.ImFacebook2/>&nbsp;&nbsp;{t('sign-in-up.continue_fb')}
                 </Button>
+                
                 </Row>
             </Form>
         </div>
-        </>
     )
     }
 

@@ -1,16 +1,14 @@
 import React, {useState} from 'react';
 import '../../../App.css';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 // Bootstrap
-import { Table, Button, Form, Col, Container, Row, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import {  Tooltip } from 'react-bootstrap';
 // Icons
-import * as FaIcons from 'react-icons/fa';
-import * as IoIcons from 'react-icons/io';
+// import * as FaIcons from 'react-icons/fa';
+// import * as IoIcons from 'react-icons/io';
 // Imgs
 import corpus from '../../../assets/imgs/corpus.png';
 // Dati
-import test from './database.json'
+import corpusData from '../../../const/corpusData.json'
 import Fragments from './Fragments'; // fragments & filters 
 //import SearchTable from './filterTable';
 // Translation
@@ -18,14 +16,13 @@ import { useTranslation } from "react-i18next";
 
 
 export default function Corpus() {
-    const [searchTerm, setSearchTerm] = useState("")
-    const [data, setData]=useState(test)
-    const filterResult=(catItem)=> {
-    const result = test.filter((curData)=> {
-      return curData.language === catItem;
-    });
-    setData(result);
-  }
+    const [data, setData]=useState(corpusData)
+//     const filterResult=(catItem)=> {
+//     const result = corpusData.filter((curData)=> {
+//       return curData.language === catItem;
+//     });
+//     setData(result);
+//   }
 
     // Translation 
     const { t } = useTranslation();

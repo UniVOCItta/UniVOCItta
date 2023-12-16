@@ -14,8 +14,7 @@ import locationIcon from '../../../assets/imgs/maps-icon.png';
 // Icons
 import * as ImIcons from 'react-icons/im';
 //Test
-import test from "./database.json";
-import prova from "./prova_2.json";
+import mapCorpusData from "../../../const/mapCorpusData.json";
 
 
 function LeafletgeoSearch() {
@@ -60,7 +59,7 @@ export default function Maps() {
                 attribution='<a className="map_a" href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a className="map_a" href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
                 maxZoom={20}
                 />
-                {prova.map((item) => (
+                {mapCorpusData.map((item) => (
                 <Marker position={[item.lat, item.lng]} icon={markerIcon}>
                     <Popup>
                         <p><sup><ImIcons.ImQuotesLeft/></sup>{item.fragment}<sup><ImIcons.ImQuotesRight/></sup></p>

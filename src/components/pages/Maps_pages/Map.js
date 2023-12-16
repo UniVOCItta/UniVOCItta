@@ -17,9 +17,6 @@ import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
 import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
-//Test
-import test from "../Corpus_pages/database.json"; // this one has name.place.place_name_1.address_1.lat
-import prova from "../Corpus_pages/prova.json"; // this one has name.lat
 
 function LeafletGeoSearch() {
   const map = useMap();

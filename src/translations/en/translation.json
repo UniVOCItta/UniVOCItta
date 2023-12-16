@@ -362,7 +362,8 @@
       "password": "Password",
       "sign-in_button": "Sign In",
       "continue_google": "Continue with Google",
-      "continue_fb": "Continue with Facebook"
+      "continue_fb": "Continue with Facebook",
+      "sign-in-fail":"Login failed"
     },
     
     "profile": {
