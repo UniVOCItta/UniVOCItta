@@ -82,7 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # App conversion and build
 Using [capacitorjs](https://capacitorjs.com/solution/react)
 - change the file 'package.json' and use: "homepage": "https://univocitta.github.io/"
-- npm run build
+- npm run build --prod
 - npx cap sync
 - npx cap run ios
 - npx cap run android

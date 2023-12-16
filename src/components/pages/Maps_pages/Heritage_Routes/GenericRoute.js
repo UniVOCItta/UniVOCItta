@@ -229,6 +229,8 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
                     </div>
                   })}
                 </Col>
+                {/* i br sotto servobo per l'app, se no non si può scrolalre */}
+                <br/><br/>
                 <Col>
                 {getMap(center,currentZoom,mapRef,userLocation,currentLocationIcon,markers,path)}
                 </Col>

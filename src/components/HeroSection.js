@@ -8,7 +8,7 @@ import { Carousel, Button } from 'react-bootstrap';
 // Imgs
 import bolo from '../assets/imgs/hero_section/bologna.jpg'; // © FREE
 import torri from '../assets/imgs/hero_section/bologna_torri.jpg'; // ©
-import uni from '../assets/imgs/hero_section/bib_universitaria_2_Antonio_Cesari.jpg.jpg'; // © Antonio Cesari
+import uni from '../assets/imgs/hero_section/bib_universitaria_2_Antonio_Cesari.jpg'; // © Antonio Cesari
 import museum from '../assets/imgs/hero_section/pinacoteca_Gueraldo_Anna_Chiara.jpg'; // © Gueraldo Anna Chiara
 import church from '../assets/imgs/hero_section/piazza_maggiore.jpg'; // ©
 // Translation
