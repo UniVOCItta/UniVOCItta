@@ -106,7 +106,7 @@ function Body() {
             >
               {carousel_data.travellers.map((el,i)=>{
                 return <CarouselCard 
-                  k={i} 
+                  k={"travellers_"+i} 
                   src={el.src}
                   alt={el.alt}
                   copyright={el.copyright}
@@ -134,7 +134,7 @@ function Body() {
             >
              {carousel_data.routes.map((el,i)=>{
                 return <CarouselCard 
-                  k={i} 
+                  k={"routes_"+i} 
                   src={el.src}
                   alt={el.alt}
                   copyright={el.copyright}
