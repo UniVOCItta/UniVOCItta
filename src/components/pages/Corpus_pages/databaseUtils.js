@@ -16,7 +16,7 @@ export function cleanCityName(element,full=false){
             const lng=Number(temp2[1].replaceAll(")",""));
             return {name,lat,lng}
         }else{
-            return name;
+            return name.toString().trim();
         }
       
     }else{

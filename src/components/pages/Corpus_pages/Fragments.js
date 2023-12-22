@@ -90,7 +90,6 @@ const filter  = generateFilters(database)
         const [showItalian, setShowItalian] = useState(false);
         const [selectedLanguageButton, setSelectedLanguageButton] = useState("");
 
-
         const filteredData = database.filter((item) => {
             if (selectedLanguage && item.language !== selectedLanguage) {
                 return false;
@@ -98,37 +97,36 @@ const filter  = generateFilters(database)
             if (selectedLanguageButton && item.language !== selectedLanguageButton) {
                 return false;
             }
-            if (selectedPlaceType && (cleanCityName(item.place[0]) !==selectedPlaceType && cleanCityName(item.place[1]) !==selectedPlaceType && cleanCityName(item.place[2]) !==selectedPlaceType && cleanCityName(item.place[3]) !==selectedPlaceType && cleanCityName(item.place[4]) !==selectedPlaceType && cleanCityName(item.place[5]) !==selectedPlaceType && cleanCityName(item.place[6]) !==selectedPlaceType)) {
+            if (selectedPlaceType && !item.place.includes(selectedPlaceType)) {
                 return false;            
             }
-            if (selectedAuthor && (item.autore[0] !== selectedAuthor && item.autore[1] !== selectedAuthor && item.autore[2] !== selectedAuthor && item.autore[3] !== selectedAuthor && item.autore[4] !== selectedAuthor && item.autore[5] !== selectedAuthor && item.autore[6] !== selectedAuthor)) {
+            if (selectedAuthor && !item.autore.includes(selectedAuthor)) {
                 return false;
             }
-            if (selectedPeriod && (item.period[0] !== selectedPeriod && item.period[1] !== selectedPeriod && item.period[2] !== selectedPeriod && item.period[3] !== selectedPeriod && item.period[4] !== selectedPeriod && item.period[5] !== selectedPeriod && item.period[6])) {
+            if (selectedPeriod && !item.period.includes(selectedPeriod)) {
                 return false;
             }
-            if (selectedExperience && (item.experience[0] !== selectedExperience && item.experience[1] !== selectedExperience && item.experience[2] !== selectedExperience && item.experience[3] !== selectedExperience && item.experience[4] !== selectedExperience && item.experience[5] !== selectedExperience && item.experience[6] !== selectedExperience)) {
+            if (selectedExperience && !item.experience.includes(selectedExperience)) {
                 return false;
             }
-            if (selectedCharacter && (item.character[0] !== selectedCharacter && item.character[1] !== selectedCharacter && item.character[2] !== selectedCharacter && item.character[3] !== selectedCharacter && item.character[4] !== selectedCharacter && item.character[5] !== selectedCharacter && item.character[6] !== selectedCharacter)) {
+            if (selectedCharacter && !item.character.includes(selectedCharacter)) {
                 return false;
             }
-            if (selectedArtist && (item.artist[0] !== selectedArtist && item.artist[1] !== selectedArtist && item.artist[2] !== selectedArtist && item.artist[3] !== selectedArtist && item.artist[4] !== selectedArtist && item.artist[5] !== selectedArtist && item.artist[6] !== selectedArtist)) {
+            if (selectedArtist && !item.artist.includes(selectedArtist)) {
                 return false;
             }
             if (selectedCity && cleanCityName(item.city) !== selectedCity) {
                 return false 
             }
-            if (selectedTheme && (item.topic[0] !== selectedTheme && item.topic[1] !== selectedTheme && item.topic[2] !== selectedTheme && item.topic[3] !== selectedTheme && item.topic[4] !== selectedTheme && item.topic[5] !== selectedTheme && item.topic[6] !== selectedTheme)) {
+            if (selectedTheme && !item.topic.includes(selectedTheme)) {
                 return false;
             }
-            if (selectedArtwork && (item.artwork[0] !== selectedArtwork && item.artwork[1] !== selectedArtwork && item.artwork[2] !== selectedArtwork && item.artwork[3] !== selectedArtwork && item.artwork[4] !== selectedArtwork && item.artwork[5] !== selectedArtwork && item.artwork[6] !== selectedArtwork)) {
+            if (selectedArtwork && !item.artwork.includes(selectedArtwork)) {
                 return false;
             }
-            if (selectedNature && (item.nature[0] !== selectedNature && item.nature[1] !== selectedNature && item.nature[2] !== selectedNature && item.nature[3] !== selectedNature && item.nature[4] !== selectedNature && item.nature[5] !== selectedNature && item.nature[5] !== selectedNature)) {
+            if (selectedNature && !item.nature.includes(selectedNature)) {
                 return false;
             }
-
             return true;
         });
 
