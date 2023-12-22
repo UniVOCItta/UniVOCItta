@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UniVOCItta/static/css/main.cdd69f6e.css",
-    "main.js": "/UniVOCItta/static/js/main.f066bb92.js",
+    "main.js": "/UniVOCItta/static/js/main.bff21b3b.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.0556b58a3805a8bf77f0.jpg",
     "static/media/bib_universitaria_2_Antonio_Cesari.jpg": "/UniVOCItta/static/media/bib_universitaria_2_Antonio_Cesari.3f1ad169a67e2c329b40.jpg",
@@ -142,10 +142,10 @@
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.cdd69f6e.css.map": "/UniVOCItta/static/css/main.cdd69f6e.css.map",
-    "main.f066bb92.js.map": "/UniVOCItta/static/js/main.f066bb92.js.map"
+    "main.bff21b3b.js.map": "/UniVOCItta/static/js/main.bff21b3b.js.map"
   },
   "entrypoints": [
     "static/css/main.cdd69f6e.css",
-    "static/js/main.f066bb92.js"
+    "static/js/main.bff21b3b.js"
   ]
 }
