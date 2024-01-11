@@ -45,7 +45,7 @@ function Body() {
     ],
     routes:[
       {src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},
-      {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Food',link:'../coming',linkText:t('footer.more')},
+      {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Food',link:'/maps/food',linkText:t('footer.more')},
       {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:'Women',link:'/maps/women',linkText:t('footer.more')},
       {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Appennino',link:'/maps/appennino',linkText:t('footer.more')},
       {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'UNESCO',link:'../coming',linkText:t('footer.more')},

@@ -329,7 +329,7 @@
 
     "routes": {
       "itinerary": "ITINERARY",
-      "appennini": "Percorso degli Appennini",
+      "appennini": "Appennino Route",
         "appennini_text": "Lorem ipsum",
       "city_centre": "Lorem ipsum",
         "city_centre_text": "Lorem ipsum",
