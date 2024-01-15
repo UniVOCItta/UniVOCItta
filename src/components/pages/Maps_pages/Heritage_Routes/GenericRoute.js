@@ -177,7 +177,7 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
         </Breadcrumb>
           <div className="row align-items-center">
             <div className="col-md-9">
-              <h2>{title}</h2>
+              <h2>{t(title)}</h2>
             </div>
             <div className="col-md-3 text-right">
               {isFavorite ? (
