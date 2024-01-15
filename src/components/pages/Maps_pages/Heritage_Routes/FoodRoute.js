@@ -172,8 +172,8 @@ const FoodRoute = () => {
       zooms={zooms}
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
-      title={"Bologna la Grassa: usi e costumi"} 
-      text={"'La Grassa', per le sue tipiche e squisite pietanze: tortellini, mortadella, lasagne, tagliatelle al ragù e crescentine, sono solo alcuni dei prodotti caratteristici di questa capitale del gusto."} 
+      title={"routes.food"} 
+      text={"routes.food_text"} 
       cards={cards}
       intestation={intestation} 
   />

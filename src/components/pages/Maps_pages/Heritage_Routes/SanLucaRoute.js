@@ -136,8 +136,8 @@ const SanLucaRoute = () => {
       zooms={zooms}
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
-      title={"Saragozza - San Luca"} 
-      text={"Lorem ipsum dolor sit amet"} 
+      title={"routes.san_luca"} 
+      text={"routes.san_luca_text"} 
       cards={cards}
       intestation={intestation} 
   />

@@ -193,7 +193,7 @@ const WomenRoute = () => {
       zooms={zooms} 
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
-      title={"Women Route"} 
+      title={"routes.women"} 
       text={"Bologna è ricca di donne che hanno dato il loro contributo al progresso artistico, alla divulgazione scientifica, alla strategia politica e al benessere sociale della città. Unite tutte da un unico fil rouge, la passione, che veicola da sempre l’animo femminile."} 
       cards={cards}
       intestation={intestation} 
