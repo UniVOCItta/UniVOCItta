@@ -649,15 +649,15 @@ function Places() {
         <h2>{t('maps.places_featured')}</h2>
               {/*Filters*/}
               <div className='routes-filter-buttons'>
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Museum' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Museum')}>Museum</Button> {/*NON FUNZIONA */}
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'University' ? 'active' : ''}`} onClick={() => handleCategoryFilter('University')}>University</Button>
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Library' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Library')}>Library</Button> {/*NON FUNZIONA */}
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Worship' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Worship')}>Place of worship</Button>
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Porticoes' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Porticoes')}>Porticoes</Button>
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Museum' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Museum')}>{t('maps.button_museum')}</Button> {/*NON FUNZIONA */}
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'University' ? 'active' : ''}`} onClick={() => handleCategoryFilter('University')}>{t('maps.button_uni')}</Button>
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Library' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Library')}>{t('maps.button_library')}</Button> {/*NON FUNZIONA */}
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Worship' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Worship')}>{t('maps.button_worship')}</Button>
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Porticoes' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Porticoes')}>{t('maps.button_porticoes')}</Button>
                 <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Tower' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Tower')}>Tower</Button>
                 <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Historical' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Historical')}>Historical</Button>
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Park' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Park')}>Park</Button>
-                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Square' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Square')}>Square</Button>
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Park' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Park')}>{t('maps.button_park')}</Button>
+                <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Square' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Square')}>{t('maps.button_square')}</Button>
                 <Button variant='outline-dark' className={`routes-filter ${selectedCategory === 'Other' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Other')}>Other</Button>
                 <Button variant='secondary' className={`routes-filter ${selectedCategory === null ? 'active' : ''}`} onClick={handleShowAll}>All</Button>
                 <OverlayTrigger placement="top" overlay={map_disclaimer}><Button variant='outline-info' className='routes-filter' onClick={handleMapButtonClick}><GrIcons.GrMapLocation/></Button></OverlayTrigger>
@@ -686,12 +686,12 @@ function Places() {
                       {isPlaceInFavorites(place) ? (
                         <Button variant='outline-dark' onClick={() => handleRemoveFromFavorites(place)}>
                           <FaHeart />
-                          &nbsp;Remove from Favorites
+                          &nbsp;{t('maps.remove_favourites')}
                         </Button>
                       ) : (
                         <Button variant='outline-dark' onClick={() => handleAddToFavorites(place)}>
                           <FaRegHeart />
-                          &nbsp;Add to Favorites
+                          &nbsp;{t('maps.add_favourites')}
                         </Button>
                       )}
                     </div>

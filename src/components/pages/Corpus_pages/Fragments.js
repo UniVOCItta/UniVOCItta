@@ -281,7 +281,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                     active={selectedLanguageButton === "English"}
                     onClick={() => handleButtonClick("English")}
                 >
-                    English
+                    {t('en')}
                 </Button>
                 <Button
                     className='corpus-button'
@@ -289,7 +289,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                     active={selectedLanguageButton === "French"}
                     onClick={() => handleButtonClick("French")}
                 >
-                    French
+                    {t('fr')}
                 </Button>
                 <Button
                     className='corpus-button'
@@ -297,7 +297,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                     active={selectedLanguageButton === "Spanish"}
                     onClick={() => handleButtonClick("Spanish")}
                 >
-                    Spanish
+                    {t('es')}
                 </Button>
                 <Button
                     className='corpus-button'
@@ -305,7 +305,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                     active={selectedLanguageButton === "Russian"}
                     onClick={() => handleButtonClick("Russian")}
                 >
-                    Russian
+                    {t('ru')}
                 </Button>
                 {/* 
                 <Button
@@ -427,7 +427,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                                     value={selectedNature}
                                     onChange={(event) => setSelectedNature(event.target.value)}
                                 >
-                                    <option value="">All Nature</option>
+                                    <option value="">{t('corpus.all_nature')}</option>
                                     {filter.nature.map((el,i)=>{
                                         return <option key={"nature_f_"+i} value={el}>{el}</option>
                                     })}
@@ -436,7 +436,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                                     value={selectedTheme}
                                     onChange={(event) => setSelectedTheme(event.target.value)}
                                 >
-                                    <option value="">All Themes</option>
+                                    <option value="">{t('corpus.all_themes')}</option>
                                     {filter.theme.map((el,i)=>{
                                         return <option key={"theme_f_"+i} value={el}>{el}</option>
                                     })}
@@ -445,7 +445,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                                     value={selectedArtwork}
                                     onChange={(event) => setSelectedArtwork(event.target.value)}
                                 >
-                                    <option value="">All Artworks</option>
+                                    <option value="">{t('corpus.all_artworks')}</option>
                                     {filter.artwork.map((el,i)=>{
                                         return <option key={"artwork_f_"+i} value={el}>{el}</option>
                                     })}
@@ -616,8 +616,8 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
             <Table>
                 <thead>
                 <tr>
-                    <th>Fragment</th>
-                    <th>Source</th>
+                    <th>{t('corpus.fragment')}</th>
+                    <th>{t('corpus.source')}</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -652,12 +652,12 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                             {isBookInFavorites(item) ? (
                                 <Button id='bookmark-button' variant='outline-dark' onClick={() => handleRemoveFromBookmarks(item)}>
                                 <BsIcons.BsBookmarkFill />
-                                &nbsp;Remove from Bookmarks
+                                &nbsp;{t('corpus.remove_bookmark')}
                                 </Button>
                                 ) : (
                                 <Button id='bookmark-button' variant='outline-dark' onClick={() => handleAddToBookmarks(item)}>
                                 <BsIcons.BsBookmark />
-                                &nbsp;Add to Bookmarks
+                                &nbsp;{t('corpus.add_bookmark')}
                                 </Button>
                             )}
                             </div>
@@ -671,7 +671,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                             style={{ padding: '0.25rem 0.5rem', fontSize: '0.75rem' }}
                             onClick={() => setShowItalian(!showItalian)}
                             >
-                            Italian
+                            {t('it')}
                             </Button>
                         </OverlayTrigger>
                         )}
