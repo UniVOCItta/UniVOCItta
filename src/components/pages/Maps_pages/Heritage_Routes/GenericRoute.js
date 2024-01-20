@@ -30,9 +30,9 @@ function getMap(_center,_zoom,_mapRef,_userLocation,_currentLocationIcon,_marker
   {_path}
   {_markers}
   {_userLocation && (
-      <Marker position={_userLocation} icon={_currentLocationIcon}>
+      <Marker position={_userLocation} icon={_currentLocationIcon} >
         <Popup>
-          <p>You're here</p>
+          <p >You're here</p>
         </Popup>
       </Marker>
     )}
@@ -69,9 +69,10 @@ function generateIcons(count){
 
 
 
-function convertCoordinatestoMarkers(coords,m_icons,m_content){
+function convertCoordinatestoMarkers(coords,m_icons,m_content,clickSectionOnMap){
   return coords.map((coord, idx) => (
-    <Marker position={coord} key={idx} icon={m_icons[idx]}>
+    <div  onClick={()=>{clickSectionOnMap(idx)}}>
+      <Marker position={coord} key={idx} icon={m_icons[idx]}>
       <Popup>
         <div>
           {/*<h4>Location {idx + 1}</h4>*/}
@@ -79,6 +80,7 @@ function convertCoordinatestoMarkers(coords,m_icons,m_content){
         </div>
       </Popup>
     </Marker>
+    </div>
   ));
 }
 
@@ -86,14 +88,10 @@ function convertCoordinatestoMarkers(coords,m_icons,m_content){
 const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zooms,intestation}) => {
   // const map = useMap();
 
-  const ZOOM_LEVEL = 13;
-  const markerIcons =generateIcons(coordinates.length);
-  const markers = convertCoordinatestoMarkers(coordinates,markerIcons,markerContent)
-  const path = <Polyline positions={coordinates} color="black" weight={3} opacity={0.3}  />;
-
   const [center, setCenter] = useState(init_pos?init_pos:{ lat: 44.49381, lng: 11.33875 });
   const [currentZoom, setCurrentZoom] = useState(zooms[0]!==null?zooms[0]:ZOOM_LEVEL);
   const [userLocation, setUserLocation] = useState(null);
+  const [currentCards,setCurrentCards] = useState(cards);
   const mapRef = useRef();
 
   useEffect(() => {
@@ -156,7 +154,19 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
       setCurrentZoom(zooms[i])
     }
   }
+
+  const clickSectionOnMap =(i)=>{
+    setCurrentCards([cards[i]]);
+  }
+  const showAllCards =()=>{
+    setCurrentCards(cards);
+  }
   
+  const ZOOM_LEVEL = 13;
+  const markerIcons =generateIcons(coordinates.length);
+  const markers = convertCoordinatestoMarkers(coordinates,markerIcons,markerContent,clickSectionOnMap)
+  const path = <Polyline positions={coordinates} color="black" weight={3} opacity={0.3}  />;
+
   // console.log("center",center)
   return (
     <>
@@ -209,8 +219,11 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
           <div className='fragments-list'>
               <Row className="no-gutters">
                 <Col id='scrollable-col'>
-                  <h3>&nbsp;ITINERARY</h3>
-                  {cards.map((el,i)=>{
+                  <div>
+                    <h3 style={{display:"inline-block"}}>&nbsp;{t("routes.itinerary")}</h3>
+                    <p className="map_a" style={{float: "right",marginRight:"10px", display:"inline-block",cursor:"pointer"}} onClick={showAllCards}>{t("routes.show_all_cards")}</p>
+                  </div>
+                  {currentCards.map((el,i)=>{
                     return <div key={"desktop_"+i} onClick={()=>{clickSection(i)}}>
                       {el.map((el2,i2)=>{
                         return <div key={"desktop_"+i+"_"+i2}>

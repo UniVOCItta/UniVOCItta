@@ -91,10 +91,27 @@ Using [capacitorjs](https://capacitorjs.com/solution/react)
 - Before starting working: ./sync.sh 
 - After working: ./update.sh
 
-# push on Github pages
+# Push on Github pages
 - (only the first time): npm install gh-pages --save-dev
 - (only the first time): npm install
 - change the file 'package.json' and use: "homepage": "https://univocitta.github.io/UniVOCItta/"
 - npm run build
 - npm run deploy
 - check if evrything is ok after at least 10min here: [https://univocitta.github.io/UniVOCItta/](https://univocitta.github.io/UniVOCItta/)
+
+# Data that are not automatized:
+- http://localhost:3000/UniVOCItta#/maps/Places
+    - src\components\pages\Maps_pages\Places\placesData.js
+    - contains img ref, can't be automatized
+- http://localhost:3000/UniVOCItta#/maps/Travellers 
+    - contains img ref
+- http://localhost:3000/UniVOCItta#/maps/Routes
+    - contains img ref
+- src\components\Body.js
+    - carousel_data const Line 38
+- src\components\HeroSection.js
+    - home page billboard
+
+# Data that can be changed easily
+- http://localhost:3000/UniVOCItta#/corpus
+    - src\const\database.json

@@ -90,6 +90,21 @@ const filter  = generateFilters(database)
         const [showItalian, setShowItalian] = useState(false);
         const [selectedLanguageButton, setSelectedLanguageButton] = useState("");
 
+        //item.place.includes(selectedPlaceType)
+        // va rifatto il filtro per gli array !!!
+
+        const arrayContains=(arr,value)=>{
+            for(let el of arr){
+                if(value==="Accademie - Accademia"){
+                    console.log(el,cleanCityName(el));
+                }
+                if(cleanCityName(el).includes(value)){
+                    return true;
+                }
+            }
+            return false;
+        }
+
         const filteredData = database.filter((item) => {
             if (selectedLanguage && item.language !== selectedLanguage) {
                 return false;
@@ -97,7 +112,7 @@ const filter  = generateFilters(database)
             if (selectedLanguageButton && item.language !== selectedLanguageButton) {
                 return false;
             }
-            if (selectedPlaceType && !item.place.includes(selectedPlaceType)) {
+            if (selectedPlaceType && !arrayContains(item.place,selectedPlaceType)) {
                 return false;            
             }
             if (selectedAuthor && !item.autore.includes(selectedAuthor)) {
@@ -115,7 +130,7 @@ const filter  = generateFilters(database)
             if (selectedArtist && !item.artist.includes(selectedArtist)) {
                 return false;
             }
-            if (selectedCity && cleanCityName(item.city) !== selectedCity) {
+            if (selectedCity && cleanCityName(item.city).includes(selectedCity)) {
                 return false 
             }
             if (selectedTheme && !item.topic.includes(selectedTheme)) {
@@ -737,43 +752,6 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
             <Button className="close-button" variant="info" onClick={handleCloseMap}><GrIcons.GrClose/></Button>
         </div>
       )}
-            {/* VISUALIZATION OPTION WITH COLUMNS
-            <div className="container fluid">
-            {filteredData.filter((val)=>{
-                            if (searchTerm === '') {
-                                return val;
-                            } else if (
-                                val.author[0].toLowerCase().includes(searchTerm.toLowerCase()) ||
-                                val.fragment.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                                val.web_link.toLowerCase().includes(searchTerm.toLowerCase())
-                            ) {
-                                return val;
-                            }  
-                        }).map((item, index) => (
-                            <div className='suggested-route'>
-                                <section>
-                                    <Row>
-                                        <Col className='col-9'>
-                                            <p>{item.fragment}</p>
-                                            <FaIcons.FaBookmark/>
-                                            <p><FaIcons.FaMapMarkerAlt/>{item.place.place_name_1.address_1.lat}-{item.place.place_name_1.address_1.lng}</p>
-                                        </Col>
-                                        <Col className='col-2'>
-                                            <p>{item.author[0]}</p> 
-                                            <p>{item.author[1]}</p>
-                                            <p>{item.author[2]}</p>
-                                            <HashLink to={item.web_link}>Link</HashLink>
-                                            {/*<p>{item.experience[0]}, {item.experience[1]}</p>
-                                            <p>{item.character[0]}, {item.character[1]}, {item.character[2]}</p>
-                                        </Col>
-                                        <MapCorpus/>
-                                    </Row>
-                                    <hr/>
-                                </section>
-                            </div> 
-                        ))}
-            </div>
-            */}
             {/* Modal */}
             <Modal show={showModal} onHide={handleCloseModal} size="lg" centered>
                 <Modal.Header closeButton>

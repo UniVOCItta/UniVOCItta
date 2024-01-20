@@ -60,7 +60,7 @@ export default function Maps() {
                 maxZoom={20}
                 />
                 {mapCorpusData.map((item) => (
-                <Marker position={[item.lat, item.lng]} icon={markerIcon}>
+                <Marker position={[item.lat, item.lng]} icon={markerIcon}  >
                     <Popup>
                         <p><sup><ImIcons.ImQuotesLeft/></sup>{item.fragment}<sup><ImIcons.ImQuotesRight/></sup></p>
                         <p>-{item.author[0]}</p>

@@ -329,6 +329,7 @@
 
     "routes": {
       "itinerary": " ITINÉRAIRE",
+      "show_all_cards":"Afficher tout",
       "appennini": "Itinéraire des Apennins",
         "appennini_text": "Lorem ipsum",
       "city_centre": "Lorem ipsum",
