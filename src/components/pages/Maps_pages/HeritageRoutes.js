@@ -206,9 +206,9 @@ const HeritageRoutes = () => {
                   <p>{route.text}</p>
                   <p style={{textAlign: 'right'}}>Find out more&nbsp;<Link to={`${route.link}`}><BsIcons.BsFillArrowRightCircleFill className="more-icon" /></Link></p>
                   {/*
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'../maps/singleroute'}>Temporary Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={`../maps/routedetails/${route.id}`}>Temporary Automatic Route Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'../maps/routes/prova'}>LANGUAGE PROVA</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'./maps/singleroute'}>Temporary Link</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={`./maps/routedetails/${route.id}`}>Temporary Automatic Route Link</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'./maps/routes/prova'}>LANGUAGE PROVA</Link></p>
                   */}
                   <div className='tag-buttons'>
                     <Badge pill bg="primary"  disabled>{route.tag.tag_1}</Badge>{' '}

@@ -39,11 +39,11 @@ function Body() {
 
   const carousel_data={
     travellers:[
-      {src:dickens,alt:'',copyright:'',title:'Charles Dickens',link:'../maps/travellers/en/dickens',linkText:t('footer.more')},
-      {src:madame,alt:'',copyright:'',title:'Madame De Staël',link:'../maps/travellers/fr/destael',linkText:t('footer.more')},
-      {src:tolstoj,alt:'',copyright:'',title:'Pëtr Andreevič Tolstoj',link:'../maps/travellers/ru/tolstoj',linkText:t('footer.more')},
-      {src:lee,alt:'',copyright:'',title:'Vernon Lee',link:'../maps/travellers/en/lee',linkText:t('footer.more')},
-      {src:cervantes,alt:'',copyright:'',title:'Miguel de Cervantes',link:'../maps/travellers/es/cervantes',linkText:t('footer.more')},
+      {src:dickens,alt:'',copyright:'',title:'Charles Dickens',link:'./maps/travellers/en/dickens',linkText:t('footer.more')},
+      {src:madame,alt:'',copyright:'',title:'Madame De Staël',link:'./maps/travellers/fr/destael',linkText:t('footer.more')},
+      {src:tolstoj,alt:'',copyright:'',title:'Pëtr Andreevič Tolstoj',link:'./maps/travellers/ru/tolstoj',linkText:t('footer.more')},
+      {src:lee,alt:'',copyright:'',title:'Vernon Lee',link:'./maps/travellers/en/lee',linkText:t('footer.more')},
+      {src:cervantes,alt:'',copyright:'',title:'Miguel de Cervantes',link:'./maps/travellers/es/cervantes',linkText:t('footer.more')},
     ],
     routes:[
       /*{src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},*/
@@ -178,7 +178,7 @@ function Body() {
         <p>{t('body.places_text')}</p>
             {/*Map*/}
             <Map/>
-            <Link to='../maps/places'>
+            <Link to='./maps/places'>
               <FaIcons.FaArrowAltCircleRight className='arrow_icon'/>
             </Link>
     </div>

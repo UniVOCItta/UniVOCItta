@@ -73,7 +73,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Tolstoj_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/ru/tolstoj'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/tolstoj'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -83,7 +83,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Muratov_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/ru/muratov'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/muratov'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -93,7 +93,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Fonzivin_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/ru/fonzivin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/fonzivin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -103,7 +103,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Glagolev_text_carousel')}</p>
               <p>
-                <HashLink to='../maps/travellers/ru/glagolev'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/glagolev'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -113,7 +113,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Grec_text_carousel')}</p>
               <p>
-                <HashLink to='../maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -123,7 +123,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Herzen_text_carousel')}</p>
               <p>
-                <HashLink to='../maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='./maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>

@@ -28,8 +28,12 @@ function GenericTravellerPage({
   const [showItalian, setShowItalian] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarks));    
   }, [bookmarks]); 
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []); 
 
   const disclaimer = (
       <Tooltip id="tooltip-disclaimer" style={{ fontSize: '0.6rem' }}>
