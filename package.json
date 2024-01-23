@@ -2,7 +2,7 @@
   "name": "univocitta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://univocitta.github.io/",
+  "homepage": "https://univocitta.github.io/UniVOCItta/",
   "dependencies": {
     "@capacitor/android": "^5.5.1",
     "@capacitor/cli": "^5.4.2",

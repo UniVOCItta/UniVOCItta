@@ -330,6 +330,7 @@
 
     "routes": {
       "itinerary": "маршрут",
+      "show_all_cards":"Показать все",
       "appennini": "Апеннинский маршрут",
         "appennini_text": "Lorem ipsum",
       "city_centre": "Lorem ipsum",

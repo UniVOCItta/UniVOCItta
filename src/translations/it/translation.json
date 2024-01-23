@@ -329,8 +329,9 @@
 
     "routes": {
       "itinerary": "ITINERARIO",
+      "show_all_cards":"Mostra tutto",
       "appennini": "Percorso degli Appennini",
-        "appennini_text": "Pittoreschi borghi, paradisi nascosti, natura protagonista indiscussa: l'Appennino vicino a Bologna regala esperienze davvero uniche, un viaggio tra bellezze naturalistiche, paesaggistiche, architettoniche e archeologiche.",
+      "appennini_text": "Pittoreschi borghi, paradisi nascosti, natura protagonista indiscussa: l'Appennino vicino a Bologna regala esperienze davvero uniche, un viaggio tra bellezze naturalistiche, paesaggistiche, architettoniche e archeologiche.",
       "city_centre": "Lorem ipsum",
         "city_centre_text": "Lorem ipsum",
       "churches": "Lorem ipsum",

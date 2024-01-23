@@ -28,7 +28,6 @@ import EnglishTravellers from './components/pages/Maps_pages/Travellers/EnglishT
 import FrenchTravellers from './components/pages/Maps_pages/Travellers/FrenchTravellers';
 import SpanishTravellers from './components/pages/Maps_pages/Travellers/SpanishTravellers';
 import RussianTravellers from './components/pages/Maps_pages/Travellers/RussianTravellers';
-import TravellerPage from './components/pages/Maps_pages/Travellers/TravellerPage';
 //EN 
 import CharlesDickens from './components/pages/Maps_pages/Travellers/EN/CharlesDickens';
 import FrancesTrollope from './components/pages/Maps_pages/Travellers/EN/FrancesTrollope';
@@ -120,7 +119,6 @@ function App() {
                     <Route path='maps/travellers/french_travellers' element={<FrenchTravellers/>}/>
                     <Route path='maps/travellers/spanish_travellers' element={<SpanishTravellers/>}/>
                     <Route path='maps/travellers/russian_travellers' element={<RussianTravellers/>}/>
-                    <Route path='maps/travellers/travellerpage' element={<TravellerPage/>}/>  
                       {/*EN travellers*/}
                       <Route path='maps/travellers/en/dickens' element={<CharlesDickens/>}/>   
                       <Route path='maps/travellers/en/trollope' element={<FrancesTrollope/>}/> 

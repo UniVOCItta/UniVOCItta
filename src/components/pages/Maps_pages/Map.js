@@ -2,8 +2,6 @@ import React, { useRef, useState, useEffect } from 'react';
 import '../../../App.css';
 // Bootstrap
 import { Row, Form } from 'react-bootstrap';
-// JSON data
-import quotes from './quotes.json';
 // Imgs
 import locationIcon from '../../../assets/imgs/maps-icon.png';
 // Icons
@@ -17,6 +15,7 @@ import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
 import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
+import {places} from './Places/placesData'
 
 function LeafletGeoSearch() {
   const map = useMap();
@@ -72,14 +71,8 @@ export default function Maps() {
     }
   }, []);
 
-  const filterQuotesByLanguage = (language) => {
-    if (!language) {
-      return quotes; // No filter applied, return all quotes
-    }
-    return quotes.filter(quote => quote.language === language);
-  };
 
-  const filteredQuotes = filterQuotesByLanguage(selectedLanguage);
+
 
   return (
     <>
@@ -90,16 +83,16 @@ export default function Maps() {
             attribution='<a className="map_a" href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a className="map_a" href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
             maxZoom={20}
           />
-          {filteredQuotes.map((name) =>
-            <Marker position={name.location} icon={markerIcon}>
-              <Popup>
-                <p><sup><ImIcons.ImQuotesLeft className='left-quote' /></sup>{name.quote}<sup><ImIcons.ImQuotesRight /></sup></p>
-                <div className="row-container">
-                  <p>-{name.author}</p>
-                  <AiIcons.AiOutlineHeart className='heart-icon' />
-                </div>
-              </Popup>
-            </Marker>)}
+          {places.map((name) =>
+              <Marker position={name.location} icon={markerIcon}>
+                <Popup>
+                  <p><sup><ImIcons.ImQuotesLeft className='left-quote' /></sup>{name.title}<sup><ImIcons.ImQuotesRight /></sup></p>
+                  <div className="row-container">
+                    <p>-{name.description}</p>
+                    <AiIcons.AiOutlineHeart className='heart-icon' />
+                  </div>
+                </Popup>
+              </Marker>)}
           {userLocation && (
             <Marker position={userLocation} icon={currentLocationIcon}>
               <Popup>
@@ -109,21 +102,6 @@ export default function Maps() {
           )}
           <LeafletGeoSearch />
         </MapContainer>
-        {/*
-          <div className="language-filter">
-            <label htmlFor="language">Select Language:</label>
-            <Form.Select
-              id="language"
-              value={selectedLanguage}
-              onChange={(e) => setSelectedLanguage(e.target.value)}
-            >
-              <option value="">All Languages</option>
-              <option value="English">English</option>
-              <option value="French">French</option>
-              <option value="Spanish">Spanish</option>
-            </Form.Select>
-          </div>
-        */}
       </div>
     </>
   );
