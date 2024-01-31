@@ -90,7 +90,7 @@ function Body() {
   return (
     <>
     <div className='container-fluid' id='section-container-white'>
-    <h1 id='left' className='section'>UniVOCIttà: voci digitali sull'unicità del patrimonio bolognese</h1>
+    <h1 id='left' className='section'>{t('body.univocittà_main_title')}</h1>
       <p>{t('body.univocitta_text')}</p>
       <div>
         <Link to='../project'>
