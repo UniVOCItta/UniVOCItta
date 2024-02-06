@@ -68,12 +68,12 @@ function GenericTravellerPage({
         <Breadcrumb.Item><HashLink smooth to='/' id='crumb'>Home</HashLink></Breadcrumb.Item>
         <Breadcrumb.Item>
           <HashLink smooth to="/maps" id='crumb'>
-          Maps
+          {t('maps.maps')}
           </HashLink>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
           <HashLink smooth to="/maps/travellers" id='crumb'>
-          Travellers
+          {t('maps.travellers_button')}
           </HashLink>
         </Breadcrumb.Item>
         <Breadcrumb.Item>

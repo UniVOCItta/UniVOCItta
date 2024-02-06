@@ -123,7 +123,7 @@ function RussianTravellers() {
               <p className='slider-p'>{t('travellers.ru_nationality')}</p>
               <p className='slider-p'>{t('travellers.ru_Herzen_text_carousel')}</p>
               <p>
-                <HashLink to='/maps/travellers/ru/grec'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/ru/herzen'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>
