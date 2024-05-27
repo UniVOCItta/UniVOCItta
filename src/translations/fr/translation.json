@@ -352,7 +352,9 @@
       "university": "Université",
         "university_text": "Lorem ipsum",
       "women": "Itinéraire de femmes",
-        "women_text": "Lorem ipsum"
+        "women_text": "Lorem ipsum",
+      "quebec": "Voyageurs québécois à Bologne",
+        "quebec_text": "Lorem ipsum"
     },
 
     "sign-in-up": {

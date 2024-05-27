@@ -352,7 +352,9 @@
       "university": "Universidad",
         "university_text": "Lorem ipsum",
       "women": "Itinerario de mujeres",
-        "women_text": "Lorem ipsum"
+        "women_text": "Lorem ipsum",
+      "quebec": "Quebec Route",
+        "quebec_text": "Lorem ipsum"
     },
 
     "sign-in-up":{

@@ -16,6 +16,7 @@ import unibo from '../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg';
 import appennino from '../assets/imgs/appennino.jpg';
 import city_centre from '../assets/imgs/routes/bologna_free.jpg';
 import san_luca from '../assets/imgs/routes/san_luca_wikipedia_Nebbius.jpg';
+import quebec from '../assets/imgs/routes/quebec.png'
 import madame from '../assets/imgs/travellers/fr/Mme_de_Staël.jpg';
 import dickens from "../assets/imgs/travellers/en/Dickens.jpg";
 import tolstoj from "../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg"
@@ -51,6 +52,7 @@ function Body() {
       {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:'Women',link:'/maps/women',linkText:t('footer.more')},
       {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Appennino',link:'/maps/appennino',linkText:t('footer.more')},
       {src:san_luca,alt:'Santuario della Madonna di San Luca',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Saragozza - San Luca',link:'/maps/san_luca',linkText:t('footer.more')},
+      {src:quebec,alt:'Bandiera Quebec',copyright:'Krun (original), Public domain, via Wikimedia Commons',title:'Quebec',link:'/maps/quebec',linkText:t('footer.more')},
       {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'UNESCO',link:'../coming',linkText:t('footer.more')},
       {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'University',link:'../coming',linkText:t('footer.more')},
     ]
