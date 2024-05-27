@@ -88,6 +88,7 @@ function convertCoordinatestoMarkers(coords,m_icons,m_content,clickSectionOnMap)
 const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zooms,intestation}) => {
   // const map = useMap();
 
+  const ZOOM_LEVEL = 13;
   const [center, setCenter] = useState(init_pos?init_pos:{ lat: 44.49381, lng: 11.33875 });
   const [currentZoom, setCurrentZoom] = useState(zooms[0]!==null?zooms[0]:ZOOM_LEVEL);
   const [userLocation, setUserLocation] = useState(null);
@@ -162,7 +163,6 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
     setCurrentCards(cards);
   }
   
-  const ZOOM_LEVEL = 13;
   const markerIcons =generateIcons(coordinates.length);
   const markers = convertCoordinatestoMarkers(coordinates,markerIcons,markerContent,clickSectionOnMap)
   const path = <Polyline positions={coordinates} color="black" weight={3} opacity={0.3}  />;

@@ -123,6 +123,24 @@ const HeritageRoutes = () => {
     },
     {
       id: 5,
+      category: "University",
+      title: "Viaggiatori quebecchesi",
+      time: "40min",
+      km: "2,5km",
+      path: t('maps.intermediate'),
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/quebec.png'),
+      copyright: "Krun (original), Public domain, via Wikimedia Commons",
+      more: "Find out more",
+      link: "/maps/quebec",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+    {
+      id: 6,
       category: "Museum",
       title: "Museum Route",
       time: ".. min",
@@ -206,9 +224,9 @@ const HeritageRoutes = () => {
                   <p>{route.text}</p>
                   <p style={{textAlign: 'right'}}>Find out more&nbsp;<Link to={`${route.link}`}><BsIcons.BsFillArrowRightCircleFill className="more-icon" /></Link></p>
                   {/*
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'../maps/singleroute'}>Temporary Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={`../maps/routedetails/${route.id}`}>Temporary Automatic Route Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'../maps/routes/prova'}>LANGUAGE PROVA</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'/maps/singleroute'}>Temporary Link</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={`/maps/routedetails/${route.id}`}>Temporary Automatic Route Link</Link></p>
+                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'/maps/routes/prova'}>LANGUAGE PROVA</Link></p>
                   */}
                   <div className='tag-buttons'>
                     <Badge pill bg="primary"  disabled>{route.tag.tag_1}</Badge>{' '}

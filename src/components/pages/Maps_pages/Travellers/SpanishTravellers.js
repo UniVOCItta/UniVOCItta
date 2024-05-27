@@ -74,7 +74,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Burgos_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/burgos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/burgos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -84,7 +84,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Alarcon_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/alarcon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/alarcon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -94,7 +94,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Galdos_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/galdos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/galdos'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -104,7 +104,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Moratin_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/moratin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/moratin'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -114,7 +114,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Villalon_text_carousel')}</p>
               <p>
-                <HashLink to='../maps/travellers/es/villalon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/villalon'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -124,7 +124,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Cervantes_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/cervantes'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/cervantes'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
             <div className='card'>
@@ -134,7 +134,7 @@ function SpanishTravellers() {
               <p className='slider-p'>{t('travellers.es_nationality')}</p>
               <p className='slider-p'>{t('travellers.es_Baroja_text_carousel')}.</p>
               <p>
-                <HashLink to='../maps/travellers/es/baroja'><button className='slider-button'>{t('footer.more')}</button></HashLink>
+                <HashLink to='/maps/travellers/es/baroja'><button className='slider-button'>{t('footer.more')}</button></HashLink>
               </p>
             </div>
           </Carousel>
