@@ -186,6 +186,7 @@
       "travellers_more": "Afficher plus",
       "routes_button": "Itinéraires",
       "routes_title": "Parcours culturels",
+      "single_route": "Parcours",
       "routes_text":"Découvrez Bologne à travers nos suggestions d'itinéraires sur l'art, la culture et la gastronomie. Quels que soient vos intérêts et vos préférences, vous trouverez ce que vous cherchez : nos itinéraires vous permettront de vivre des expériences extraordinaires, en écoutant les voix des voyageurs du passé qui ont visité Bologne avant vous.",
       "suggested_routes": "Parcours suggérés",
       "women_category": "Femmes",
@@ -199,8 +200,8 @@
       "intermediate": "Intermédiaire",
       "difficult": "Difficile",
       "more": "En savoir plus",
-      "add_favourites": "Add to Favourites",
-      "remove_favourites": "Remove from Favourites"
+      "add_favourites": "Ajouter aux favoris",
+      "remove_favourites": "Retirer des favoris"
     },
 
     "places": {   
@@ -333,19 +334,19 @@
       "show_all_cards":"Afficher tout",
       "appennini": "Itinéraire des Apennins",
         "appennini_text": "Lorem ipsum",
-      "city_centre": "Lorem ipsum",
+      "city_centre": "Itinéraire du centre ville",
         "city_centre_text": "Lorem ipsum",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
-      "food": "Nourriture",
+      "food": "Itinéraire gastronomique",
         "food_text": "Lorem ipsum",
-      "museums": "Musées",
+      "museums": "Itinéraires des musées",
         "museums_text": "Lorem ipsum",
       "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
       "towers": "Lorem ipsum",
         "towers_text": "Lorem ipsum",
-      "san_luca": "Saragozza - San Luca",
+      "san_luca": "Itinéraire du portique de San Luca",
         "san_luca_text": "Lorem ipsum dolor sit amet",
       "unesco": "UNESCO",
         "unesco_text": "Lorem ipsum",
@@ -353,8 +354,8 @@
         "university_text": "Lorem ipsum",
       "women": "Itinéraire de femmes",
         "women_text": "Lorem ipsum",
-      "quebec": "Voyageurs québécois à Bologne",
-        "quebec_text": "Lorem ipsum"
+      "quebec": "Voyageurs québécois",
+        "quebec_text": "Le regard émerveillé des voyageurs québécois arrivés du Nouveau Monde témoigne d'un vif intérêt pour le patrimoine culturel et religieux de la ville de Bologne, ainsi que pour les coutumes et l’érudition des ecclésiastiques bolonais qu’ils ont rencontrés."
     },
 
     "sign-in-up": {

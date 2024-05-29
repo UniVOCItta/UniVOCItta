@@ -47,14 +47,14 @@ function Body() {
     ],
     routes:[
       /*{src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},*/
-      {src:city_centre,alt:'Centro di Bologna',copyright:'fre',title:'City Centre',link:'/maps/city_centre',linkText:t('footer.more')},
-      {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Food',link:'/maps/food',linkText:t('footer.more')},
-      {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:'Women',link:'/maps/women',linkText:t('footer.more')},
-      {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Appennino',link:'/maps/appennino',linkText:t('footer.more')},
-      {src:san_luca,alt:'Santuario della Madonna di San Luca',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'Saragozza - San Luca',link:'/maps/san_luca',linkText:t('footer.more')},
-      {src:quebec,alt:'Bandiera Quebec',copyright:'Krun (original), Public domain, via Wikimedia Commons',title:'Quebec',link:'/maps/quebec',linkText:t('footer.more')},
-      {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'UNESCO',link:'../coming',linkText:t('footer.more')},
-      {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:'University',link:'../coming',linkText:t('footer.more')},
+      {src:city_centre,alt:'Centro di Bologna',copyright:'fre',title:t('routes.city_centre'),link:'/maps/city_centre',linkText:t('footer.more')},
+      {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.food'),link:'/maps/food',linkText:t('footer.more')},
+      {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:t('routes.women'),link:'/maps/women',linkText:t('footer.more')},
+      {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.appennini'),link:'/maps/appennino',linkText:t('footer.more')},
+      {src:san_luca,alt:'Santuario della Madonna di San Luca',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.san_luca'),link:'/maps/san_luca',linkText:t('footer.more')},
+      {src:quebec,alt:'Bandiera Quebec',copyright:'Krun (original), Public domain, via Wikimedia Commons',title:t('routes.quebec'),link:'/maps/quebec',linkText:t('footer.more')},
+      {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.unesco'),link:'../coming',linkText:t('footer.more')},
+      {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.university'),link:'../coming',linkText:t('footer.more')},
     ]
   }
 
