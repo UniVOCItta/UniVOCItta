@@ -16,7 +16,8 @@ import unibo from '../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg';
 import appennino from '../assets/imgs/appennino.jpg';
 import city_centre from '../assets/imgs/routes/bologna_free.jpg';
 import san_luca from '../assets/imgs/routes/san_luca_wikipedia_Nebbius.jpg';
-import quebec from '../assets/imgs/routes/quebec.png'
+import quebec from '../assets/imgs/routes/quebec.png';
+import canada from '../assets/imgs/routes/canada.png';
 import madame from '../assets/imgs/travellers/fr/Mme_de_Staël.jpg';
 import dickens from "../assets/imgs/travellers/en/Dickens.jpg";
 import tolstoj from "../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg"
@@ -53,6 +54,7 @@ function Body() {
       {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.appennini'),link:'/maps/appennino',linkText:t('footer.more')},
       {src:san_luca,alt:'Santuario della Madonna di San Luca',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.san_luca'),link:'/maps/san_luca',linkText:t('footer.more')},
       {src:quebec,alt:'Bandiera Quebec',copyright:'Krun (original), Public domain, via Wikimedia Commons',title:t('routes.quebec'),link:'/maps/quebec',linkText:t('footer.more')},
+      {src:canada,alt:'Bandiera Canada',copyright:'Illegitimate Barrister (original), Public domain, via Wikimedia Commons',title:t('routes.canada'),link:'/maps/canada',linkText:t('footer.more')},
       {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.unesco'),link:'../coming',linkText:t('footer.more')},
       {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.university'),link:'../coming',linkText:t('footer.more')},
     ]

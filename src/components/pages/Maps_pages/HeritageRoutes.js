@@ -157,6 +157,25 @@ const HeritageRoutes = () => {
           tag_3: "tag"
       }
     },
+    {
+      id: 5,
+      category: "University",
+      title: t('routes.canada'),
+      time: "1h 45min",
+      km: "6,9km",
+      path: t('maps.difficult'),
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      img: require('../../../assets/imgs/routes/canada.png'),
+      copyright: "Illegitimate Barrister (original), Public domain, via Wikimedia Commons",
+      more: t('maps.more'),
+      link: "/maps/canada",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+
   ];
 
   return (

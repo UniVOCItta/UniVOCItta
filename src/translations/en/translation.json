@@ -355,7 +355,9 @@
       "women": "Women Route",
         "women_text": "Lorem ipsum",
       "quebec": "Quebec Route",
-        "quebec_text": "Lorem ipsum"
+        "quebec_text": "Lorem ipsum",
+         "canada": "Canada Route",
+        "canada_text": "Lorem ipsum"
     },
 
     "sign-in-up": {

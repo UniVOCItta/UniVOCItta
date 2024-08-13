@@ -45,7 +45,7 @@ const QuebecRoute = () => {
     {
       title:"Pinacoteca - Jean-Baptiste Legacé",
       body:"C’est ici qu'est conservée la Sainte-Cécile de Raphaël, cette œuvre magnifique que tant de fois j’avais admirée dans des photographies, et que je revoyais dans tout l’éclat de ses brillantes couleurs…. Et puis des Dominiquin, des Francia, des Carrache, des Guido…. J’allais d’un tableau à l’autre, dans une exaltation que le peu de temps me restait ne faisait qu’augmenter. Pourquoi faut-il que je m’arrache à tant de beautés ? ",
-      p:"Lagacé, Jean-Baptiste, 1900"
+      p:"Jean-Baptiste Lagacé, 1900"
     }
   ],
   //location 2 - Zona Universitaria
@@ -53,7 +53,7 @@ const QuebecRoute = () => {
     {
       title:"Zona Universitaria - Béchard, Marguerite",
       body:"Selon les références, l'Université de Bologne est la plus ancienne ou la seconde en Europe (1119). Elle compte aujourd'hui 50,000 étudiants, soit le dixième de la population de la ville.",
-      p:"Béchard, Marguerite, 1975"
+      p:"Marguerite Béchard, 1975"
     }
   ],
   //location 3 - Due torri
