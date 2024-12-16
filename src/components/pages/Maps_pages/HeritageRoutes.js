@@ -123,7 +123,7 @@ const HeritageRoutes = () => {
     },
     {
       id: 5,
-      category: "University",
+      category: "Worship",
       title: t('routes.quebec'),
       time: "2 h",
       km: "8,5km",
@@ -174,6 +174,24 @@ const HeritageRoutes = () => {
           tag_2: "tag",
           tag_3: "tag"
       }
+    },
+    {
+      id: 6,
+      category: "Historical",
+      title: t('routes.southamerica'),
+      time: "3h 20min",
+      km: "13,4 km",
+      path: t('maps.difficult'),
+      img: require('../../../assets/imgs/routes/hisp.jpg'),
+      copyright: "Free",
+      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+      more: t('maps.more'),
+      link: "/maps/southamerica",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      },
     },
 
   ];

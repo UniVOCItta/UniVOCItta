@@ -18,6 +18,7 @@ import city_centre from '../assets/imgs/routes/bologna_free.jpg';
 import san_luca from '../assets/imgs/routes/san_luca_wikipedia_Nebbius.jpg';
 import quebec from '../assets/imgs/routes/quebec.png';
 import canada from '../assets/imgs/routes/canada.png';
+import hisp from '../assets/imgs/routes/hisp.jpg';
 import madame from '../assets/imgs/travellers/fr/Mme_de_Staël.jpg';
 import dickens from "../assets/imgs/travellers/en/Dickens.jpg";
 import tolstoj from "../assets/imgs/travellers/ru/Tolstoy_Petr_Andreevic.jpg"
@@ -48,7 +49,7 @@ function Body() {
     ],
     routes:[
       /*{src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},*/
-      {src:city_centre,alt:'Centro di Bologna',copyright:'fre',title:t('routes.city_centre'),link:'/maps/city_centre',linkText:t('footer.more')},
+      {src:city_centre,alt:'Centro di Bologna',copyright:'free',title:t('routes.city_centre'),link:'/maps/city_centre',linkText:t('footer.more')},
       {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.food'),link:'/maps/food',linkText:t('footer.more')},
       {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:t('routes.women'),link:'/maps/women',linkText:t('footer.more')},
       {src:appennino,alt:'Appennino',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.appennini'),link:'/maps/appennino',linkText:t('footer.more')},
@@ -57,6 +58,7 @@ function Body() {
       {src:canada,alt:'Bandiera Canada',copyright:'Illegitimate Barrister (original), Public domain, via Wikimedia Commons',title:t('routes.canada'),link:'/maps/canada',linkText:t('footer.more')},
       {src:porticoes,alt:'Portici di Bologna',copyright:'Lorenzo Gaudenzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.unesco'),link:'../coming',linkText:t('footer.more')},
       {src:unibo,alt:'Archiginnasio ora blu Bologna',copyright:'Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.university'),link:'../coming',linkText:t('footer.more')},
+      {src:hisp,alt:'Bandiere America Ispanica',copyright:'free',title:t('routes.southamerica'),link:'/maps/southamerica',linkText:t('footer.more')},
     ]
   }
 

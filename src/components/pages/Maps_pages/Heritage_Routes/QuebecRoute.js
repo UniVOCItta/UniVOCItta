@@ -42,9 +42,14 @@ const QuebecRoute = () => {
   //location 1 - Pinacoteca
   [
   //elemento 1
-    {
+  {
+    title:"Pinacoteca - Honoré Beaugrand",
+    body:"L'académie des Beaux-Arts contient le Musée ou Pinacoteca, l'une des plus belles collections de tableaux de l'Italie, entr'autres le Martyre, de St. Pierre de Vérone, le Martyre de Ste. Agnès, du Dominiquin ; la Madonna della Pietà de Guido Reni ; la Communion de St. Jérôme, l’Assomption, d'Augustin Carrache, et surtout l'admirable Ste. Cécile, de Raphaël, la merveille de la galerie. La Bibliothèque du Musée est riche en estampes : on y conserve des Paix en argent niellé, du célèbre orfèvre Fr. Francia.",
+    p:"Honoré Beaugrand, 1889"
+  },
+  {
       title:"Pinacoteca - Jean-Baptiste Legacé",
-      body:"C’est ici qu'est conservée la Sainte-Cécile de Raphaël, cette œuvre magnifique que tant de fois j’avais admirée dans des photographies, et que je revoyais dans tout l’éclat de ses brillantes couleurs…. Et puis des Dominiquin, des Francia, des Carrache, des Guido…. J’allais d’un tableau à l’autre, dans une exaltation que le peu de temps me restait ne faisait qu’augmenter. Pourquoi faut-il que je m’arrache à tant de beautés ? ",
+      body:"C’est ici qu'est conservée la Sainte-Cécile de Raphaël, cette œuvre magnifique que tant de fois j’avais admirée dans des photographies, et que je revoyais dans tout l’éclat de ses brillantes couleurs…. Et puis des Dominiquin, des Francia, des Carrache, des Guido…. J’allais d’un tableau à l’autre, dans une exaltation que le peu de temps me restait ne faisait qu’augmenter. Pourquoi faut-il que je m’arrache à tant de beautés ?",
       p:"Jean-Baptiste Lagacé, 1900"
     }
   ],
@@ -59,14 +64,24 @@ const QuebecRoute = () => {
   //location 3 - Due torri
   [ 
     {
+      title:"Due torri - Eustache Rocheleau",
+      body:"En route, je salue au passage les deux Tours Penchées dont le sommet se perd dans les nues. Rien n'est plus saisissant que la vue de ces monuments antiques, hauts de trois cents pieds et inclinés de plusieurs coudées hors de la verticale.",
+      p:"Eustache Rocheleau, 1922"
+    },
+    {
       title:"Due torri - Ringuet",
       body:"Il ne faut demander à Bologne ni le décor de Naples, ni les monuments de Rome, ni la grâce orientale de Venise. Mais qui flâne un peu dans Bologne y découvre une ville calme, aux rues en arcades pittoresques ainsi qu'un musée de fort bonne qualité ; et surtout une atmosphère pleine de charme vétuste. Les palais et les églises en sont de brique couleur ocre. Les deux tours penchées, l’Asinelli et la Garisenda, ont l’air de vieux géants en goguette. Chaque détour vous y apporte quelque chose.",
       p:"Ringuet, 1965"
     },
     {
-      title:"Due torri - Eustache Rocheleau",
-      body:"En route, je salue au passage les deux Tours Penchées dont le sommet se perd dans les nues. Rien n'est plus saisissant que la vue de ces monuments antiques, hauts de trois cents pieds et inclinés de plusieurs coudées hors de la verticale.",
-      p:"Eustache Rocheleau, 1922"
+      title:"Due torri - Jean Éthier-Blais",
+      body:"La via Rizzoli mène aux deux tours qui se dressent dans le centre de Bologne comme un témoignage obscur des mœurs du passé. À l'époque de Dante, on en comptait près de deux cents. Le premier poème de Dante leur est consacré. On y surveillait de loin les troupes ennemies, impériales d'abord, papalines ensuite, la République enfin, la démocratie. La roue tourne.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
+      title:"Due torri - Dominique Garand",
+      body:"Pour couronner le tout, nous avons grimpé dans l’une des deux tours penchées. Beaucoup plus inquiétantes que celle de Pise tant elles paraissent friables et sur le point de s’écrouler !",
+      p:"Dominique Garand, 2015"
     }
   ],
   //location 4 - Piazza Maggiore
@@ -108,14 +123,19 @@ const QuebecRoute = () => {
       title:"Basilica di San Petronio - Joseph-Octave Plessis",
       body:"Sur le pavé de cette collégiale, est tracée la fameuse méridienne du savant Cassini, dans le milieu d'une longue bande de cuivre placée tout exprès au niveau du pavé. Du côté où est cette méridienne, se trouve aussi une belle horloge ayant dans un même pilier de l'église, à six ou huit pieds au-dessus du pavé, deux cadrans, dont l'un donne l'heure astronomique, l'autre l'heure italienne. Car il faut savoir que les Italiens ne divisent pas leur cadran en 12 heures, comme le nôtre, mais en 24, et qu'ils ne comptent pas à partir de midi ou minuit, comme nous faisons, mais d'un coucher de soleil à l'autre, et, comme le soleil se couche plus tôt ou plus tard, suivant qu'il est plus ou moins éloigné de l'Équateur, il en résulte que le commencement de leurs 24 heures, et par conséquent leur midi, sont sujets à de grandes variations.",
       p:"Joseph-Octave Plessis, 1903"
+    },
+    {
+      title:"Basilica di San Petronio - Dominique Garand",
+      body:"En face de nous, la cathédrale avec sa façade dont la finition, en marbre, ne couvre que la moitié de la surface : – Ils ont manqué de budget, me dit Cristina. – Oui, mais depuis le temps?... – C’est comme ça, on ne refait pas l’histoire. C’est drôle, ces histoires de façades d’églises. À Florence, ils ont bien terminé celle de Santa Croce, plusieurs siècles après la construction de l’église, et aussi celle de Santa Maria del Fiore. Mais celles de Santo Spirito et de San Lorenzo sont laissées à l’état d’ébauches et je serais bien étonné qu’on lance un concours pour leur en concevoir une. Trop tard. Trop de touristes les ont vues comme elles sont, elles apparaissent partout telles que telles dans les guides, alors leur faire un petit maquillage serait une hérésie.",
+      p:"Dominique Garand, 2015"
     }
   ],
   //location 6 - Antica Università
   [
     {
-      title:"Antica Università - Eustache Rocheleau",
-      body:"L'après-midi fut consacré à la visite des différents monuments de la ville. Le premier, en tête de la liste, fut la Bibliothèque Communale, autrefois le siège de la première université. Toutes les parties de l'édifice sont ornées des portraits et des armes des anciens professeurs et des étudiants. Lors du VIIIe centenaire de cette université, célébré en 1888, en présence des souverains d'Italie, les représentants de presque toutes les universités du monde, revêtus de leurs costumes du moyen-âge, se réunirent dans cette enceinte. Cet archigymnase renferme un théâtre anatomique dont le plafond est en bois sculpté. Au-dessus de la chaire du professeur, se voit encore une statue en bois, représentant un homme écorché : on dit que c'est dans cet endroit qu'ont été opérées les premières autopsies, sur le cadavre humain.",
-      p:"Eustache Rocheleau, 1922"
+      title:"Antica Università - Honoré Beaugrand",
+      body:"L'Université, fondée en 1119, la plus ancienne d'Italie après celle de Salerne, occupe les bâtiments du palais Poggi ; c'est là qu'est installée la bibliothèque publique qui possède 150,000 volumes et 6,000 manuscrits.",
+      p:"Honoré Beaugrand, 1889"
     },
     {
       title:"Antica Università - Jean-Baptiste Lagacé",
@@ -136,6 +156,11 @@ const QuebecRoute = () => {
       title:"Antica Università - Joseph-Octave Plessis",
       body:"Décidé à partir le lendemain, l'évêque de Québec alla, le soir, à travers une forte et grosse pluie, prendre congé du cardinal archevêque, auquel il ne manqua pas, dans leur courte conversation, de faire mention du plaisir avec lequel il avait vu l'abbé Mezzofante. 'Il a beaucoup de mérite, répondit Son Eminence ; malheureusement il est fils d'un menuisier.' L'évêque ne l'en trouvait que plus estimable ; mais la noblesse a une autre manière de voir.",
       p:"Joseph-Octave Plessis, 1903"
+    },
+    {
+      title:"Antica Università - Eustache Rocheleau",
+      body:"L'après-midi fut consacré à la visite des différents monuments de la ville. Le premier, en tête de la liste, fut la Bibliothèque Communale, autrefois le siège de la première université. Toutes les parties de l'édifice sont ornées des portraits et des armes des anciens professeurs et des étudiants. Lors du VIIIe centenaire de cette université, célébré en 1888, en présence des souverains d'Italie, les représentants de presque toutes les universités du monde, revêtus de leurs costumes du moyen-âge, se réunirent dans cette enceinte. Cet archigymnase renferme un théâtre anatomique dont le plafond est en bois sculpté. Au-dessus de la chaire du professeur, se voit encore une statue en bois, représentant un homme écorché : on dit que c'est dans cet endroit qu'ont été opérées les premières autopsies, sur le cadavre humain.",
+      p:"Eustache Rocheleau, 1922"
     }
   ],
   //location 7 - Basilica di San Domenico
@@ -154,6 +179,11 @@ const QuebecRoute = () => {
       title:"Basilica di San Domenico - Eustache Rocheleau",
       body:"Une belle fresque peinte dans l'abside rappelle le gracieux miracle du pain apporté par les Anges, dont le couvent attenant à l'église fut l'heureux témoin. Un jour, dit la légende, le procureur du monastère vint dire à saint Dominique qu'il n'y avait plus rien à la maison pour dîner, si ce n'est deux pains. A cette nouvelle, Dominique parut ravi. Il ordonna au procureur de partager le peu qu'il y avait en quarante portions, selon le nombre de religieux, et de faire sonner le repas à l'heure accoutumée. En entrant au réfectoire, chacun trouva à sa place une bouchée de pain.",
       p:"Eustache Rocheleau, 1922"
+    },
+    {
+      title:"Basilica di San Domenico - Lionel Groulx",
+      body:"Tout à l'heure, je m'en vais voir le tombeau de saint Dominique, fondateur des Dominicains. Demain matin, j'espère avoir le bonheur de dire la messe, sur le corps du Saint, et à 10 1/2 heures, nous prendrons le train pour Venise, qui se trouve tout au fond de la mer Adriatique.",
+      p:"Lionel Groulx, 1993"
     }
   ],
   //location 8 - Santuario del Corpus Domini
@@ -172,6 +202,11 @@ const QuebecRoute = () => {
       title:"Santuario del Corpus Domini - Eustache Rocheleau",
       body:"Jusqu'ici, nous avons vu beaucoup de corps soi-disant conservés : celui de la Vén. Mère Marat, de sainte Marguerite-Marie, de saint Charles Borromée, de saint Ambroise, des saints Gervais et Protais, de sainte Catherine de Gênes, etc... Mais tous ces corps n'ont pas été préservés comme celui-ci de la corruption du tombeau. Plusieurs n'ont que le squelette à découvert ou enduit de cire. Quant à celui de sainte Catherine de Bologne, il est impossible de nier que sa conservation soit un miracle perpétué.",
       p:"Eustache Rocheleau, 1922"
+    },
+    {
+      title:"Santuario del Corpus Domini - Lionel Groulx",
+      body:"Ce matin, j'ai dit la messe devant S. Catherine de Bologne, encore une Clarisse. La Sainte est miraculeusement conservée. Comme sainte Claire d'Assise, elle est toute noircie, mais elle est assise dans un riche fauteuil, en arrière de l'autel, recouverte d'une robe d'étoffe d'or, une sorte de mitre d'abbesse sur la tête, et l'anneau au doigt. Ses membres ont conservé leur flexibilité. Et ainsi on peut lui remuer les bras, la tête. J'ai pu m'approcher tout près après la messe, et même lui baiser la main. Seuls, les prêtres jouissent de ce privilège.",
+      p:"Lionel Groulx, 1993"
     }
   ],
   //location 9 - Cimitero monumentale della Certosa
@@ -186,9 +221,20 @@ const QuebecRoute = () => {
   [ 
     {
       title:"Portico di S. Luca - Jean-Baptiste Lagacé",
-      body:"On se croirait presque à Montréal, n’était-ce le nombre incroyable des maisons à portiques. Les trottoirs passent sous les arcades et l'on peut ainsi faire le tour de la ville protégé contre les rayons brûlants du soleil. ",
+      body:"On se croirait presque à Montréal, n’était-ce le nombre incroyable des maisons à portiques. Les trottoirs passent sous les arcades et l'on peut ainsi faire le tour de la ville protégé contre les rayons brûlants du soleil.",
       p:"Jean-Baptiste Lagacé, 1900"
+    },
+    {
+      title:"Portico di S. Luca - Lionel Groulx",
+      body:"Plusieurs des grandes rues ici ont des maisons qui s'étendent en arches au-dessus de nos têtes. Jamais besoin de parapluie. Et l'on croirait marcher dans un grand corridor.",
+      p:"Lionel Groulx, 1993"
+    },
+    {
+      title:"Portico di S. Luca - Jules-Paul Tardivel",
+      body:"Ce qui distingue Bologne ce sont de nombreuses maisons à portiques. Les trottoirs passent sous des arcades. Cela a ses avantages par un temps de pluie ou de grande chaleur, sans doute ; mais par un temps froid comme celui que nous avons ces jours-ci, on cherche le soleil. J'ai vu dans les rues de Bologne de véritables banes de neige de deux ou trois pieds d'épaisseur, tout comme à Québec ou à Montréal, vers la fin de l'hiver.",
+      p:"Jules-Paul Tardivel, 1890"
     }
+
   ],
   //location 11 - Santuario della Madonna di San Luca
   [ 

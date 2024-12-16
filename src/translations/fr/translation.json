@@ -357,7 +357,9 @@
       "quebec": "Voyageurs québécois",
         "quebec_text": "Le regard émerveillé des voyageurs québécois arrivés du Nouveau Monde témoigne d'un vif intérêt pour le patrimoine culturel et religieux de la ville de Bologne, ainsi que pour les coutumes et l’érudition des ecclésiastiques bolonais qu’ils ont rencontrés.",
             "canada": "Voyageurs canadiens",
-        "canada_text": "Lorem ipsum"
+        "canada_text": "Lorem ipsum",
+        "southamerica": "Voyageurs hispano-américains",
+        "southamerica_text": "Lorem ipsum"
     },
 
     "sign-in-up": {

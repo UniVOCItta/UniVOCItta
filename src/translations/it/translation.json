@@ -334,7 +334,7 @@
       "show_all_cards":"Mostra tutto",
       "appennini": "Percorso degli Appennini",
       "appennini_text": "Pittoreschi borghi, paradisi nascosti, natura protagonista indiscussa: l'Appennino vicino a Bologna regala esperienze davvero uniche, un viaggio tra bellezze naturalistiche, paesaggistiche, architettoniche e archeologiche.",
-      "city_centre": "Lorem ipsum",
+      "city_centre": "Percorso del centro città",
         "city_centre_text": "Lorem ipsum",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
@@ -354,10 +354,12 @@
         "university_text": "Lorem ipsum",
       "women": "Percorso delle donne",
         "women_text": "Lorem ipsum",
-      "quebec": "Quebec Route",
-        "quebec_text": "Lorem ipsum",
-        "canada": "Canada Route",
-        "canada_text": "Lorem ipsum"  
+      "quebec": "Viaggiatori quebecchesi",
+        "quebec_text": "Lo sguardo meravigliato dei viaggiatori quebecchesi giunti dal Nuovo Mondo testimonia un vivo interesse  per il patrimonio culturale e religioso della città di Bologna, così come per le usanze e l’erudizione degli ecclesiastici bolognesi che hanno incontrato.",
+        "canada": "Viaggiatori canadesi",
+        "canada_text": "Lorem ipsum",
+        "southamerica": "Viaggiatori ispano-americani",
+        "southamerica_text": "Lorem ipsum"
     },
 
     "sign-in-up":{

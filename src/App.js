@@ -24,6 +24,7 @@ import CityCentreRoute from './components/pages/Maps_pages/Heritage_Routes/CityC
 import SanLucaRoute from './components/pages/Maps_pages/Heritage_Routes/SanLucaRoute';
 import QuebecRoute from './components/pages/Maps_pages/Heritage_Routes/QuebecRoute';
 import CanadaRoute from './components/pages/Maps_pages/Heritage_Routes/CanadaRoute';
+import SouthAmericaRoute from './components/pages/Maps_pages/Heritage_Routes/SouthAmericaRoute';
 //Travellers 
 import Travellers from './components/pages/Maps_pages/Travellers';
 import EnglishTravellers from './components/pages/Maps_pages/Travellers/EnglishTravellers';
@@ -118,6 +119,7 @@ function App() {
                     <Route  path='/maps/san_luca' element={<SanLucaRoute/>}/>
                     <Route  path='/maps/quebec' element={<QuebecRoute/>}/>
                     <Route  path='/maps/canada' element={<CanadaRoute/>}/>
+                    <Route  path='/maps/southamerica' element={<SouthAmericaRoute/>}/>
                   <Route  path='/maps/travellers' element={<Travellers/>}/>
                     <Route path='maps/travellers/english_travellers' element={<EnglishTravellers/>}/>
                     <Route path='maps/travellers/french_travellers' element={<FrenchTravellers/>}/>

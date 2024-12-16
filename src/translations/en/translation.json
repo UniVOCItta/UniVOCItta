@@ -357,7 +357,9 @@
       "quebec": "Quebec Route",
         "quebec_text": "Lorem ipsum",
          "canada": "Canada Route",
-        "canada_text": "Lorem ipsum"
+        "canada_text": "Lorem ipsum",
+         "southamerica": "Hispanic-America Route",
+        "southamerica_text": "Lorem ipsum"
     },
 
     "sign-in-up": {

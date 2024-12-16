@@ -354,11 +354,15 @@
         "university_text": "Lorem ipsum",
       "women": "Itinerario de mujeres",
         "women_text": "Lorem ipsum",
-      "quebec": "Quebec Route",
+      "quebec": "Viajeros quebequenses",
         "quebec_text": "Lorem ipsum",
-       "canada": "Canada Route",
-        "canada_text": "Lorem ipsum"
+       "canada": "Viajeros canadienses",
+        "canada_text": "Lorem ipsum",
+        "southamerica": "Viajeros de América del Sur",
+        "southamerica_text": "Lorem ipsum"
+
     },
+
 
     "sign-in-up":{
       "sign-in": "Accede",
