@@ -5,16 +5,19 @@ const QuebecRoute = () => {
   
   const coordinates = [
     [44.4976, 11.3535], // 1. Via delle Belle Arti, 56  
-    [44.496880, 11.352433], // 2. Via Zamboni 33
-    [44.494290, 11.346730], // 3. Piazza di Porta Ravegnana 
-    [44.49373, 11.343064], // 4. Piazza Maggiore 
-    [44.492778, 11.343056], // 5. Basilica di San Petronio 
-    [44.4918717, 11.3438538], // 6. Piazza Galvani 1 
-    [44.4894, 11.3446], // 7. Piazza S. Domenico, 13 
-    [44.4892, 11.3398], // 8. Via Tagliapietre, 19 
-    [44.497597, 11.30777], // 9. Via della Certosa, 18 
-    [44.487591, 11.305346], // 10. Via di San Luca 419 
-    [44.479117, 11.298069], // 11. Via di San Luca, 36 
+    [44.496880, 11.352433], // 2. Via Zamboni, 33
+    [44.49560546875, 11.348681449890137], // 3. Via Zamboni, 20
+    [44.494290, 11.346730], // 4. Piazza di Porta Ravegnana 
+    [44.49331283569336, 11.34487533569336], // 5. Mercato di Mezzo
+    [44.49373, 11.343064], // 6. Piazza Maggiore 
+    [44.492778, 11.343056], // 7. Basilica di San Petronio 
+    [44.4918717, 11.3438538], // 8. Piazza Galvani 1 
+    [44.4894, 11.3446], // 9. Piazza S. Domenico, 13 
+    [44.4892, 11.3398], // 10. Via Tagliapietre, 19 
+    [44.492149353027344, 11.3378267288208], // 11. Via Barberia, 4 
+    [44.497597, 11.30777], // 12. Via della Certosa, 18 
+    [44.487591, 11.305346], // 13. Via di San Luca 419 
+    [44.479117, 11.298069], // 14. Via di San Luca, 36 
   ];
   const zooms =[
     null,
@@ -26,12 +29,15 @@ const QuebecRoute = () => {
   const markerContent = [
     "Pinacoteca",
     "Zona universitaria",
+    "Palazzo Magnani",
     "Due torri",
+    "Mercato di Mezzo",
     "Piazza Maggiore",
     "Basilica di San Petronio",
     "Antica Università",
     "Basilica di San Domenico",
     "Santuario del Corpus Domini",
+    "Dipartimento delle Arti",
     "Cimitero monumentale della Certosa",
     "Portico di S. Luca",
     "Santuario della Madonna di San Luca",
@@ -56,12 +62,35 @@ const QuebecRoute = () => {
   //location 2 - Zona Universitaria
   [ 
     {
-      title:"Zona Universitaria - Béchard, Marguerite",
-      body:"Selon les références, l'Université de Bologne est la plus ancienne ou la seconde en Europe (1119). Elle compte aujourd'hui 50,000 étudiants, soit le dixième de la population de la ville.",
-      p:"Marguerite Béchard, 1975"
+      title:"Zona universitaria - Honoré Beaugrand",
+      body:"L'Université, fondée en 1119, la plus ancienne d'Italie après celle de Salerne, occupe les bâtiments du palais Poggi ; c'est là qu'est installée la bibliothèque publique qui possède 150,000 volumes et 6,000 manuscrits.",
+      p:"Honoré Beaugrand, 1889"
+    },
+    {
+      title:"Zona universitaria - Jean Éthier-Blais",
+      body:"Bologne n'a pas - et je crois bien, n'a jamais eu - la prétention d'être, comme Florence, une grande ville internationale, centre d'art et de culture qui rayonne sur le monde. L'Université, oui; la ville dans ses palais et son instinct dominateur, non.",
+      p:"Jean Éthier-Blais, 1986"
     }
   ],
-  //location 3 - Due torri
+  //location 3 - Palazzo Magnani
+  [ 
+    {
+      title:"Palazzo Magnani - Jean Éthier-Blais",
+      body:"Les fresques des Carraches sont au Palais Magnani (Credito romagnola) dans le salon d'honneur. Ces palais, à Bologne comme à Ferrare, vous donnent envie de vivre aux XV-XVIe siècles. Encore faudrait-il y vivre prince. La cour d'honneur s'orne d'une fontaine feuillue qui évoque Ronsard. Le salon d'honneur est, comme il se doit, au centre de l'étage noble. Les Carraches avaient l'habitude de ces vastes scènes mythologiques. Louis, Augustin, Annibal développent ici, en sept fresques claires, ésotériques, majestueuses, l'épopée de Romulus.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
+      title:"Palazzo Magnani - Jean Éthier-Blais",
+      body:"On a beaucoup écrit sur ces fresques. Les savants tentent à qui mieux mieux de déceler dans les couleurs ou les lignes la main du cousin ou de l'un des deux frères. Ces savants, on dirait une ronde moliéresque: Dodmer, Cavalli, Wittkower, Mahon, Posner. Portent-ils chapeaux pointus? Avec le Pr. Petroni, qui n'a rien d'un faux savant, je me suis assis devant sec paysages au milieu desquels s'agitent guerriers, lances, épées. Romulus tue le Roi, se réfugie au Capitole, trace les contours de Rome. Les Sabins sont réduits à quia. On sait ce qu'il advint des Sabines. En arrière-plans, ces paysages rêvés, ces villes aux mille tons qui figurent Bologne, et le ciel.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
+      title:"Palazzo Magnani - Jean Éthier-Blais",
+      body:"Les Bolognais sont fiers des Carraches, qui sont en harmonie avec le caractère secret de la ville. Que soudain éclatent formes et couleurs! Qu'à la magnificence de l'épopée s'ajoutent les vallons et les pics! Il y a une joie profonde à goûter ces plaisirs auxquels l'âme a sa part et cependant interdits à la multitude. L'amitié qui d'instinct m'a lié repose en partie sur cette notion d'exclusivité.",
+      p:"Jean Éthier-Blais, 1986"
+    }
+  ],
+  //location 4 - Due torri
   [ 
     {
       title:"Due torri - Eustache Rocheleau",
@@ -80,11 +109,11 @@ const QuebecRoute = () => {
     },
     {
       title:"Due torri - Dominique Garand",
-      body:"Pour couronner le tout, nous avons grimpé dans l’une des deux tours penchées. Beaucoup plus inquiétantes que celle de Pise tant elles paraissent friables et sur le point de s’écrouler !",
+      body:"Pour couronner le tout, nous avons grimpé dans l’une des deux tours penchées. Beaucoup plus inquiétantes que celle de Pise tant elles paraissent friables et sur le point de s’écrouler ! Une petite visite chez Feltrinelli tout à côté et voici que sonna l’heure de rejoindre Bruno pour un apéritif.",
       p:"Dominique Garand, 2015"
     }
   ],
-  //location 4 - Piazza Maggiore
+  //location 5 - Piazza Maggiore
   [
     {
       title:"Piazza Maggiore - Joseph-Octave Plessis",
@@ -100,9 +129,27 @@ const QuebecRoute = () => {
       title:"Piazza Maggiore - Joseph-Octave Plessis",
       body:"La ville de Bologne est surnommée la Grasse, à raison de la richesse du sol dont elle est environnée. C'est une des plus célèbres d'Italie, par son Université, par les rencontres de Souverains et de Papes qui y ont eu lieu, par deux sessions du Concile de Trente, par le coup de mort qu'y reçut la Pragmatique Sanction de Charles IX, lorsque Léon X et François I y signèrent le Concordat de 1515, enfin par les hommes remarquables qu'elle a produits, notamment les Papes Grégoire XIII et Benoît XIV.",
       p:"Joseph-Octave Plessis, 1903"
+    },
+    {
+      title:"Piazza Maggiore - Jean Éthier-Blais",
+      body:"La place est remplie de promeneurs qui hésitent, semble-t-il, entre l'église et le café. Ils ne vont nulle part, mais tourneboulent entre San Petronio, le Palais communal, celui du Podestat et la fontaine de Neptune. Pallavicini, Boncompagni, Marescalchi, Bentivoglio, Bianconcini, Sampieri, Bevilacqua, noms de palais, noms de familles.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
+      title:"Piazza Maggiore - Jean Éthier-Blais",
+      body:"La place est remplie de promeneurs qui hésitent, semble-t-il, entre l'église et le café. Ils ne vont nulle part, mais tourneboulent entre San Petronio, le Palais communal, celui du Podestat et la fontaine de Neptune. Pallavicini, Boncompagni, Marescalchi, Bentivoglio, Bianconcini, Sampieri, Bevilacqua, noms de palais, noms de familles.",
+      p:"Jean Éthier-Blais, 1986"
     }
   ],
-  //location 5 - Basilica di San Petronio
+  //location 6 - Mercato di Mezzo
+  [
+    {
+      title:"Basilica di San Petronio - Dominique Garand",
+      body:"Il fallait que nous goutions à son prosciutto, à ses tagliatelle sauce ragù, à la salade qu’elle avait enduite d’une huile de qualité et d’un vinaigre balsamique de Modène au gout raffiné. […] Dès que je goutais un de ses plats, Franca m’en expliquait la provenance, la composition, l’histoire. Un cours accéléré de cuisine bolognaise pour notre visiteur canadien.",
+      p:"Dominique Garand, 2015"
+    },
+  ],
+  //location 7 - Basilica di San Petronio
   [
     {
       title:"Basilica di San Petronio - Eustache Rocheleau",
@@ -125,18 +172,23 @@ const QuebecRoute = () => {
       p:"Joseph-Octave Plessis, 1903"
     },
     {
+      title:"Basilica di San Petronio - Jean Éthier-Blais",
+      body:"San Petronio est immense et se complaît dans sa vastitude. Il a l'espace rayonnant, centré sur le déploiement de la nef comme un homme qui respire en profondeur, ou comme une longue phrase mélodique à la Berlioz, ou comme un paquebot sur la mer. La chaire et le méridien situent cet espace qui, sans eux, paraîtrait impénétrable. Où que l'œil se tourne, il voit. Ce vide est fait, a été conçu, pour le regard de l'homme, en sorte que toutes les autres églises paraîtront encombrées. Aux briques sombres, la lumière donne une vie moelleuse. Quelle église où lire son bréviaire, si l'on était prêtre et si les prêtres lisaient le bréviaire! J'y avance dans le recueillement de l'infini. Des chapelles, je retiens la Pietà d'Onofri (1506), réaliste. Je cherche dans la peinture et la statuaire, à retrouver les traits des êtres de l'époque.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
+      title:"Basilica di San Petronio - Jean Éthier-Blais",
+      body:"La façade est inachevée, comme à Florence celle de San Lorenzo. Et cet inachèvement donne à San Petronio son allure si manifeste d'éternité.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    {
       title:"Basilica di San Petronio - Dominique Garand",
       body:"En face de nous, la cathédrale avec sa façade dont la finition, en marbre, ne couvre que la moitié de la surface : – Ils ont manqué de budget, me dit Cristina. – Oui, mais depuis le temps?... – C’est comme ça, on ne refait pas l’histoire. C’est drôle, ces histoires de façades d’églises. À Florence, ils ont bien terminé celle de Santa Croce, plusieurs siècles après la construction de l’église, et aussi celle de Santa Maria del Fiore. Mais celles de Santo Spirito et de San Lorenzo sont laissées à l’état d’ébauches et je serais bien étonné qu’on lance un concours pour leur en concevoir une. Trop tard. Trop de touristes les ont vues comme elles sont, elles apparaissent partout telles que telles dans les guides, alors leur faire un petit maquillage serait une hérésie.",
       p:"Dominique Garand, 2015"
     }
   ],
-  //location 6 - Antica Università
+  //location 8 - Antica Università
   [
-    {
-      title:"Antica Università - Honoré Beaugrand",
-      body:"L'Université, fondée en 1119, la plus ancienne d'Italie après celle de Salerne, occupe les bâtiments du palais Poggi ; c'est là qu'est installée la bibliothèque publique qui possède 150,000 volumes et 6,000 manuscrits.",
-      p:"Honoré Beaugrand, 1889"
-    },
     {
       title:"Antica Università - Jean-Baptiste Lagacé",
       body:"Ce qui me frappe en parcourant les larges galeries, c’est le nombre incroyable d’écussons qui décorent les murs ; les plafonds, les murs, les colonnes, jusqu’au pavé, en sont couverts. Je m’informe et voici ce qu’on m'apprend. Chaque groupe d’étudiants nommait chaque année un chef et ce chef avait le droit de faire peindre ou sculpter sur les murs de l’Université l’écusson de sa maison ; les professeurs en faisaient autant.",
@@ -161,9 +213,15 @@ const QuebecRoute = () => {
       title:"Antica Università - Eustache Rocheleau",
       body:"L'après-midi fut consacré à la visite des différents monuments de la ville. Le premier, en tête de la liste, fut la Bibliothèque Communale, autrefois le siège de la première université. Toutes les parties de l'édifice sont ornées des portraits et des armes des anciens professeurs et des étudiants. Lors du VIIIe centenaire de cette université, célébré en 1888, en présence des souverains d'Italie, les représentants de presque toutes les universités du monde, revêtus de leurs costumes du moyen-âge, se réunirent dans cette enceinte. Cet archigymnase renferme un théâtre anatomique dont le plafond est en bois sculpté. Au-dessus de la chaire du professeur, se voit encore une statue en bois, représentant un homme écorché : on dit que c'est dans cet endroit qu'ont été opérées les premières autopsies, sur le cadavre humain.",
       p:"Eustache Rocheleau, 1922"
-    }
+    },
+    {
+      title:"Antica Università - Jean Éthier-Blais",
+      body:"À l'Université, l'amphithéâtre du XVIe siècle, où l'on disséquait; dans les rues, des palais ignorés des passants. Des noms illustres surgissent et c'est l'histoire de cette admirable ville qui renaît. Bologne est associée à la naissance d'une sympathie intellectuelle qui deviendra une amitié.",
+      p:"Jean Éthier-Blais, 1986"
+    },
+    
   ],
-  //location 7 - Basilica di San Domenico
+  //location 9 - Basilica di San Domenico
   [
     {
       title:"Basilica di San Domenico - Ringuet",
@@ -186,7 +244,7 @@ const QuebecRoute = () => {
       p:"Lionel Groulx, 1993"
     }
   ],
-  //location 8 - Santuario del Corpus Domini
+  //location 10 - Santuario del Corpus Domini
   [
     {
       title:"Santuario del Corpus Domini  - Joseph-Octave Plessis",
@@ -209,15 +267,23 @@ const QuebecRoute = () => {
       p:"Lionel Groulx, 1993"
     }
   ],
-  //location 9 - Cimitero monumentale della Certosa
+  //location 11 - Dipartimento delle Arti
   [ 
     {
-      title:"Cimitero monumentale della Certosa - Joseph-Octave Plessis, 1903",
+      title:"Cimitero monumentale della Certosa - Dominique Garand",
+      body:"Le DAMS, une école assez en vogue à l’époque où enseignait Umberto Eco, j’en avais un peu entendu parler. Mais le plus chouette, c’était de rencontrer des étudiants. Depuis mon arrivée, je n’avais été admis dans aucune fête.",
+      p:"Dominique Garand, 2015"
+    }
+  ],
+  //location 12 - Cimitero monumentale della Certosa
+  [ 
+    {
+      title:"Cimitero monumentale della Certosa - Joseph-Octave Plessis",
       body:"Comme il n'est aucune famille de la ville qui n'ait de ses proches dans l'église, dans les chapelles, caveaux, cloîtres ou parterres de la Chartreuse, il en résulte que la commémoration des morts y est célébrée avec un immense concours de peuple. Dès la veille, les cierges de toute grosseur y sont portés par centaines, et quoique le jour ne fut pas fort avancé, lorsque nous y allâmes, les aumôniers nous dirent qu'il y en avait déjà beaucoup de rendus.",
       p:"Joseph-Octave Plessis, 1903"
     }
   ],
-  //location 10 - Portico di San Luca
+  //location 13 - Portico di San Luca
   [ 
     {
       title:"Portico di S. Luca - Jean-Baptiste Lagacé",
@@ -236,17 +302,12 @@ const QuebecRoute = () => {
     }
 
   ],
-  //location 11 - Santuario della Madonna di San Luca
+  //location 14 - Santuario della Madonna di San Luca
   [ 
     {
       title:"Santuario della Madonna di San Luca - Eustache Rocheleau",
       body:"Tout en cheminant lentement et en m'arrêtant devant les curiosités de la ville, me voici bientôt en face d'un immense portique en maçonnerie composé de centaines d'arcades (630), la plupart ornées de peintures et de pieuses inscriptions. Cette galerie qui s'étend sur une ligne de près de quatre mille, monte sur la colline jusqu'à l'église Saint-Luc. ",
       p:"Eustache Rocheleau, 1922 "
-    },
-    {
-      title:"Santuario della Madonna di San Luca - Michel Régnier",
-      body:"Elle possède également 35km de rues à arcades et portiques (les célèbres porticos). Les arcades vont même jusqu’à gravir les collines, ainsi le portico di San Luca e Meloncello, grimpe, rampe sur les collines, pendant deux kilomètres pour arriver à la basilique de San Luca.",
-      p:"Michel Régnier, 1974 "
     },
   ],
   ]
