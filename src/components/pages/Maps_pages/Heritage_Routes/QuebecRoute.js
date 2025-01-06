@@ -144,7 +144,7 @@ const QuebecRoute = () => {
   //location 6 - Mercato di Mezzo
   [
     {
-      title:"Basilica di San Petronio - Dominique Garand",
+      title:"Mercato di Mezzo - Dominique Garand",
       body:"Il fallait que nous goutions à son prosciutto, à ses tagliatelle sauce ragù, à la salade qu’elle avait enduite d’une huile de qualité et d’un vinaigre balsamique de Modène au gout raffiné. […] Dès que je goutais un de ses plats, Franca m’en expliquait la provenance, la composition, l’histoire. Un cours accéléré de cuisine bolognaise pour notre visiteur canadien.",
       p:"Dominique Garand, 2015"
     },
