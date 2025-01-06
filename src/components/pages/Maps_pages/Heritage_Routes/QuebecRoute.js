@@ -270,7 +270,7 @@ const QuebecRoute = () => {
   //location 11 - Dipartimento delle Arti
   [ 
     {
-      title:"Cimitero monumentale della Certosa - Dominique Garand",
+      title:"Dipartimento delle Arti - Dominique Garand",
       body:"Le DAMS, une école assez en vogue à l’époque où enseignait Umberto Eco, j’en avais un peu entendu parler. Mais le plus chouette, c’était de rencontrer des étudiants. Depuis mon arrivée, je n’avais été admis dans aucune fête.",
       p:"Dominique Garand, 2015"
     }
