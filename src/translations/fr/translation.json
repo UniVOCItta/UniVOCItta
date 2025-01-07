@@ -356,6 +356,7 @@
         "women_text": "Lorem ipsum",
       "quebec": "Voyageurs québécois",
         "quebec_text": "Pour de nombreux voyageurs québécois, Bologne n’était qu’une étape de passage sur le chemin vers d’autres centres majeurs. Cependant, leur regard émerveillé sur le patrimoine bolonais témoigne d’une fascination profonde pour l’art italien, d’un attrait religieux marqué, ainsi que d’un vif intérêt pour la culture intellectuelle, les coutumes locales et l’érudition des savants bolonais. La spécificité de leur perception, qui se détache de la vision des voyageurs européens et canadiens anglophones, ouvre une nouvelle voie pour redécouvrir Bologne, invitant à une réinterprétation de son patrimoine à travers la mémoire expérientielle des Québécois.",
+        "quebec_tags": ["Art", "Religion", "Culture"],
             "canada": "Voyageurs canadiens",
         "canada_text": "Lorem ipsum",
         "southamerica": "Voyageurs hispano-américains",

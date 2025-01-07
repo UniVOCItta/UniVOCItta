@@ -152,9 +152,9 @@ const HeritageRoutes = () => {
       more: t('maps.more'),
       link: "/maps/quebec",
       tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
+        tag_1: t("routes.quebec_tags.0"), 
+        tag_2: t("routes.quebec_tags.1"), 
+        tag_3: t("routes.quebec_tags.2"),
       }
     },
     {

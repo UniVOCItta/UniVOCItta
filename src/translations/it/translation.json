@@ -356,6 +356,7 @@
         "women_text": "Lorem ipsum",
       "quebec": "Viaggiatori quebecchesi",
         "quebec_text": "Per molti viaggiatori provenienti dal Québec, Bologna era spesso considerata una semplice tappa di passaggio verso altre destinazioni di maggiore interesse. Tuttavia, il loro sguardo meravigliato sul patrimonio bolognese rivela un profondo fascino per l'arte italiana, una forte attrazione religiosa e un vivo interesse per la cultura intellettuale, i costumi locali e l’erudizione dei personaggi bolognesi. La specificità della loro percezione, che si distingue dalla visione dei viaggiatori europei e canadesi anglofoni, offre un nuovo approccio alla riscoperta di Bologna, invitando a reinterpretarne il patrimonio attraverso la memoria esperenziale dei visitatori quebecchesi.",
+        "quebec_tags": ["Arte", "Religione", "Cultura"],
         "canada": "Viaggiatori canadesi",
         "canada_text": "Lorem ipsum",
         "southamerica": "Viaggiatori ispano-americani",
