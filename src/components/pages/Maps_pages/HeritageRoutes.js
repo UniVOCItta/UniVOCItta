@@ -123,24 +123,6 @@ const HeritageRoutes = () => {
     },
     {
       id: 5,
-      category: "Worship",
-      title: t('routes.quebec'),
-      time: "2 h",
-      km: "8,5km",
-      path: t('maps.difficult'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      img: require('../../../assets/imgs/routes/quebec.png'),
-      copyright: "Krun (original), Public domain, via Wikimedia Commons",
-      more: t('maps.more'),
-      link: "/maps/quebec",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
-    },
-    {
-      id: 6,
       category: "Museum",
       title: t('routes.museums'),
       time: ".. min",
@@ -151,6 +133,24 @@ const HeritageRoutes = () => {
       copyright: "Foto di Anna Chiara Gueraldo",
       more: t('maps.more'),
       link: "/maps/museum",
+      tag: {
+          tag_1: "tag",
+          tag_2: "tag",
+          tag_3: "tag"
+      }
+    },
+    {
+      id: 6,
+      category: "Worship",
+      title: t('routes.quebec'),
+      time: "2 h",
+      km: "8,5km",
+      path: t('maps.difficult'),
+      text: t("routes.quebec_text"),
+      img: require('../../../assets/imgs/routes/quebec.png'),
+      copyright: "Krun (original), Public domain, via Wikimedia Commons",
+      more: t('maps.more'),
+      link: "/maps/quebec",
       tag: {
           tag_1: "tag",
           tag_2: "tag",

@@ -20,11 +20,19 @@ const SouthAmericaRoute = () => {
       ];
     
   const zooms =[
+    20,
     null,
     null,
     null,
     null,
-    null
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
   ]
   const markerContent = [
     "Pinacoteca",
@@ -281,7 +289,7 @@ const SouthAmericaRoute = () => {
       coordinates={coordinates}  
       zooms={zooms}
       markerContent={markerContent} 
-      init_pos={ {lat: 44.49381, lng: 11.33875} } 
+      init_pos={ {lat: 44.4976, lng: 11.3535} } 
       title={"routes.southamerica"} 
       text={"routes.southamerica_text"} 
       cards={cards}

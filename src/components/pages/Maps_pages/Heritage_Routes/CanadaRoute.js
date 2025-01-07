@@ -15,11 +15,15 @@ const CanadaRoute = () => {
     [44.479117, 11.298069], // 9. Via di San Luca, 36 
   ];
   const zooms =[
+    20,
     null,
     null,
     null,
     null,
-    null
+    null,
+    null,
+    null,
+    null,
   ]
   const markerContent = [
     "Pinacoteca",
@@ -211,7 +215,7 @@ const CanadaRoute = () => {
       coordinates={coordinates}  
       zooms={zooms}
       markerContent={markerContent} 
-      init_pos={ {lat: 44.49381, lng: 11.33875} } 
+      init_pos={ {lat: 44.4976, lng: 11.3535} } 
       title={"routes.canada"} 
       text={"routes.canada_text"} 
       cards={cards}

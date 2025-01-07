@@ -8,7 +8,7 @@ const QuebecRoute = () => {
     [44.496880, 11.352433], // 2. Via Zamboni, 33
     [44.49560546875, 11.348681449890137], // 3. Via Zamboni, 20
     [44.494290, 11.346730], // 4. Piazza di Porta Ravegnana 
-    [44.49331283569336, 11.34487533569336], // 5. Mercato di Mezzo
+    [44.49331283569336, 11.34487533569336], // 5. Mercato di Mezzo 
     [44.49373, 11.343064], // 6. Piazza Maggiore 
     [44.492778, 11.343056], // 7. Basilica di San Petronio 
     [44.4918717, 11.3438538], // 8. Piazza Galvani 1 
@@ -20,11 +20,20 @@ const QuebecRoute = () => {
     [44.479117, 11.298069], // 14. Via di San Luca, 36 
   ];
   const zooms =[
+    20,
     null,
     null,
     null,
     null,
-    null
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
   ]
   const markerContent = [
     "Pinacoteca",
@@ -113,7 +122,15 @@ const QuebecRoute = () => {
       p:"Dominique Garand, 2015"
     }
   ],
-  //location 5 - Piazza Maggiore
+  //location 5 - Mercato di Mezzo
+  [
+    {
+      title:"Mercato di Mezzo - Dominique Garand",
+      body:"Il fallait que nous goutions à son prosciutto, à ses tagliatelle sauce ragù, à la salade qu’elle avait enduite d’une huile de qualité et d’un vinaigre balsamique de Modène au gout raffiné. […] Dès que je goutais un de ses plats, Franca m’en expliquait la provenance, la composition, l’histoire. Un cours accéléré de cuisine bolognaise pour notre visiteur canadien.",
+      p:"Dominique Garand, 2015"
+    },
+  ],
+    //location 6 - Piazza Maggiore
   [
     {
       title:"Piazza Maggiore - Joseph-Octave Plessis",
@@ -141,14 +158,7 @@ const QuebecRoute = () => {
       p:"Jean Éthier-Blais, 1986"
     }
   ],
-  //location 6 - Mercato di Mezzo
-  [
-    {
-      title:"Mercato di Mezzo - Dominique Garand",
-      body:"Il fallait que nous goutions à son prosciutto, à ses tagliatelle sauce ragù, à la salade qu’elle avait enduite d’une huile de qualité et d’un vinaigre balsamique de Modène au gout raffiné. […] Dès que je goutais un de ses plats, Franca m’en expliquait la provenance, la composition, l’histoire. Un cours accéléré de cuisine bolognaise pour notre visiteur canadien.",
-      p:"Dominique Garand, 2015"
-    },
-  ],
+
   //location 7 - Basilica di San Petronio
   [
     {
@@ -322,12 +332,13 @@ const QuebecRoute = () => {
       coordinates={coordinates}  
       zooms={zooms}
       markerContent={markerContent} 
-      init_pos={ {lat: 44.49381, lng: 11.33875} } 
+      init_pos={ {lat: 44.4976, lng: 11.3535} }
       title={"routes.quebec"} 
       text={"routes.quebec_text"} 
       cards={cards}
       intestation={intestation} 
   />
+
 }
 
 export default QuebecRoute;
