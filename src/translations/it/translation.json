@@ -340,7 +340,7 @@
         "churches_text": "Lorem ipsum",
       "food": "Bologna la Grassa: usi e costumi",
         "food_text": "'La Grassa', per le sue tipiche e squisite pietanze: tortellini, mortadella, lasagne, tagliatelle al ragù e crescentine, sono solo alcuni dei prodotti caratteristici di questa capitale del gusto.",
-      "museums": "Musei",
+      "museums": "Percorso dei musei",
         "museums_text": "Lorem ipsum",
       "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
@@ -360,7 +360,9 @@
         "canada": "Viaggiatori canadesi",
         "canada_text": "Lorem ipsum",
         "southamerica": "Viaggiatori ispano-americani",
-        "southamerica_text": "Lorem ipsum"
+        "southamerica_text": "Lorem ipsum",
+        "museum": "Percorso dei musei",
+        "museum_text": "Bologna, da sempre centro di arte e  sapere, custodisce nei suoi musei capolavori artistici, reperti archeologici e strumenti scientifici che raccontano la storia, la cultura e l’ingegno della città."
     },
 
     "sign-in-up":{

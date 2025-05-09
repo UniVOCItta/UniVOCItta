@@ -361,7 +361,9 @@
         "canada": "Canada Route",
         "canada_text": "Lorem ipsum",
         "southamerica": "Hispanic-America Route",
-        "southamerica_text": "Lorem ipsum"
+        "southamerica_text": "Lorem ipsum",
+      "museum": "Museums route",
+      "museum_text": "Болонья, издавна являющаяся центром искусства и знаний, бережно хранит в своих музеях художественные шедевры, археологические находки и научные инструменты, рассказывающие об истории, культуре и гении города."
     },
 
     "sign-in-up":{

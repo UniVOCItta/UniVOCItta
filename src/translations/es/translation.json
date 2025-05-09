@@ -360,8 +360,9 @@
        "canada": "Viajeros canadienses",
         "canada_text": "Lorem ipsum",
         "southamerica": "Viajeros de América del Sur",
-        "southamerica_text": "Lorem ipsum"
-
+        "southamerica_text": "Lorem ipsum",
+      "museum": "Museos",
+      "museum_text": "Bolonia, desde siempre centro de arte y saber, conserva en sus museos obras maestras, hallazgos arqueológicos e instrumentos científicos que narran la historia, la cultura y el ingenio de la ciudad."
     },
 
 

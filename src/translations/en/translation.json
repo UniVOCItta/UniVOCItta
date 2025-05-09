@@ -360,7 +360,9 @@
          "canada": "Canada Route",
         "canada_text": "Lorem ipsum",
          "southamerica": "Hispanic-America Route",
-        "southamerica_text": "Lorem ipsum"
+        "southamerica_text": "Lorem ipsum",
+      "museum": "Museums Route",
+      "museum_text": "Bologna, a historic center of art and knowledge, preserves in its museums artistic masterpieces, archaeological finds, and scientific instruments that tell the story, culture, and ingenuity of the city."
     },
 
     "sign-in-up": {

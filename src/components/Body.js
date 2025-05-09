@@ -12,6 +12,7 @@ import * as FaIcons from 'react-icons/fa';
 import docufilm from '../assets/imgs/bassi_docufilm.jpg';
 import food from '../assets/imgs/routes/tortellini_Angelo_Muratore.jpg';
 import porticoes from '../assets/imgs/Portici_Bologna_02.jpg';
+import museum from '../assets/imgs/pinacoteca_Gueraldo_Anna_Chiara.jpg';
 import unibo from '../assets/imgs/routes/archiginnasio_Wwikiwalter.jpg';
 import appennino from '../assets/imgs/appennino.jpg';
 import city_centre from '../assets/imgs/routes/bologna_free.jpg';
@@ -48,7 +49,7 @@ function Body() {
       {src:cervantes,alt:'',copyright:'',title:'Miguel de Cervantes',link:'/maps/travellers/es/cervantes',linkText:t('footer.more')},
     ],
     routes:[
-      /*{src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:'Museums',link:'../coming',linkText:t('footer.more')},*/
+      {src:museum,alt:'La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018',copyright:'Foto di Anna Chiara Gueraldo',title:t('routes.museum'),link:'/maps/museum',linkText:t('footer.more')},
       {src:city_centre,alt:'Centro di Bologna',copyright:'free',title:t('routes.city_centre'),link:'/maps/city_centre',linkText:t('footer.more')},
       {src:food,alt:'Tortellini',copyright:'Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',title:t('routes.food'),link:'/maps/food',linkText:t('footer.more')},
       {src:docufilm,alt:'Una cattedra per Laura Bassi',copyright:'Unibo',title:t('routes.women'),link:'/maps/women',linkText:t('footer.more')},

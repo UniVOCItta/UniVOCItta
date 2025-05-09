@@ -340,7 +340,7 @@
         "churches_text": "Lorem ipsum",
       "food": "Itinéraire gastronomique",
         "food_text": "Lorem ipsum",
-      "museums": "Itinéraires des musées",
+      "museums": "Itinéraire des musées",
         "museums_text": "Lorem ipsum",
       "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
@@ -360,7 +360,9 @@
             "canada": "Voyageurs canadiens",
         "canada_text": "Lorem ipsum",
         "southamerica": "Voyageurs hispano-américains",
-        "southamerica_text": "Lorem ipsum"
+        "southamerica_text": "Lorem ipsum",
+        "museum": "Itinéraire des musées",
+      "museum_text": "Bologne, centre historique d’art et de savoir, conserve dans ses musées des chefs-d’œuvre artistiques, des vestiges archéologiques et des instruments scientifiques qui racontent l’histoire, la culture et l’ingéniosité de la ville."
     },
 
     "sign-in-up": {
