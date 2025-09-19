@@ -1,29 +1,83 @@
-# UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese
-[Homepage](https://univocitta.github.io/UniVOCItta/#) of the project. 
+# UniVOCItta
+[Homepage](https://univocitta.github.io/UniVOCItta/#) del progetto.
 
-# About 
-UniVOCIttà is a digital humanities research project developed by the LBC-CeSLiC unit at the Department of Modern Languages, Literature and Cultures ([LILEC](https://lingue.unibo.it/it)) of the University of Bologna. Launched in July 2022, it builds on the outcomes of the previous [UNICittà](https://site.unibo.it/unicitta/it) project, which focused on compiling a corpus of historical and present testimonies on the renowned University of Bologna.
+## About
+CIAO UniVOCIttà è un progetto del Dipartimento di Lingue, Letterature e Culture Moderne ([LILEC](https://lingue.unibo.it/it)) dell'Università di Bologna.
+Il progetto, iniziato a luglio 2022, deriva da risultati ottenuti da un progetto precedente, [UNICittà](https://site.unibo.it/unicitta/it) che si concentrava sulla costituzione di un corpus di testimonianze del passato.
 
-# Objectives 
-The project aims to collect the “voices” of outstanding travellers who passed through the city of Bologna and its surrounding area, promoting an innovative interpretation of its rich tangible and intangible heritage.
-The project's mobile and web application was designed as a prototype to test an innovative methodological approach.
+## Obiettivo 
+Raccogliere le voci di figure letterarie e viaggiatori che sono passati per Bologna e che sono in grado di promuovere una diversa ed innovativa interpretazione del ricco patrimonio della città di Bologna.
 
-# Funding
-The project was generously funded by the European Union - NextGeneration EU under the “ALMA IDEA 2022 call - Linea A finanziata a valere sulle risorse del D.M. 737/2021” – UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese – CUP J45F21002000001.
+## Stato del progetto
+In corso.
 
-# Project status
-Completed.
+## Available Scripts
 
-# Website structure  
-1. Homepage: Navigation menu, permanent bottom navigation bar, and language toggle.
-2. The Project pages: Presentation of UniVOCIttà, its aims and goals.
-3. The About pages: Project team, institutions, and partners. 
-4. Corpus: Annotated multilingual fragments, searchable via filters and query bar. Includes usage instructions.
-5. Maps: 
-	a. Places: All Bologna locations mentioned in the corpus.
-	b. Travellers: Profiles of travellers who visited and wrote about Bologna.
-	c. Heritage Routes: Preset thematic routes covering several fields such as museums, environment, gastronomy, etc.
-6. Profile: Allows users to save quotes, places, and routes of interest.
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 
 # App conversion and build
 Using [capacitorjs](https://capacitorjs.com/solution/react)
@@ -43,7 +97,7 @@ Using [capacitorjs](https://capacitorjs.com/solution/react)
 - change the file 'package.json' and use: "homepage": "https://univocitta.github.io/UniVOCItta/"
 - npm run build
 - npm run deploy
-- check if everything is ok after at least 10min here: [https://univocitta.github.io/UniVOCItta/](https://univocitta.github.io/UniVOCItta/)
+- check if evrything is ok after at least 10min here: [https://univocitta.github.io/UniVOCItta/](https://univocitta.github.io/UniVOCItta/)
 
 # Data that are not automatized:
 - http://localhost:3000/UniVOCItta#/maps/Places
