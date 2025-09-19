@@ -175,15 +175,15 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
           <Breadcrumb.Item><HashLink smooth to='/' id='crumb'>Home</HashLink></Breadcrumb.Item>
           <Breadcrumb.Item>
             <HashLink smooth to="/maps" id='crumb'>
-            Maps
+            {t('maps.maps')}
             </HashLink>
           </Breadcrumb.Item>
           <Breadcrumb.Item>
             <HashLink smooth to="/maps/routes" id='crumb'>
-            Heritage Routes
+            {t('maps.routes_title')}
             </HashLink>
           </Breadcrumb.Item>
-          <Breadcrumb.Item active>Route</Breadcrumb.Item>
+          <Breadcrumb.Item active>{t('maps.single_route')}</Breadcrumb.Item>
         </Breadcrumb>
           <div className="row align-items-center">
             <div className="col-md-9">
@@ -193,12 +193,12 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
               {isFavorite ? (
                 <Button onClick={() => handleRemoveFromFavorites('A Title')}>
                   <FaHeart />
-                  &nbsp;Remove from Favorites
+                  &nbsp;{t('maps.remove_favourites')}
                 </Button>
               ) : (
                 <Button onClick={() => handleAddToFavorites('A Title')}>
                   <FaRegHeart />
-                  &nbsp;Add to Favorites
+                  &nbsp;{t('maps.add_favourites')}
                 </Button>
               )}
             </div>

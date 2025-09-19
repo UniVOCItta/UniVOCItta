@@ -105,7 +105,7 @@ export default function About() {
             <p>{t('about.text')}</p>
            {/* Team */}
             <h2 id='team'>{t('about.team')}</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Siamo un bel team.</p>
                 {/* Contributors' names
                 <ul>
                   <li>Valeria Zotti</li>

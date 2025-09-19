@@ -186,6 +186,7 @@
       "travellers_more": "More",
       "routes_button": "Routes",
       "routes_title": "Heritage Routes",
+      "single_route": "Route",
       "routes_text":"Discover Bologna through our suggested art, culture and food routes. Whatever your interests and preferences, you will find what you are looking for: our itineraries will guide you through extraordinary experiences, accompanied by the voices of past travellers who have visited Bologna before you.",
       "suggested_routes": "Suggested routes",
       "women_category": "Women",
@@ -354,7 +355,14 @@
       "women": "Women Route",
         "women_text": "Lorem ipsum",
       "quebec": "Quebec Route",
-        "quebec_text": "Lorem ipsum"
+        "quebec_text": "For many Quebecois travellers, Bologna was just a stopover on the way to more major cities. Yet, their admiring gaze at the city’s heritage reflects a deep fascination with Italian art, a marked religious attraction, and a keen interest in its intellectual culture, local traditions, and the erudition of its personalities. This unique perspective, distinct from that of European or English-speaking Canadian travellers, offers a new way to rediscover Bologna, encouraging a reinterpretation of its heritage through the experiential memory of Quebecois visitors.",
+        "quebec_tags": ["Art", "Religion", "Culture"],
+         "canada": "Canada Route",
+        "canada_text": "Lorem ipsum",
+         "southamerica": "Hispanic-America Route",
+        "southamerica_text": "Lorem ipsum",
+      "museum": "Museums Route",
+      "museum_text": "Bologna, a historic center of art and knowledge, preserves in its museums artistic masterpieces, archaeological finds, and scientific instruments that tell the story, culture, and ingenuity of the city."
     },
 
     "sign-in-up": {

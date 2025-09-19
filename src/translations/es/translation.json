@@ -186,6 +186,7 @@
       "travellers_more": "Ver más",
       "routes_button": "Itinerarios",
       "routes_title": "Itinerarios culturales",
+      "single_route": "Itinerario",
       "routes_text":"Descubre Bolonia a través de nuestros itinerarios sugeridos sobre arte, cultura y gastronomía. En función de tus intereses y preferencias, encontrarás el más adecuado: nuestros itinerarios te permitirán vivir experiencias extraordinarias, mediadas por las voces de viajeros que han visitado Bolonia en otros tiempos.",
       "suggested_routes": "Itinerarios sugeridos",
       "women_category": "Mujeres",
@@ -353,9 +354,17 @@
         "university_text": "Lorem ipsum",
       "women": "Itinerario de mujeres",
         "women_text": "Lorem ipsum",
-      "quebec": "Quebec Route",
-        "quebec_text": "Lorem ipsum"
+      "quebec": "Viajeros quebequenses",
+      "quebec_text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "quebec_tags": ["Arte", "Religión", "Cultura"],
+       "canada": "Viajeros canadienses",
+        "canada_text": "Lorem ipsum",
+        "southamerica": "Viajeros de América del Sur",
+        "southamerica_text": "Lorem ipsum",
+      "museum": "Museos",
+      "museum_text": "Bolonia, desde siempre centro de arte y saber, conserva en sus museos obras maestras, hallazgos arqueológicos e instrumentos científicos que narran la historia, la cultura y el ingenio de la ciudad."
     },
+
 
     "sign-in-up":{
       "sign-in": "Accede",
