@@ -194,6 +194,8 @@
       "uni_category": "Университет",
       "museum_category": "Музеи",
       "food_category": "Кухня",
+      "historical_category": "Historical",
+      "nature_category":"Nature",
       "all": "Все",
       "min": "мин.",
       "km": "км",

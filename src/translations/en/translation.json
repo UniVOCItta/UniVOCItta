@@ -193,6 +193,8 @@
       "uni_category": "University",
       "museum_category": "Museums",
       "food_category": "Food",
+      "historical_category": "Historical",
+      "nature_category":"Nature",
       "all": "All",
       "min": "min",
       "km": "km",
