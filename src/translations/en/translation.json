@@ -207,7 +207,7 @@
     "places": {   
       "title": "Lorem ipsum",
       "sanpetronio": "Lorem ipsum",
-      "sanpetronio_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "sanpetronio_text": "Bologna’s largest church, it is dedicated to the city’s patron saint and dominates Piazza Maggiore. This vast Gothic masterpiece is renowned for its unfinished façade and for the famous meridian traced on its floor by the astronomer Cassini."
     },
 
     "travellers": {
@@ -402,3 +402,4 @@
       "documentation": "Documentation"
     }
 }
+
