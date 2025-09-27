@@ -115,7 +115,6 @@ export default function About() {
                   <li>Monica Turci</li>
                   <li>Carmelo Caruso</li>
                   <li>Valentina Cozzi</li>
-                  <li>Tirocinanti: ...</li>
                 </ul>
                 */}
             {/*Slider            
@@ -203,7 +202,7 @@ export default function About() {
                 <div className="card bg-light">
                   <div className="card-body text-center">
                     <img src={team} className="img-fluid" alt='Immagine placeholder'/>
-                    <h4 className="card-title mb-3">Ciao</h4>
+                    <h4 className="card-title mb-3">Tizio</h4>
                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       <ul>
                         <li>Lorem ipsum</li>
