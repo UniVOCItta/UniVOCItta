@@ -1,7 +1,7 @@
 import React , {useRef, useState, useEffect} from 'react';
 import '../../../App.css';
 import { Link } from 'react-router-dom';
-// import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 // Bootstrap
 import { Row, Col } from 'react-bootstrap';
 // Imgs
@@ -26,7 +26,7 @@ import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 import "leaflet-geosearch/dist/geosearch.css";
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 // Multi-carousel
-// import Carousel from 'react-multi-carousel';
+import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 // Translation
 import { useTranslation } from "react-i18next";
@@ -65,26 +65,26 @@ export default function About() {
   const ZOOM_LEVEL = 17;
   const mapRef = useRef()
 
-  // const responsive = {
-  //   superLargeDesktop: {
-  //     // the naming can be any, depends on you.
-  //     breakpoint: { max: 4000, min: 3000 },
-  //     items: 5,
-  //     slidesToSlide: 3
-  //   },
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 5
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 3
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 3
-  //   }
-  // };
+  const responsive = {
+     superLargeDesktop: {
+       // the naming can be any, depends on you.
+       breakpoint: { max: 4000, min: 3000 },
+       items: 5,
+       slidesToSlide: 3
+     },
+     desktop: {
+       breakpoint: { max: 3000, min: 1024 },
+       items: 5
+     },
+     tablet: {
+       breakpoint: { max: 1024, min: 464 },
+       items: 3
+     },
+     mobile: {
+       breakpoint: { max: 464, min: 0 },
+       items: 3
+     }
+   };
 
   // Translation 
   const { t } = useTranslation();
@@ -105,20 +105,7 @@ export default function About() {
             <p>{t('about.text')}</p>
            {/* Team */}
             <h2 id='team'>{t('about.team')}</h2>
-                <p>Siamo un bel team.</p>
-                {/* Contributors' names
-                <ul>
-                  <li>Valeria Zotti</li>
-                  <li>Antonella Luporini</li>
-                  <li>Ana Pano Alaman</li>
-                  <li>Monica Perotto</li>
-                  <li>Monica Turci</li>
-                  <li>Carmelo Caruso</li>
-                  <li>Valentina Cozzi</li>
-                  <li>Tirocinanti: ...</li>
-                </ul>
-                */}
-            {/*Slider            
+                <p>Siamo un bel team.</p>           
             <Carousel 
             responsive={responsive}
             infinite={true}
@@ -197,7 +184,7 @@ export default function About() {
                 </p>
               </div>
             </Carousel>
-            */}
+
             <div id ="figurine" className="row g-4 justify-content-center">
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
