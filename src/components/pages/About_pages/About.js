@@ -115,14 +115,22 @@ export default function About() {
             responsive={responsive}
             infinite={true}
             >
-              <div id="traveller-card" className='card'>
+              <div id="collaborator-card" className="card justify-content-center">
                 <img id='fixed' className='product--image'
-                src={locationIcon}></img>
-                <h4 className='slider-h2'>Name</h4>
-                <p className='slider-p'>A Nationality</p>
-                <p className='slider-p'>Small description.</p>
+                src={cozzi} style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}></img>
+                <h4 className='slider-h2'>Valentina Cozzi</h4>
+                <p className='slider-p'>Dottoressa in Digital Humanities e Digital Knowledge presso il Dipartimento di Filologia Classica e Italianistica.</p>
                 <p>
-                  <HashLink to='https://en.wikipedia.org/wiki/Laura_Bassi'><button className='slider-button'>aa</button></HashLink>
+                  <HashLink to='https://github.com/valentinacozzi'><button className='slider-button'>{t('maps.more')}</button></HashLink>
+                </p>
+              </div>
+              <div id="collaborator-card" className='card'>
+                <img id='fixed' className='product--image'
+                src={zotti} style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}></img>
+                <h4 className='slider-h2'>Valeria Zotti</h4>
+                <p className='slider-p'>Professoressa associata di lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p>
+                  <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
@@ -132,7 +140,7 @@ export default function About() {
                 <p className='slider-p'>English</p>
                 <p className='slider-p'>Writer and social critic</p>
                 <p>
-                  <HashLink to='https://en.wikipedia.org/wiki/Charles_Dickens'><button className='slider-button'>aa</button></HashLink>
+                  <HashLink to='https://en.wikipedia.org/wiki/Charles_Dickens'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
               </div>
               <div className='card'>
