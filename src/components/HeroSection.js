@@ -7,14 +7,13 @@ import { Link } from 'react-router-dom';
 import { Carousel, Button } from 'react-bootstrap';
 // Imgs
 import bolo from '../assets/imgs/hero_section/bologna.jpg'; // © FREE
-import torri from '../assets/imgs/hero_section/bologna_torri.jpg'; // ©
-import uni from '../assets/imgs/hero_section/bib_universitaria_2_Antonio_Cesari.jpg'; // © Antonio Cesari
 import museum from '../assets/imgs/hero_section/pinacoteca_Gueraldo_Anna_Chiara.jpg'; // © Gueraldo Anna Chiara
-import church from '../assets/imgs/hero_section/piazza_maggiore.jpg'; // ©
 import food from "../assets/imgs/hero_section/bologna_la_grassa.jpeg" // © Comune di Bologna
-import laura_bassi from "../assets/imgs/hero_section/bassi_docufilm.jpg"
-import laura_bassi_2 from "../assets/imgs/hero_section/bassi_docufilm_2_orizzontale_jpg.jpg"
-import san_luca from "../assets/imgs/hero_section/san_luca_wikipedia_Nebbius.jpg" // © Wikipedia Nebbius
+import tortellini from "../assets/imgs/hero_section/tortellini_Angelo_Muratore.jpg"
+import laura_bassi from "../assets/imgs/hero_section/bassi_docufilm_2.jpg"
+import placeholder from "../assets/imgs/hero_section/placeholder.png"
+import sara_luca from "../assets/imgs/hero_section/saragozza_san_luca.jpg" // © Bologna Welcome
+import appennini from "../assets/imgs/hero_section/appennino.jpg"
 // Translation
 import { useTranslation } from "react-i18next";
 
@@ -36,39 +35,39 @@ function HeroSection() {
               <Link to='/maps/city_centre'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={500}>
-            <div className="carousel-image-overlay"></div>
-            <img
-              className="d-block w-100"
-              src={san_luca}
-              alt="Two Towers, Bologna"
-              copyright= "©Free"
-            />
-            <Carousel.Caption>
-              <h3>The secrets of Bologna</h3>
-              <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link to='/coming'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
-            </Carousel.Caption>
-          </Carousel.Item>
           <Carousel.Item>
             <div className="carousel-image-overlay"></div>
             <img
               className="d-block w-100"
-              src={uni}
+              src={sara_luca}
               alt="Biblioteca Universitaria di Bologna, Antonio Cesari. 2019"
               copyright= "©Università di Bologna/Antonio Cesari"
             />
             <Carousel.Caption>
-              <h3>University Route</h3>
+              <h3>{t('routes.san_luca')}</h3>
               <p className='carousel-p'>Praesent commodo cursus magna, vel scelerisque nisl.</p>
-              <Link to='/coming'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
+              <Link to='/maps/san_luca'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className="carousel-image-overlay"></div>
             <img
               className="d-block w-100"
-              src={laura_bassi_2}
+              src={appennini}
+              alt="Biblioteca Universitaria di Bologna, Antonio Cesari. 2019"
+              copyright= "©Università di Bologna/Antonio Cesari"
+            />
+            <Carousel.Caption>
+              <h3>{t('routes.appennini')}</h3>
+              <p className='carousel-p'>{t('routes.appennini_preview')}</p>
+              <Link to='/maps/appennino'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="carousel-image-overlay"></div>
+            <img
+              className="d-block w-100"
+              src={laura_bassi}
               alt="Piazza Maggiore, Bologna Welcome"
               copyright= "@Bologna Welcome"
             />
@@ -96,13 +95,13 @@ function HeroSection() {
             <div className="carousel-image-overlay"></div>
             <img
               className="d-block w-100"
-              src={food}
+              src={tortellini}
               alt="La pinacoteca di Bologna, foto di Anna Chiara Gueraldo. 2018"
               copyright= "Foto di Anna Chiara Gueraldo"
             />
             <Carousel.Caption>
               <h3>{t('routes.food')}</h3>
-              <p className='carousel-p'>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+              <p className='carousel-p'>{t('routes.food_preview')}</p>
               <Link to='/maps/food'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
