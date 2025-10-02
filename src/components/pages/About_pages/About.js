@@ -177,7 +177,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={vitali}></img>
                 <h4 className='slider-h2'>Fabio Vitali</h4>
-                <p className='slider-p'>Professore ordinario di informatica e tecnologie web presso il Dipartimento di Informatica - Scienza e Ingegneria.</p>
+                <p className='slider-p'>Professore ordinario di informatica presso il Dipartimento di Informatica - Scienza e Ingegneria.</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
