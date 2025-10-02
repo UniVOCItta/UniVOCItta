@@ -300,7 +300,7 @@ const PlacesData =
     },
     {
       id: 20,
-      title: 'Osservatorio Stazione di Loaino',
+      title: 'Osservatorio Stazione di Loiano',
       category: 'Other',
       img: require('../../../../assets/imgs/places/osservatorio_loiano_INAF.jpg'),
       path: '/maps/places/singleplace', 

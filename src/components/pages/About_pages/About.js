@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 // Imgs
 import team from '../../../assets/imgs/team.jpg';
+import zotti from '../../../assets/imgs/team/zotti.png';
+import cozzi from '../../../assets/imgs/team/cozzi.jpg';
+import caruso from '../../../assets/imgs/team/caruso.jpeg' ; 
+import perotto from '../../../assets/imgs/team/perotto.png' ; 
+import gramellini from '../../../assets/imgs/team/gramellini.jpg' ; 
 import uni from '../../../assets/imgs/via_cartoleria_UNIBO.jpg';
 import locationIcon from '../../../assets/imgs/maps-icon.png';
 // import placeholder from '../../../assets/imgs/placeholder.png';
@@ -106,17 +111,6 @@ export default function About() {
            {/* Team */}
             <h2 id='team'>{t('about.team')}</h2>
                 <p>Siamo un bel team.</p>
-                {/* Contributors' names
-                <ul>
-                  <li>Valeria Zotti</li>
-                  <li>Antonella Luporini</li>
-                  <li>Ana Pano Alaman</li>
-                  <li>Monica Perotto</li>
-                  <li>Monica Turci</li>
-                  <li>Carmelo Caruso</li>
-                  <li>Valentina Cozzi</li>
-                </ul>
-                */}
             {/*Slider            
             <Carousel 
             responsive={responsive}
@@ -201,54 +195,100 @@ export default function About() {
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
                   <div className="card-body text-center">
-                    <img src={team} className="img-fluid" alt='Immagine placeholder'/>
-                    <h4 className="card-title mb-3">Tizio</h4>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                      </ul>
+                    <img src={zotti} className="img-fluid" alt='Foto di Valeria Zotti' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Valeria Zotti</h4>
+                    <p className="card-text">Professoressa associata di lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
                     <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
                     <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
-                    <Link className='fa-brands' to='#'><FaIcons.FaEnvelope/></Link>
+                    <Link className='fa-brands' to='mailto:valeria.zotti@unibo.it'><FaIcons.FaEnvelope/></Link>
                   </div>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
                   <div className="card-body text-center">
-                    <img src={team} class="img-fluid" alt='Immagine placeholder'/>
-                    <h4 className="card-title mb-3">Caio</h4>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                      </ul>
+                    <img src={team} class="img-fluid" alt='Immagine placeholder' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Ana Pano Alamán</h4>
+                    <p className="card-text">Professoressa associata di lingua e linguistica spagnola presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
                     <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
                     <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
-                    <Link className='fa-brands' to='#'><FaIcons.FaEnvelope/></Link>
+                    <Link className='fa-brands' to='mailto:ana.pano@unibo.it'><FaIcons.FaEnvelope/></Link>
                   </div>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
                 <div className="card bg-light">
                   <div className="card-body text-center">
-                    <img src={team} className="img-fluid" alt='Immagine placeholder'/>
-                    <h4 className="card-title mb-3">Sempronio</h4>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                      </ul>
+                    <img src={perotto} className="img-fluid" alt='Foto di Monica Perotto' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Monica Perotto</h4>
+                    <p className="card-text">Professoressa associata di lingua e linguistica russa presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
                     <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
                     <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
-                    <Link className='fa-brands' to='#'><FaIcons.FaEnvelope/></Link>
+                    <Link className='fa-brands' to='mailto:monica.perotto@unibo.it'><FaIcons.FaEnvelope/></Link>
                   </div>
                 </div>
               </div>
+              <div className="col-md-6 col-lg-3">
+                <div className="card bg-light">
+                  <div className="card-body text-center">
+                    <img src={team} className="img-fluid" alt='Immagine placeholder' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Monica Turci</h4>
+                    <p className="card-text">Professoressa associata di lingua e linguistica inglese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                    <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
+                    <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
+                    <Link className='fa-brands' to='mailto:monica.turci2@unibo.it'><FaIcons.FaEnvelope/></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3">
+                <div className="card bg-light">
+                  <div className="card-body text-center">
+                    <img src={team} class="img-fluid" alt='Immagine placeholder' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Fabio Vitali</h4>
+                    <p className="card-text">Professore ordinario di informatica e tecnologie web presso il Dipartimento di Informatica - Scienza e Ingegneria.</p>
+                    <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
+                    <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
+                    <Link className='fa-brands' to='mailto:fabio.vitali@unibo.it'><FaIcons.FaEnvelope/></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3">
+                <div className="card bg-light">
+                  <div className="card-body text-center">
+                    <img src={cozzi} className="img-fluid" alt='Foto di Valentina Cozzi'  style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px"  }}/>
+                    <h4 className="card-title mb-3">Valentina Cozzi</h4>
+                    <p className="card-text">Dottoressa in Digital Humanities e Digital Knowledge presso il Dipartimento di Filologia Classica e Italianistica.</p>
+                    <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
+                    <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
+                    <Link className='fa-brands' to='mailto:cozzivalentina98@gmail.com'><FaIcons.FaEnvelope/></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3">
+                <div className="card bg-light">
+                  <div className="card-body text-center">
+                    <img src={gramellini} className="img-fluid" alt='Foto di Rita Gramellini' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Rita Gramellini</h4>
+                    <p className="card-text">Dottoranda in lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                    <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
+                    <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
+                    <Link className='fa-brands' to='mailto:rita.gramellini2@unibo.it'><FaIcons.FaEnvelope/></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3">
+                <div className="card bg-light">
+                  <div className="card-body text-center">
+                    <img src={team} class="img-fluid" alt='Immagine placeholder' style={{ width: "300px", height: "300px", objectFit: "cover", borderRadius: "0px", marginBottom: "10px" }}/>
+                    <h4 className="card-title mb-3">Carmelo Caruso</h4>
+                    <p className="card-text">Tecnico dell’area elaborazione dati presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                    <Link className='fa-brands' to='#'><FaIcons.FaFacebook/></Link>
+                    <Link className='fa-brands' to='#'><FaIcons.FaGithub/></Link>
+                    <Link className='fa-brands' to='mailto:carmelo.caruso@unibo.it'><FaIcons.FaEnvelope/></Link>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <br/>
             <div id ="figurine" className="row g-4 justify-content-center">
