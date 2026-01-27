@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/UniVOCItta/static/css/main.b3683087.css",
-    "main.js": "/UniVOCItta/static/js/main.81769e50.js",
+    "main.js": "/UniVOCItta/static/js/main.4f0b4348.js",
     "static/media/bologna_video.mp4": "/UniVOCItta/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/bologna.jpg": "/UniVOCItta/static/media/bologna.709b518630464dd68927.jpg",
     "static/media/museo_mineralogia_Antonio_Todero.jpg": "/UniVOCItta/static/media/museo_mineralogia_Antonio_Todero.b93c7b7599846833d7f7.jpg",
     "static/media/pinacoteca_Gueraldo_Anna_Chiara.jpg": "/UniVOCItta/static/media/pinacoteca_Gueraldo_Anna_Chiara.c20272e06e924c55d382.jpg",
     "static/media/saragozza_san_luca.jpg": "/UniVOCItta/static/media/saragozza_san_luca.858bf5399f91cdd9acbc.jpg",
-    "static/media/zotti.png": "/UniVOCItta/static/media/zotti.3b8d63b51b6586bcd63f.png",
     "static/media/arca_San-Domenico_Barbi.jpg": "/UniVOCItta/static/media/arca_San-Domenico_Barbi.f8538044967723782e07.jpg",
     "static/media/piazza_malpighi_scatti_di_gusto.jpg": "/UniVOCItta/static/media/piazza_malpighi_scatti_di_gusto.27a348d9a47867bc4d9a.jpg",
     "static/media/vitali.png": "/UniVOCItta/static/media/vitali.acbfed562ec01c99b6f1.png",
@@ -37,6 +36,7 @@
     "static/media/palazzo_accursio_Andrea_Samaritani.jpg": "/UniVOCItta/static/media/palazzo_accursio_Andrea_Samaritani.d090025b9aa1c161d4d9.jpg",
     "static/media/chiesa_corpus_domini_BolognaBo.jpg": "/UniVOCItta/static/media/chiesa_corpus_domini_BolognaBo.9f07fbc6f1fadbdd50e0.jpg",
     "static/media/archiginnasio_Wwikiwalter.jpg": "/UniVOCItta/static/media/archiginnasio_Wwikiwalter.436679ecf4e689cbf4a7.jpg",
+    "static/media/zotti.jpg": "/UniVOCItta/static/media/zotti.33cf8050fde37d1c6752.jpg",
     "static/media/palazzo_malvezzi_cortile_Antonio_Cesari.jpg": "/UniVOCItta/static/media/palazzo_malvezzi_cortile_Antonio_Cesari.7660506b2b8ac1ce64f7.jpg",
     "static/media/appennino.jpg": "/UniVOCItta/static/media/appennino.229d7305c8eec5281ce8.jpg",
     "static/media/porta_saragozza_EvelinaRibarova_Wikimedia.jpg": "/UniVOCItta/static/media/porta_saragozza_EvelinaRibarova_Wikimedia.2d22bfafbd98134dee98.jpg",
@@ -134,10 +134,10 @@
     "index.html": "/UniVOCItta/index.html",
     "static/media/getFetch.cjs": "/UniVOCItta/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
     "main.b3683087.css.map": "/UniVOCItta/static/css/main.b3683087.css.map",
-    "main.81769e50.js.map": "/UniVOCItta/static/js/main.81769e50.js.map"
+    "main.4f0b4348.js.map": "/UniVOCItta/static/js/main.4f0b4348.js.map"
   },
   "entrypoints": [
     "static/css/main.b3683087.css",
-    "static/js/main.81769e50.js"
+    "static/js/main.4f0b4348.js"
   ]
 }
