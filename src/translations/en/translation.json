@@ -326,48 +326,49 @@
         "ru_Grec_text": "Nikolai Ivanovič Greč (1787- 1867), an erudite journalist and pedagogue, taught literature (Russian and Latin) at the high school where Pushkin studied. He wrote authoritative grammars of the Russian language for the time, but was also editor-in-chief until 1839 of the historical-political and literary journal The Son of the Fatherland, in which the most important men of letters of the time wrote. He was also a state official (for years secretary to the Ministry of the Interior) and forged links with intellectuals from all over Europe. He loved to travel and his epistolary letters, true literary journeys, remain a very important record of his stays throughout Europe and in particular in Germany, Italy and France.[(<a href=\"https://www.prlib.ru/history/619455\">Source</a>)].",
         "ru_Grec_occupation": "Journalist and pedagoguge",
       "ru_Herzen": "Aleksandr Herzen",
-        "ru_Herzen_text_carousel": "русский писатель, публицист-революционер, философ",
-        "ru_Herzen_text": "Oдин из гланых представителей русской интеллигенции XIX века, он покинул царскую империю в 1847 году, предпочтя путь изгнания самодержавию Николая I. A. Герцен жил в эмиграции с 1847 года. Он посетил Италию в годы войн Рисорджименто и в своих письмах (Письма из Франции и Италии с того берега) поведал о пережитых эмоциях в период 1847-1852 годов. Впервые письма были опубликованы в 1854 году. Малоизвестная в Италии личность, Герцен долгое время оставался на полуострове, завязав прочные отношения со многими героями итальянского Рисорджименто.[(<a href=\"#\">Source</a>)].",
-        "ru_Herzen_occupation": "русский писатель"
+        "ru_Herzen_text_carousel": "Russian writer, revolutionary publicist, philosopher",
+        "ru_Herzen_text": "He was one of the most important intellectuals of 19th-century Russia. In 1847, he left the Tsarist Empire, choosing the path of exile over the autocracy of Nicholas I. A. Herzen lived in exile from 1847. He visited Italy during the years of the Risorgimento wars, and in his letters (Pis’ma iz Francii i Italii s togo berega, Letters from the Lands of France and Italy), he recounted the emotions he experienced between 1847 and 1852. The letters were first published in 1854. A little-known figure in Italy, Herzen stayed for a long time on the peninsula, forging lasting relationships with many key figures of the Italian Risorgimento.[(<a href=\"#\">Source</a>)].",
+        "ru_Herzen_occupation": "Russian writer"
     },
 
     "routes": {
       "itinerary": "ITINERARY",
       "show_all_cards":"Show all",
       "appennini": "Appennino Route",
-        "appennini_text": "Lorem ipsum",
+        "appennini_text": "Picturesque villages, hidden paradises, and nature as the undisputed protagonist: the Apennines near Bologna offer truly unique experiences — a journey through natural, scenic, architectural, and archaeological wonders.",
         "appennini_preview": "Picturesque villages, hidden paradises, nature as the undisputed protagonist",
       "city_centre": "City Centre Route",
-        "city_centre_text": "Lorem ipsum",
+        "city_centre_text": "From the Two Towers to Piazza Maggiore, with its Neptune Fountain and the imposing Basilica of San Petronio, up to the ancient university: an itinerary discovering the iconic landmarks of Bologna.",
+        "city_centre_preview": "From the Two Towers to Piazza Maggiore, with its Neptune Fountain and the imposing Basilica of San Petronio",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
       "food": "Food route",
-        "food_text": "Lorem ipsum",
-        "food_preview":"Praesent commodo cursus magna, vel scelerisque nisl.",
-      "museums": "Museums route",
-        "museums_text": "Lorem ipsum",
+        "food_text": "“La Grassa” (“The Fat”), known for its typical and exquisite dishes: tortellini, mortadella, lasagna, tagliatelle with ragù, and crescentine are just some of the characteristic products of this capital of flavor. ",
+        "food_preview":"“La Grassa” (“The Fat”), known for its typical and exquisite dishes",
       "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
       "towers": "Lorem ipsum",
         "towers_text": "Lorem ipsum",
       "san_luca": "Saragozza - San Luca",
-        "san_luca_text": "Lorem ipsum dolor sit amet",
-        "san_luca_preview": "Praesent commodo cursus magna, vel scelerisque nisl.",
+        "san_luca_text": "From Porta Saragozza to the Sanctuary of the Madonna di San Luca stretches the longest portico in the world, a covered walkway of almost 4 km and 666 arches linking the city to the hills. From the top, a wonderful view over Bologna.",
+        "san_luca_preview": "From Porta Saragozza to the Sanctuary of the Madonna di San Luca stretches the longest portico in the world",
       "unesco": "UNESCO",
         "unesco_text": "Lorem ipsum",
       "university": "Università",
         "university_text": "Lorem ipsum",
       "women": "Women Route",
-        "women_text": "Lorem ipsum",
+        "women_text": "Bologna is rich in women who have contributed to the city’s artistic progress, scientific advancement, political strategy, and social well-being. All of them are united by a common thread: passion, which has always driven the feminine spirit.",
+        "women_preview": "Bologna is rich in women who have contributed to the city’s artistic progress",
       "quebec": "Quebec Route",
         "quebec_text": "For many Quebecois travellers, Bologna was just a stopover on the way to more major cities. Yet, their admiring gaze at the city’s heritage reflects a deep fascination with Italian art, a marked religious attraction, and a keen interest in its intellectual culture, local traditions, and the erudition of its personalities. This unique perspective, distinct from that of European or English-speaking Canadian travellers, offers a new way to rediscover Bologna, encouraging a reinterpretation of its heritage through the experiential memory of Quebecois visitors.",
         "quebec_tags": ["Art", "Religion", "Culture"],
          "canada": "Canada Route",
-        "canada_text": "Lorem ipsum",
+        "canada_text": "Through the eyes of Canadian authors, Bologna emerges as a city of unique charm, suspended between medieval and modern, rich in culture and traditions: from the masterpieces of the Pinacoteca to its endless porticos, from the historic university halls to the renowned mortadella, elements that bear witness to Bologna’s unique identity.",
          "southamerica": "Hispanic-America Route",
-        "southamerica_text": "Lorem ipsum",
+        "southamerica_text": "The beauty of the paintings in the art gallery, the vibrancy of the university area, and the splendor of Bologna’s monuments deeply impressed many Latin American travelers. Numerous writings have been dedicated to it and to its wonderful landmarks.",
       "museum": "Museums Route",
-      "museum_text": "Bologna, a historic center of art and knowledge, preserves in its museums artistic masterpieces, archaeological finds, and scientific instruments that tell the story, culture, and ingenuity of the city."
+      "museum_text": "Bologna, a historic center of art and knowledge, preserves in its museums artistic masterpieces, archaeological finds, and scientific instruments that tell the story, culture, and ingenuity of the city.",
+      "museum_preview": "Bologna, a historic center of art and knowledge, preserves in its museums artistic masterpieces"
     },
 
     "sign-in-up": {
@@ -404,6 +405,7 @@
       "more": "More",
       "privacy": "Privacy Policy",
       "cookie": "Cookie Policy",
-      "documentation": "Documentation"
+      "documentation": "Documentation",
+      "documentation_text": "The complete documentation of the UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese project is available in the README file of the official GitHub repository. It includes information about the project, its objectives, current status, instructions for using the platform, and technical guidance for developers and contributors."
     }
 }

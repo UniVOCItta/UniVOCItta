@@ -31,7 +31,7 @@ function HeroSection() {
             />
             <Carousel.Caption>
               <h3>{t('routes.city_centre')}</h3>
-              <p className='carousel-p'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p className='carousel-p'>{t('routes.city_centre_preview')}</p>
               <Link to='/maps/city_centre'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -45,7 +45,7 @@ function HeroSection() {
             />
             <Carousel.Caption>
               <h3>{t('routes.san_luca')}</h3>
-              <p className='carousel-p'>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+              <p className='carousel-p'>{t('routes.san_luca_preview')}.</p>
               <Link to='/maps/san_luca'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -73,7 +73,7 @@ function HeroSection() {
             />
             <Carousel.Caption>
               <h3>{t('routes.women')}</h3>
-              <p className='carousel-p'>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+              <p className='carousel-p'>{t('routes.women_preview')}</p>
               <Link to='/maps/women'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -86,8 +86,8 @@ function HeroSection() {
               copyright= "Foto di Anna Chiara Gueraldo"
             />
             <Carousel.Caption>
-              <h3>{t('routes.museums')}</h3>
-              <p className='carousel-p'>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+              <h3>{t('routes.museum')}</h3>
+              <p className='carousel-p'>{t('routes.museum_preview')}</p>
               <Link to='/maps/museum'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>

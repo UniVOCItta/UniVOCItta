@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 import { Row, Col } from 'react-bootstrap';
 // Imgs
 import team from '../../../assets/imgs/team.jpg';
-import zotti from '../../../assets/imgs/team/zotti.png';
+import zotti from '../../../assets/imgs/team/zotti.jpg';
 import pano from '../../../assets/imgs/team/pano.jpeg'
 import cozzi from '../../../assets/imgs/team/cozzi.jpg';
 import caruso from '../../../assets/imgs/team/caruso.jpeg' ; 

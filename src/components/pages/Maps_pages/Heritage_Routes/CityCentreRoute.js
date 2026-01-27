@@ -216,7 +216,7 @@ const CityCentreRoute = () => {
       markerContent={markerContent} 
       init_pos={ {lat: 44.49381, lng: 11.33875} } 
       title={"routes.city_centre"} 
-      text={"Alla scoperta dei luoghi simbolo di Bologna....."} 
+      text={"routes.city_centre_text"}
       cards={cards}
       intestation={intestation}
   />

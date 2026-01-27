@@ -523,7 +523,7 @@ const PlacesData =
       category: 'University',
       img: require('../../../../assets/imgs/places/rettorato_palazzo_poggi_Antonio_Cesari.jpg'),
       path: '/maps/places/singleplace', 
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. MANCANTE',
+      description: 'Located in Via Zamboni 33 inside Palazzo Poggi, it houses the office of the University of Bologna’s Rector, currently Giovanni Molari.',
       location: [44.496599, 11.351678],
       copyright: '©Università di Bologna/Antonio Cesari',
       copyright_text: '©Università di Bologna/Antonio Cesari '
@@ -534,7 +534,7 @@ const PlacesData =
       category: 'Worship',
       img: require('../../../../assets/imgs/places/san_luca_wikipedia_Nebbius.jpg'),
       path: '/maps/places/singleplace', 
-      description: 'Located in Via Zamboni 33 inside Palazzo Poggi, it houses the office of the University of Bologna’s Rector, currently Giovanni Molari.',
+      description: 'Situated on a hill about 300 meters above the city plain, this sanctuary offers a beautiful view over Bologna. It is connected to the city by the famous Portico di San Luca, a covered walkway of nearly 4 km with 666 arches, making it the longest portico in the world.',
       location: [44.479117, 11.298069],
       copyright: 'Puscas Vadim  (Nebbius), CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons',
       copyright_text: 'Foto di Puscas Vadim  (Nebbius), via Wikimedia Commons',
