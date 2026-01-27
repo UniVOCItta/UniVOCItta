@@ -581,7 +581,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                             value={selectedNature}
                             onChange={(event) => setSelectedNature(event.target.value)}
                         >
-                            <option value="">All Nature</option>
+                            <option value="">{t('corpus.all_nature')}</option>
                             {filter.nature.map((el,i)=>{
                                         return <option key={"nature_f_"+i} value={el}>{el}</option>
                                     })}
@@ -593,7 +593,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                             value={selectedTheme}
                             onChange={(event) => setSelectedTheme(event.target.value)}
                         >
-                            <option value="">All Themes</option>
+                            <option value="">{t('corpus.all_themes')}</option>
                             {filter.theme.map((el,i)=>{
                                         return <option key={"theme_f_"+i} value={el}>{el}</option>
                                     })}
@@ -605,7 +605,7 @@ const [selectedFragmentLabel, setSelectedFragmentLabels] = useState(null);
                             value={selectedArtwork}
                             onChange={(event) => setSelectedArtwork(event.target.value)}
                         >
-                            <option value="">All Artworks</option>
+                            <option value="">{t('corpus.all_artworks')}</option>
                             {filter.artwork.map((el,i)=>{
                                         return <option key={"artwork_f_"+i} value={el}>{el}</option>
                                     })}

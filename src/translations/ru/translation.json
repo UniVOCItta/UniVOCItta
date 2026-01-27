@@ -194,6 +194,8 @@
       "uni_category": "Университет",
       "museum_category": "Музеи",
       "food_category": "Кухня",
+      "historical_category": "Historical",
+      "nature_category":"Nature",
       "all": "Все",
       "min": "мин.",
       "km": "км",
@@ -334,13 +336,15 @@
       "itinerary": "маршрут",
       "show_all_cards":"Показать все",
       "appennini": "Апеннинский маршрут",
-        "appennini_text": "Lorem ipsum",
+        "appennini_text": "Живописные деревушки, скрытые райские уголки, природа, которая является бесспорным главным героем: Апеннинские горы недалеко от Болоньи дарят поистине уникальные впечатления, путешествие по природным, ландшафтным, архитектурным и археологическим красотам.",
+        "appennini_preview": "Живописные деревушки, скрытые райские уголки, природа, которая является бесспорным главным героем",
       "city_centre": "Маршрут по центру города",
         "city_centre_text": "Lorem ipsum",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
       "food": "еда",
         "food_text": "Lorem ipsum",
+        "food_preview":"Praesent commodo cursus magna, vel scelerisque nisl.",
       "museums": "Музеи Болоньи",
         "museums_text": "Lorem ipsum",
       "porticoes": "Lorem",
@@ -349,12 +353,13 @@
         "towers_text": "Lorem ipsum",
       "san_luca": "Saragozza - San Luca",
         "san_luca_text": "Lorem ipsum dolor sit amet",
+        "san_luca_preview": "Praesent commodo cursus magna, vel scelerisque nisl.",
       "unesco": "UNESCO",
         "unesco_text": "Lorem ipsum",
       "university": "Университетский маршрут",
         "university_text": "Lorem ipsum",
       "women": "женский маршрут",
-        "women_text": "В Болонье много женщин, которые внесли свой вклад в художественный прогресс, распространение науки, политическую стратегию и социальное благополучие города. Всех их объединяет одна общая черта - страсть, которая всегда представляла женскую душу",
+        "women_text": "Болонья славится женщинами, которые внесли большой вклад в художественный прогресс, распространение науки, политическую стратегию и социальное благополучие города. Всех их объединяет одна общая черта - страсть, которая всегда представляла женскую душу.",
       "quebec": "Quebec Route",
         "quebec_text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "quebec_tags": ["tag", "tag", "tag"],
@@ -362,7 +367,7 @@
         "canada_text": "Lorem ipsum",
         "southamerica": "Hispanic-America Route",
         "southamerica_text": "Lorem ipsum",
-      "museum": "Museums route",
+      "museum": "Маршрут музеев",
       "museum_text": "Болонья, издавна являющаяся центром искусства и знаний, бережно хранит в своих музеях художественные шедевры, археологические находки и научные инструменты, рассказывающие об истории, культуре и гении города."
     },
 
@@ -399,6 +404,7 @@
       "more": "Другое",
       "privacy": "Политика конфиденциальности",
       "cookie": "Политика использования файлов cookie",
-      "documentation": "Документация"
+      "documentation": "Документация",
+      "documentation_text": "Полная документация проекта UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese доступна в файле README официального репозитория на GitHub. В ней содержится информация о проекте, его целях, текущем состоянии, инструкции по использованию платформы, а также технические рекомендации для разработчиков и участников."
     }
 }

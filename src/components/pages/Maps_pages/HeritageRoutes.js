@@ -38,16 +38,11 @@ const HeritageRoutes = () => {
       time: "1h 30min",
       km: "6km",
       path: t('maps.intermediate'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      text: t("routes.women_text"),
       img: require('../../../assets/imgs/routes/bassi_docufilm.jpg'),
       copyright: "Unibo",
       more: t('maps.more'),
       link: "/maps/women",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
     },
     {
       id: 1,
@@ -56,16 +51,11 @@ const HeritageRoutes = () => {
       time: "12h",
       km: "50km",
       path: t('maps.difficult'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      text: t("routes.appennini_text"),
       img: require('../../../assets/imgs/routes/appennino.jpg'),
       copyright: "Wwikiwalter, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       more: t('maps.more'),
-      link: "/maps/appennino",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
+      link: "/maps/appennino"
     },
     {
       id: 2,
@@ -76,14 +66,9 @@ const HeritageRoutes = () => {
       path: t('maps.easy'),
       img: require('../../../assets/imgs/routes/bologna_free.jpg'),
       copyright: "Free",
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+      text: t("routes.city_centre_text"),
       more: t('maps.more'),
-      link: "/maps/city_centre",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      },
+      link: "/maps/city_centre"
     },
     {
       id: 3,
@@ -92,16 +77,11 @@ const HeritageRoutes = () => {
       time: "17min",
       km: "1,2km",
       path: t('maps.easy'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      text: t("routes.food_text"),
       img: require('../../../assets/imgs/routes/tortellini_Angelo_Muratore.jpg'),
       copyright: "Angelo.Muratore, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       more: t('maps.more'),
-      link: "/maps/food",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
+      link: "/maps/food"
     },
     {
       id: 4,
@@ -110,16 +90,11 @@ const HeritageRoutes = () => {
       time: "40min",
       km: "2,5km",
       path: t('maps.intermediate'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      text: t('routes.san_luca_text'),
       img: require('../../../assets/imgs/routes/san_luca_wikipedia_Nebbius.jpg'),
       copyright: "Puscas Vadim  (Nebbius), CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
       more: t('maps.more'),
-      link: "/maps/san_luca",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
+      link: "/maps/san_luca"
     },
     {
       id: 5,
@@ -132,12 +107,7 @@ const HeritageRoutes = () => {
       img: require('../../../assets/imgs/routes/pinacoteca_Gueraldo_Anna_Chiara.jpg'),
       copyright: "Foto di Anna Chiara Gueraldo",
       more: t('maps.more'),
-      link: "/maps/museum",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
+      link: "/maps/museum"
     },
     {
       id: 6,
@@ -150,12 +120,7 @@ const HeritageRoutes = () => {
       img: require('../../../assets/imgs/routes/quebec.png'),
       copyright: "Krun (original), Public domain, via Wikimedia Commons",
       more: t('maps.more'),
-      link: "/maps/quebec",
-      tag: {
-        tag_1: t("routes.quebec_tags.0"), 
-        tag_2: t("routes.quebec_tags.1"), 
-        tag_3: t("routes.quebec_tags.2"),
-      }
+      link: "/maps/quebec"
     },
     {
       id: 5,
@@ -164,16 +129,11 @@ const HeritageRoutes = () => {
       time: "1h 45min",
       km: "6,9km",
       path: t('maps.difficult'),
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      text: t('routes.canada_text'),
       img: require('../../../assets/imgs/routes/canada.png'),
       copyright: "Illegitimate Barrister (original), Public domain, via Wikimedia Commons",
       more: t('maps.more'),
-      link: "/maps/canada",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      }
+      link: "/maps/canada"
     },
     {
       id: 6,
@@ -184,14 +144,9 @@ const HeritageRoutes = () => {
       path: t('maps.difficult'),
       img: require('../../../assets/imgs/routes/hisp.jpg'),
       copyright: "Free",
-      text: "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+      text: t('routes.southamerica_text'),
       more: t('maps.more'),
-      link: "/maps/southamerica",
-      tag: {
-          tag_1: "tag",
-          tag_2: "tag",
-          tag_3: "tag"
-      },
+      link: "/maps/southamerica"
     },
 
   ];
@@ -221,22 +176,14 @@ const HeritageRoutes = () => {
               <hr/>
               <div className='routes-filter-buttons'>
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'Food' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Food')}>{t('maps.food_category')}</Button>
-                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Historical' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Historical')}>Historical</Button>
-                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Nature' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Nature')}>Nature</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Historical' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Historical')}> {t('maps.historical_category')}</Button>
+                <Button variant='dark' className={`routes-filter ${selectedCategory === 'Nature' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Nature')}>{t('maps.nature_category')}</Button>
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'Museum' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Museum')} >{t('maps.museum_category')}</Button>
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'University' ? 'active' : ''}`} onClick={() => handleCategoryFilter('University')} >{t('maps.button_uni')}</Button> 
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'Women' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Women')}>{t('maps.women_category')}</Button> 
                 <Button variant='dark' className={`routes-filter ${selectedCategory === 'Worship' ? 'active' : ''}`} onClick={() => handleCategoryFilter('Worship')} >{t('maps.button_worship')}</Button> 
                 <Button variant='outline-secondary' className={`routes-filter ${selectedCategory === null ? 'active' : ''}`} onClick={handleShowAll}>{t('maps.all')}</Button>
                 <br/>
-                {/* ADDITIONAL FILTERS
-                <Dropdown className='routes_filters'>
-                    <Dropdown.Toggle variant="light" id="dropdown-basic"><IoIcons.IoMdOptions/>
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu className='lang_menu'>
-                    </Dropdown.Menu>
-                </Dropdown>
-                */}
               </div>
               <br/>
               {routes
@@ -260,16 +207,6 @@ const HeritageRoutes = () => {
                   <img className='side-img'src={`${route.img}`}></img>
                   <p>{route.text}</p>
                   <p style={{textAlign: 'right'}}><span>{route.more}&nbsp;</span><Link to={`${route.link}`}><BsIcons.BsFillArrowRightCircleFill className="more-icon" /></Link></p>
-                  {/*
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'/maps/singleroute'}>Temporary Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={`/maps/routedetails/${route.id}`}>Temporary Automatic Route Link</Link></p>
-                  <p style={{textAlign: 'right', fontSize:"8pt"}}><Link to={'/maps/routes/prova'}>LANGUAGE PROVA</Link></p>
-                  */}
-                  <div className='tag-buttons'>
-                    <Badge pill bg="primary"  disabled>{route.tag.tag_1}</Badge>{' '}
-                    <Badge pill bg="primary"  disabled>{route.tag.tag_2}</Badge>{' '}
-                    <Badge pill bg="primary"  disabled>{route.tag.tag_3}</Badge>{' '}
-                  </div>
               </div> 
               <br/>
               </>   

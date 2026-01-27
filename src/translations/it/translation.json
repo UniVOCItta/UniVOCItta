@@ -51,7 +51,7 @@
     "permanent_bar": {
       "home": "Home",
       "corpus": "Corpus",
-      "maps": "Maps",
+      "maps": "Mappe",
       "profile": "Profilo"
     },
 
@@ -193,6 +193,8 @@
       "uni_category": "Università",
       "museum_category": "Musei",
       "food_category": "Cibo",
+      "historical_category": "Historical",
+      "nature_category":"Naturae",
       "all": "Tutto",
       "min": "min",
       "km": "km",
@@ -334,35 +336,41 @@
       "show_all_cards":"Mostra tutto",
       "appennini": "Percorso degli Appennini",
       "appennini_text": "Pittoreschi borghi, paradisi nascosti, natura protagonista indiscussa: l'Appennino vicino a Bologna regala esperienze davvero uniche, un viaggio tra bellezze naturalistiche, paesaggistiche, architettoniche e archeologiche.",
+      "appennini_preview": "Pittoreschi borghi, paradisi nascosti, natura protagonista indiscussa",
       "city_centre": "Percorso del centro città",
-        "city_centre_text": "Lorem ipsum",
+        "city_centre_text": "Dalle Due Torri a Piazza Maggiore, con la sua fontana del Nettuno e l’imponente Basilica di San Petronio, fino all’antica università: un itinerario alla scoperta dei luoghi simbolo di Bologna.",
+        "city_centre_preview": "Dalle Due Torri a Piazza Maggiore, con la sua fontana del Nettuno e l’imponente Basilica di San Petronio, fino all’antica università",
       "churches": "Lorem ipsum",
         "churches_text": "Lorem ipsum",
       "food": "Bologna la Grassa: usi e costumi",
         "food_text": "'La Grassa', per le sue tipiche e squisite pietanze: tortellini, mortadella, lasagne, tagliatelle al ragù e crescentine, sono solo alcuni dei prodotti caratteristici di questa capitale del gusto.",
-      "museums": "Percorso dei musei",
+        "food_preview":"'La Grassa', per le sue tipiche e squisite pietanze",
+        "museums": "Percorso dei musei",
         "museums_text": "Lorem ipsum",
       "porticoes": "Lorem",
         "porticoes_text": "Lorem ipsum",
       "towers": "Lorem ipsum",
         "towers_text": "Lorem ipsum",
       "san_luca": "Saragozza - San Luca",
-        "san_luca_text": "Lorem ipsum dolor sit amet",
+        "san_luca_text": "Da Porta Saragozza al Santuario della Madonna di San Luca si estende il portico più lungo del mondo, un cammino coperto di quasi 4 km e 666 arcate che unisce la città ai colli. Dalla sommità, una meravigliosa vista di Bologna.",
+        "san_luca_preview": "Da Porta Saragozza al Santuario della Madonna di San Luca si estende il portico più lungo del mondo",
       "unesco": "UNESCO",
         "unesco_text": "Lorem ipsum",
       "university": "Università",
         "university_text": "Lorem ipsum",
       "women": "Percorso delle donne",
-        "women_text": "Lorem ipsum",
+        "women_text": "Bologna è ricca di donne che hanno dato il loro contributo al progresso artistico, alla divulgazione scientifica, alla strategia politica e al benessere sociale della città. Unite tutte da un unico fil rouge, la passione, che veicola da sempre l’animo femminile.",
+        "women_preview": "Bologna è ricca di donne che hanno dato il loro contributo al progresso artistico",
       "quebec": "Viaggiatori quebecchesi",
-        "quebec_text": "Per molti viaggiatori provenienti dal Québec, Bologna era spesso considerata una semplice tappa di passaggio verso altre destinazioni di maggiore interesse. Tuttavia, il loro sguardo meravigliato sul patrimonio bolognese rivela un profondo fascino per l'arte italiana, una forte attrazione religiosa e un vivo interesse per la cultura intellettuale, i costumi locali e l’erudizione dei personaggi bolognesi. La specificità della loro percezione, che si distingue dalla visione dei viaggiatori europei e canadesi anglofoni, offre un nuovo approccio alla riscoperta di Bologna, invitando a reinterpretarne il patrimonio attraverso la memoria esperenziale dei visitatori quebecchesi.",
+        "quebec_text": "Per molti viaggiatori provenienti dal Québec, Bologna era spesso considerata una semplice tappa di passaggio verso altre destinazioni di maggiore interesse. Tuttavia, il loro sguardo meravigliato sul patrimonio bolognese rivela un profondo fascino per l'arte italiana, una forte attrazione religiosa e un vivo interesse per la cultura intellettuale, i costumi locali e l’erudizione dei personaggi bolognesi. La specificità della loro percezione, che si distingue dalla visione dei viaggiatori europei e canadesi anglofoni, offre un nuovo approccio alla riscoperta di Bologna, invitando a reinterpretarne il patrimonio attraverso la memoria esperienziale dei visitatori quebecchesi.",
         "quebec_tags": ["Arte", "Religione", "Cultura"],
         "canada": "Viaggiatori canadesi",
-        "canada_text": "Lorem ipsum",
+        "canada_text": "Attraverso lo sguardo degli autori e autrici canadesi, Bologna si rivela una città dal fascino unico, sospesa tra medievale e moderno, ricca di cultura e tradizioni: dai capolavori della Pinacoteca agli infiniti portici, dalle storiche aule universitarie alla celebre mortadella… elementi che celebrano identità inconfondibile di Bologna.",
         "southamerica": "Viaggiatori ispano-americani",
-        "southamerica_text": "Lorem ipsum",
+        "southamerica_text": "La bellezza dei dipinti della Pinacoteca, la vivacità della zona universitaria e lo splendore dei monumenti della città di Bologna hanno fortemente colpito molti viaggiatori ispano-americani. Ad essa e ai suoi meravigliosi luoghi simbolo sono dedicate numerose delle loro riflessioni.",
         "museum": "Percorso dei musei",
-        "museum_text": "Bologna, da sempre centro di arte e  sapere, custodisce nei suoi musei capolavori artistici, reperti archeologici e strumenti scientifici che raccontano la storia, la cultura e l’ingegno della città."
+        "museum_text": "Bologna, da sempre centro di arte e  sapere, custodisce nei suoi musei capolavori artistici, reperti archeologici e strumenti scientifici che raccontano la storia, la cultura e l’ingegno della città.",
+        "museum_preview": "Bologna, da sempre centro di arte e  sapere, custodisce nei suoi musei capolavori artistici"
     },
 
     "sign-in-up":{
@@ -399,6 +407,7 @@
       "more": "Altro",
       "privacy": "Privacy Policy",
       "cookie": "Cookie Policy",
-      "documentation": "Documentazione"
+      "documentation": "Documentazione",
+      "documentation_text": "La documentazione completa del progetto UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese è disponibile nel file README del repository ufficiale su GitHub. Qui si trovano informazioni sul progetto, i suoi obiettivi, lo stato attuale, le istruzioni per l’uso della piattaforma e le indicazioni tecniche per sviluppatori e contributori."
     }
 }
