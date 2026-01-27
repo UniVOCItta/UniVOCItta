@@ -209,7 +209,7 @@
     "places": {   
       "title": "Lorem ipsum",
       "sanpetronio": "Lorem ipsum",
-      "sanpetronio_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "sanpetronio_text": "Bologna’s largest church, it is dedicated to the city’s patron saint and dominates Piazza Maggiore. This vast Gothic masterpiece is renowned for its unfinished façade and for the famous meridian traced on its floor by the astronomer Cassini."
     },
 
     "travellers": {
@@ -409,3 +409,4 @@
       "documentation_text": "The complete documentation of the UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese project is available in the README file of the official GitHub repository. It includes information about the project, its objectives, current status, instructions for using the platform, and technical guidance for developers and contributors."
     }
 }
+

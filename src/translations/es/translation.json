@@ -209,7 +209,7 @@
     "places": {   
       "title": "Lorem ipsum",
       "sanpetronio": "Lorem ipsum",
-      "sanpetronio_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "sanpetronio_text": "Lorem ipsum"
     },
 
     "travellers": {
@@ -411,4 +411,6 @@
       "documentation": "Documentación",
       "documentation_text": "La documentación completa del proyecto UniVOCIttà: Voci digitali sull’unicità del patrimonio bolognese está disponible en el archivo README del repositorio oficial en GitHub. Incluye información sobre el proyecto, sus objetivos, el estado actual, instrucciones para el uso de la plataforma y orientación técnica para desarrolladores y colaboradores."
     }
+
 }
+
