@@ -45,7 +45,7 @@ function HeroSection() {
             />
             <Carousel.Caption>
               <h3>{t('routes.san_luca')}</h3>
-              <p className='carousel-p'>{t('routes.san_luca_preview')}.</p>
+              <p className='carousel-p'>{t('routes.san_luca_preview')}</p>
               <Link to='/maps/san_luca'><Button className='corpus-button' variant="dark">{t('body.go_button')}</Button></Link>
             </Carousel.Caption>
           </Carousel.Item>
