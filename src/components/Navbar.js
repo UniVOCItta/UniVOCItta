@@ -139,7 +139,7 @@ const Navbar = () => {
 
   const SidebarData = [
     {
-      title: 'Home',
+      title: t('sidebar.home'),
       path: '/',
       icon: <AiIcons.AiFillHome />,
     },

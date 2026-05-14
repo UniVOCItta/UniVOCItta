@@ -2,10 +2,11 @@
     "en": {
       "home": {
         "title": "Home"
-      },
-      "fr": {
-        "home": {
-          "title": "Accueil"
-        }  
+      }
+    },
+    "fr": {
+      "home": {
+        "title": "Accueil" 
+      }
     }
   }
