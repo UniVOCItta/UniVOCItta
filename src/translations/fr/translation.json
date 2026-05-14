@@ -9,7 +9,7 @@
     "ru": "Russe",
 
     "sidebar": {
-      "home": "Home",
+      "home": "Accueil",
       "project": "Projet",
       "univocitta": "UniVOCIttà",
       "aim": "Objectif",
@@ -392,7 +392,7 @@
     },
 
     "profile": {
-      "profile": "Profilo",
+      "profile": "Profil utilisateur",
       "user_greeting": "Bonjour,",
       "user_detail": "INFORMATIONS SUR LE PROFIL",
         "age": "Age",
