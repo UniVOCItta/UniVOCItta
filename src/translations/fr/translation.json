@@ -78,7 +78,17 @@
       "contact": "Contact",
       "contact_text": "Vous souhaitez nous contacter ? Nous serions ravis de connaître votre avis : n'hésitez pas à nous contacter par e-mail à l'adresse <a href=\"mailto:univocitta.lilec@gmail.com\">univocitta.lilec@gmail.com</a> pour nous poser des questions ou fournir des suggestions.",
       "reach_us": "Comment nous joindre?",
-      "reach_us_text": "Unité de recherche LBC - CeSLiC (Centre d'Études Linguistiques et Culturelles) - Département LILEC"
+      "reach_us_text": "Unité de recherche LBC - CeSLiC (Centre d'Études Linguistiques et Culturelles) - Département LILEC",
+      "contributors": { 
+          "zotti": "Maître de conférences de langue et de linguistique française au Département des Langues, Littératures et Cultures Modernes.",
+          "pano": "Maître de conférences de langue et de linguistique espagnole au Département des Langues, Littératures et Cultures Modernes.",
+          "perotto": "Maître de conférences de langue et de linguistique russe au Département des Langues, Littératures et Cultures Modernes.",
+          "turci": "Maître de conférences de langue et linguistique anglaise au Département des Langues, Littératures et Cultures Modernes.",
+          "vitali": "Professeur titulaire d’informatique au Département d’Informatique – Science et Ingénierie.",
+          "cozzi": "Étudiante diplômée  en Humanités numériques et Digital Knowledge au Département de Philologie Classique et d’Études Italiennes.",
+          "gramellini": "Doctorante en langue et linguistique française au Département des Langues, Littératures et Cultures Modernes.",
+          "caruso": "Technicien chargé du traitement des données au sein du département des Langues, Littératures et Cultures Modernes."
+      }
     },
 
     "corpus": {

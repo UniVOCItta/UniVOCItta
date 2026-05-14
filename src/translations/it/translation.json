@@ -78,7 +78,17 @@
       "contact": "Contatti",
       "contact_text": "Desideri contattarci? Ci piacerebbe sentire la tua opinione: non esitare a contattarci via mail al seguente indirizzo <a href=\"mailto:univocitta.lilec@gmail.com\">univocitta.lilec@gmail.com</a> (o <a href=\"mailto:lilec.lbc@unibo.it\">lilec.lbc@unibo.it</a>) se hai domande o suggerimenti.",
       "reach_us": "Come raggiungerci",
-      "reach_us_text": "Unità di ricerca LBC - CeSLiC (Centro di Studi Linguistico-Culturali) - Dipartimento LILEC"
+      "reach_us_text": "Unità di ricerca LBC - CeSLiC (Centro di Studi Linguistico-Culturali) - Dipartimento LILEC",
+      "contributors": { 
+        "zotti": "Professoressa associata di lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.",
+        "pano": "Professoressa associata di lingua e linguistica spagnola presso il Dipartimento di Lingue, Letterature e Culture Moderne.",
+        "perotto": "Professoressa associata di lingua e linguistica russa presso il Dipartimento di Lingue, Letterature e Culture Moderne.",
+        "turci": "Professoressa associata di lingua e linguistica inglese presso il Dipartimento di Lingue, Letterature e Culture Moderne.",
+        "vitali": "Professore ordinario di informatica presso il Dipartimento di Informatica - Scienza e Ingegneria.",
+        "cozzi": "Dottoressa in Digital Humanities e Digital Knowledge presso il Dipartimento di Filologia Classica e Italianistica.",
+        "gramellini": "Dottoranda in lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.",
+        "caruso": "Tecnico dell’area elaborazione dati presso il Dipartimento di Lingue, Letterature e Culture Moderne. "
+    }
     },
 
     "corpus":{

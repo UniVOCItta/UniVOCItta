@@ -112,6 +112,7 @@ export default function About() {
         {/* ABOUT US */}
         <h1 className='about'>{t('about.about')}</h1>
             <p>{t('about.text')}</p>
+            
             {/*Prova Carosello*/}
             {/* 
             <Carousel className='carousel'>
@@ -141,7 +142,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={zotti}></img>
                 <h4 className='slider-h2'>Valeria Zotti</h4>
-                <p className='slider-p'>Professoressa associata di lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.zotti')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -150,7 +151,7 @@ export default function About() {
                 <img id='fixed' className='product--image' 
                 src={pano}></img>
                 <h4 className='slider-h2'>Ana Pano Alamán</h4>
-                <p className='slider-p'>Professoressa associata di lingua e linguistica spagnola presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.pano')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -159,7 +160,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={perotto}></img>
                 <h4 className='slider-h2'>Monica Perotto</h4>
-                <p className='slider-p'>Professoressa associata di lingua e linguistica russa presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.perotto')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -168,7 +169,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={team}></img>
                 <h4 className='slider-h2'>Monica Turci</h4>
-                <p className='slider-p'>Professoressa associata di lingua e linguistica inglese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.turci')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -177,7 +178,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={vitali}></img>
                 <h4 className='slider-h2'>Fabio Vitali</h4>
-                <p className='slider-p'>Professore ordinario di informatica presso il Dipartimento di Informatica - Scienza e Ingegneria.</p>
+                <p className='slider-p'>{t('about.contributors.vitali')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -186,7 +187,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={cozzi}></img>
                 <h4 className='slider-h2'>Valentina Cozzi</h4>
-                <p className='slider-p'>Dottoressa in Digital Humanities e Digital Knowledge presso il Dipartimento di Filologia Classica e Italianistica.</p>
+                <p className='slider-p'>{t('about.contributors.cozzi')}</p>
                 <p>
                   <HashLink to='https://github.com/valentinacozzi'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -195,7 +196,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={gramellini}></img>
                 <h4 className='slider-h2'>Rita Gramellini</h4>
-                <p className='slider-p'>Dottoranda in lingua e linguistica francese presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.gramellini')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>
@@ -204,7 +205,7 @@ export default function About() {
                 <img id='fixed' className='product--image'
                 src={caruso}></img>
                 <h4 className='slider-h2'>Carmelo Caruso</h4>
-                <p className='slider-p'>Tecnico dell’area elaborazione dati presso il Dipartimento di Lingue, Letterature e Culture Moderne.</p>
+                <p className='slider-p'>{t('about.contributors.caruso')}</p>
                 <p>
                   <HashLink to='https://www.unibo.it/sitoweb/valeria.zotti'><button className='slider-button'>{t('maps.more')}</button></HashLink>
                 </p>

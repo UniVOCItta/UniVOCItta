@@ -78,7 +78,17 @@
       "contact": "Contacts",
       "contact_text": "Would you like to get in touch with us? We’d love to hear your opinion: write us at <a href=\"mailto:univocitta.lilec@gmail.com\">univocitta.lilec@gmail.com</a> (or <a href=\"mailto:lilec.lbc@unibo.it\">lilec.lbc@unibo.it</a>) if you have queries or suggestions.",
       "reach_us": "How to reach us?",
-      "reach_us_text": "Research Unit LBC - CeSLiC (Centre for Linguistic-Cultural Studies) - Departement LILEC"
+      "reach_us_text": "Research Unit LBC - CeSLiC (Centre for Linguistic-Cultural Studies) - Departement LILEC",
+      "contributors": { 
+        "zotti": "Associate Professor of French Language and Linguistics in the Department of Modern Languages, Literatures, and Cultures.",
+        "pano": "Associate Professor of Spanish Language and Linguistics in the Department of Modern Languages, Literatures, and Cultures.",
+        "perotto": "Associate Professor of Russian Language and Linguistics in the Department of Modern Languages, Literatures, and Cultures.",
+        "turci": "Associate Professor of English Language and Linguistics at the Department of Modern Languages, Literatures and Cultures.",
+        "vitali": "Full Professor of Computer Science at the Department of Computer Science and Engineering.",
+        "cozzi": "Graduate student in Digital Humanities and Digital Knowledge at the Department of Classical Philology and Italian Studies.",
+        "gramellini": "PhD student in French Language and Linguistics at the Department of Modern Languages, Literatures and Cultures.",
+        "caruso": "Data Processing Expert in the Department of Modern Languages, Literatures, and Cultures."
+    }
     },
 
     "corpus": {
