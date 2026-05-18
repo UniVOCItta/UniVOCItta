@@ -203,7 +203,7 @@ const GenericRoute = ({coordinates,markerContent, init_pos,title,text,cards,zoom
               )}
             </div>
           </div>
-          <p>t(text)</p>
+          <p>{t(text)}</p>
           <Row className='routes-icons'>
             <Col>
               <RiIcons.RiTimerLine className='routes-icon'/><span>&nbsp;{intestation.time}</span>
